@@ -1,0 +1,67 @@
+CRITICAL - 2021-06-20 11:46:39 --> Undefined property: stdClass::$pagina
+#0 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-20 11:47:35 --> Invalid file: .$resultsAdmin[0]->pagina..php
+#0 C:\xampp\htdocs\tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.$resultsAdmin[...')
+#1 C:\xampp\htdocs\tcc\system\Common.php(1217): CodeIgniter\View\View->render('.$resultsAdmin[...', Array, true)
+#2 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(48): view('.$resultsAdmin[...')
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#4 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-20 11:54:23 --> Undefined variable $login
+#0 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar('fronteiraPage')
+#2 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-20 11:54:32 --> Undefined variable $login
+#0 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar('admin')
+#2 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-20 11:54:40 --> Undefined variable $login
+#0 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar('admin.php')
+#2 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-20 11:55:04 --> Undefined variable $login
+#0 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar('admin.php')
+#2 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-20 11:55:04 --> Undefined variable $login
+#0 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar('admin')
+#2 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-20 11:55:05 --> Undefined variable $login
+#0 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar('fronteiraPage')
+#2 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-20 11:56:30 --> Invalid file: .php
+#0 C:\xampp\htdocs\tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\tcc\system\Common.php(1217): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(48): view('')
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#4 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

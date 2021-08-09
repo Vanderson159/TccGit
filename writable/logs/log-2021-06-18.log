@@ -1,0 +1,18 @@
+CRITICAL - 2021-06-18 22:00:32 --> Invalid file: login.php
+#0 C:\xampp\htdocs\tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\tcc\system\Common.php(1217): CodeIgniter\View\View->render('login.php', Array, true)
+#2 C:\xampp\htdocs\tcc\app\Controllers\Home.php(10): view('login.php')
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-18 22:14:20 --> Invalid file: login.php
+#0 C:\xampp\htdocs\tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\tcc\system\Common.php(1217): CodeIgniter\View\View->render('login.php', Array, true)
+#2 C:\xampp\htdocs\tcc\app\Controllers\Home.php(10): view('login.php')
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

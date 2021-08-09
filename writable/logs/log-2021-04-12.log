@@ -1,0 +1,18 @@
+CRITICAL - 2021-04-12 15:50:37 --> Declaration of App\Controllers\Home::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) should be compatible with App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger)
+#0 C:\xampp\htdocs\main\ADS_Page_Project\app\Controllers\Home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\main\ADS_Page_Project\system\Autoloader\Autoloader.php(294): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main\ADS_Page_Project\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\main\ADS_Page_Project\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 [internal function]: spl_autoload_call('App\\Controllers...')
+#6 C:\xampp\htdocs\main\ADS_Page_Project\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#7 C:\xampp\htdocs\main\ADS_Page_Project\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#8 C:\xampp\htdocs\main\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\main\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-12 15:51:21 --> Call to a member function getFlashdata() on null
+#0 C:\xampp\htdocs\main\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\main\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\main\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

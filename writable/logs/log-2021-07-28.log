@@ -1,0 +1,109 @@
+CRITICAL - 2021-07-28 14:22:28 --> session_cache_limiter(): Session cache limiter cannot be changed when a session is active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_cache_l...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(48): session_cache_limiter('private_nos_exp...')
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 14:23:12 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(49): session_start()
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 14:32:44 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(49): session_start()
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-28 14:33:29 --> Undefined variable $login
+#0 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 14:48:25 --> Undefined property: App\Controllers\Admin::$load
+#0 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 14:52:35 --> Undefined property: App\Controllers\Admin::$output
+#0 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 14:52:41 --> Undefined property: App\Controllers\Admin::$output
+#0 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 14:52:45 --> Undefined property: App\Controllers\Admin::$output
+#0 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 14:53:21 --> Undefined property: App\Controllers\Admin::$output
+#0 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 14:53:43 --> Undefined property: App\Controllers\Admin::$output
+#0 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 15:16:14 --> Undefined variable $config
+#0 C:\xampp\htdocs\Tcc\app\Views\AdminSite\admin.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\Tcc\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tcc\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/admin', Array, true)
+#4 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(54): view('AdminSite/admin')
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-28 15:19:35 --> Undefined variable $retornoAdmin
+#0 C:\xampp\htdocs\Tcc\app\Views\AdminSite\admin.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Tcc\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tcc\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/admin', Array, true)
+#4 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(54): view('AdminSite/admin')
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-28 15:38:52 --> Undefined property: App\Controllers\Admin::$output
+#0 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-28 15:39:34 --> Undefined property: App\Controllers\Admin::$output
+#0 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(909): App\Controllers\Admin->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,219 @@
+CRITICAL - 2021-04-15 17:14:12 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 45
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): CodeIgniter\HTTP\RedirectResponse->to('http://localhos...', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 17:18:43 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 17:21:39 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-15 17:21:51 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-15 17:31:43 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 48
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(48): CodeIgniter\HTTP\RedirectResponse->to('http://localhos...', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 20:53:56 --> Invalid file: visualizar.php
+#0 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualizar.php')
+#1 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('visualizar', Array, true)
+#2 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Home.php(109): view('visualizar', Array)
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Home->view_new('8')
+#4 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 20:53:59 --> Invalid file: visualizar.php
+#0 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualizar.php')
+#1 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('visualizar', Array, true)
+#2 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Home.php(109): view('visualizar', Array)
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Home->view_new('8')
+#4 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 20:56:03 --> Invalid file: visualizar.php
+#0 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualizar.php')
+#1 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('visualizar', Array, true)
+#2 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Home.php(109): view('visualizar', Array)
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Home->view_new('8')
+#4 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 20:59:06 --> Invalid file: visualizar.php
+#0 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualizar.php')
+#1 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('visualizar', Array, true)
+#2 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Home.php(109): view('visualizar', Array)
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Home->view_new('8')
+#4 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 20:59:10 --> Invalid file: visualizar.php
+#0 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualizar.php')
+#1 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('visualizar', Array, true)
+#2 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Home.php(109): view('visualizar', Array)
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Home->view_new('8')
+#4 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 21:01:03 --> Invalid file: visualizar.php
+#0 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualizar.php')
+#1 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('visualizar', Array, true)
+#2 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Home.php(109): view('visualizar', Array)
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Home->view_new('8')
+#4 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 21:01:09 --> Invalid file: visualizar.php
+#0 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualizar.php')
+#1 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('visualizar', Array, true)
+#2 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Home.php(109): view('visualizar', Array)
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Home->view_new('8')
+#4 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 21:02:27 --> Invalid file: visualizar.php
+#0 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualizar.php')
+#1 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('visualizar', Array, true)
+#2 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Home.php(109): view('visualizar', Array)
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Home->view_new('8')
+#4 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 21:03:36 --> Invalid file: visualizar.php
+#0 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualizar.php')
+#1 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('visualizar', Array, true)
+#2 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Home.php(109): view('visualizar', Array)
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Home->view_new('8')
+#4 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 21:06:34 --> Invalid file: visualizar.php
+#0 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualizar.php')
+#1 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('visualizar', Array, true)
+#2 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Home.php(109): view('visualizar', Array)
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Home->view_new('8')
+#4 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 21:06:59 --> Invalid file: visualizar.php
+#0 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('visualizar.php')
+#1 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('visualizar', Array, true)
+#2 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Home.php(109): view('visualizar', Array)
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Home->view_new('8')
+#4 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-15 21:10:41 --> Error connecting to the database: Unknown database 'ads_projectt'
+CRITICAL - 2021-04-15 21:10:41 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ADS_Page_Project\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ADS_Page_Project\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ADS_Page_Project\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ADS_Page_Project\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Home.php(23): CodeIgniter\BaseModel->find()
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-15 21:14:40 --> Undefined variable: binario
+#0 C:\xampp\htdocs\ADS_Page_Project\app\Views\admin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('admin', Array, true)
+#4 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Admin.php(23): view('admin')
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-15 21:16:13 --> Undefined variable: data
+#0 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Admin.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 21:16:29 --> Undefined variable: msg
+#0 C:\xampp\htdocs\ADS_Page_Project\app\Views\admin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('admin', Array, true)
+#4 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Admin.php(23): view('admin')
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-15 21:18:18 --> Undefined offset: 0
+#0 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Admin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 21:18:53 --> Undefined variable: msg
+#0 C:\xampp\htdocs\ADS_Page_Project\app\Views\admin.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('admin', Array, true)
+#4 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Admin.php(23): view('admin')
+#5 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-15 21:19:51 --> Undefined offset: 0
+#0 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Admin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 21:19:57 --> Undefined offset: 0
+#0 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Admin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 21:22:43 --> Undefined offset: 0
+#0 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Admin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 21:22:51 --> Undefined offset: 0
+#0 C:\xampp\htdocs\ADS_Page_Project\app\Controllers\Admin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

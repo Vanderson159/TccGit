@@ -1,0 +1,98 @@
+CRITICAL - 2021-08-03 13:55:32 --> Undefined variable $login
+#0 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-03 14:44:50 --> Undefined array key "user"
+#0 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 164)
+#1 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->voltarPainelAdm()
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-08-03 14:55:07 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`empresa`, CONSTRAINT `fk_empresa_admin` FOREIGN KEY (`admin_id`) REFERENCES `admin` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(73): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->excluir('2')
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-03 15:00:30 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`empresa`, CONSTRAINT `fk_empresa_admin` FOREIGN KEY (`admin_id`) REFERENCES `admin` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(73): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->excluir('2')
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-03 15:01:12 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`empresa`, CONSTRAINT `fk_empresa_admin` FOREIGN KEY (`admin_id`) REFERENCES `admin` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(73): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->excluir('2')
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-03 15:01:13 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`empresa`, CONSTRAINT `fk_empresa_admin` FOREIGN KEY (`admin_id`) REFERENCES `admin` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(73): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->excluir('2')
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-03 15:06:01 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`empresa`, CONSTRAINT `fk_empresa_admin` FOREIGN KEY (`admin_id`) REFERENCES `admin` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(73): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->excluir('2')
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-03 15:06:02 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`empresa`, CONSTRAINT `fk_empresa_admin` FOREIGN KEY (`admin_id`) REFERENCES `admin` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(73): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->excluir('2')
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}

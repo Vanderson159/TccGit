@@ -1,0 +1,30 @@
+CRITICAL - 2021-03-24 18:48:49 --> Call to a member function getFlashdata() on null
+#0 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\News->index()
+#1 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 18:48:59 --> Call to a member function getFlashdata() on null
+#0 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\News->index()
+#1 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 18:49:23 --> Call to a member function getFlashdata() on null
+#0 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\News->teste()
+#1 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 18:49:25 --> Call to a member function getFlashdata() on null
+#0 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\News->teste()
+#1 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 18:49:37 --> Call to a member function getFlashdata() on null
+#0 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\News->index()
+#1 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

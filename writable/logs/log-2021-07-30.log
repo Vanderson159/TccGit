@@ -1,0 +1,561 @@
+ERROR - 2021-07-30 17:01:09 --> mysqli_sql_exception: Duplicate entry 'dinara' for key 'login' in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Tcc\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(44): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-07-30 17:06:05 --> mysqli_sql_exception: Duplicate entry 'dinara' for key 'login' in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Tcc\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(44): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-07-30 17:08:16 --> mysqli_sql_exception: Duplicate entry 'dinara' for key 'login' in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Tcc\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(44): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-07-30 17:08:35 --> mysqli_sql_exception: Duplicate entry 'dinara' for key 'login' in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Tcc\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(44): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-07-30 17:08:45 --> mysqli_sql_exception: Duplicate entry 'dinara' for key 'login' in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Tcc\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(44): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-07-30 17:09:26 --> mysqli_sql_exception: Duplicate entry 'dinara' for key 'login' in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Tcc\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(44): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-07-30 17:09:45 --> mysqli_sql_exception: Duplicate entry 'dinara' for key 'login' in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Tcc\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(44): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-07-30 17:10:01 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\Tcc\app\Views\AdminSite\cadAdm.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Tcc\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tcc\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/cadAd...', Array, true)
+#4 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(140): view('AdminSite/cadAd...')
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->cadAdm()
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-30 18:13:44 --> mysqli_sql_exception: Duplicate entry 'sdff' for key 'login' in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Tcc\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(44): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-07-30 18:13:51 --> mysqli_sql_exception: Duplicate entry 'sdff' for key 'login' in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Tcc\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(44): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-07-30 18:17:03 --> mysqli_sql_exception: Duplicate entry 'sdff' for key 'login' in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\Tcc\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\Tcc\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Tcc\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Tcc\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(44): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#9 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-07-30 21:36:34 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(32): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:37:57 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(32): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:37:57 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(32): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:37:58 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(32): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:43:47 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(32): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:44:58 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(32): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:50:28 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(31): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:51:29 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(31): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:51:30 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(31): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:51:34 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(31): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:51:38 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(31): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:52:59 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:52:59 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:53:00 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:53:00 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:53:00 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:53:00 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:53:01 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:54:01 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(30): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:55:15 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(30): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:55:21 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(30): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:55:38 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(30): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:55:38 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(30): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:55:39 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(30): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:55:39 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(30): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:55:40 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(30): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:55:40 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(30): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:55:40 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(30): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:55:44 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(30): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:56:42 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:56:43 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela', Array)
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:57:24 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:57:32 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:58:24 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:58:25 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:58:25 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:58:25 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:58:26 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:58:26 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:58:26 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:58:26 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:58:41 --> Invalid file: tabela.php
+#0 C:\xampp\htdocs\Tcc\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabela.php')
+#1 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('tabela', Array, true)
+#2 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('tabela')
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 21:59:33 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\Tcc\app\Views\AdminSite\tabela.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\Tcc\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tcc\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('AdminSite/tabel...')
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-30 22:00:16 --> Undefined variable $adm
+#0 C:\xampp\htdocs\Tcc\app\Views\AdminSite\tabela.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Tcc\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tcc\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tcc\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(29): view('AdminSite/tabel...')
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

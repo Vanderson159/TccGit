@@ -1,0 +1,84 @@
+CRITICAL - 2021-06-19 21:28:50 --> Undefined property: stdClass::$Login
+#0 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-19 21:30:32 --> Undefined property: stdClass::$Login
+#0 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-19 21:30:36 --> Undefined property: stdClass::$Login
+#0 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-19 21:31:02 --> Class "CodeIgniter\Database\MySQL\Connection" not found
+#0 C:\xampp\htdocs\tcc\system\Database\Database.php(69): CodeIgniter\Database\Database->initDriver('MySQL', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\tcc\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(27): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#4 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-19 21:34:24 --> Undefined property: stdClass::$Login
+#0 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-19 21:36:14 --> Undefined property: stdClass::$Login
+#0 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-19 21:36:19 --> Undefined property: stdClass::$Login
+#0 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-19 21:54:52 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tcc\app\Views\login.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\tcc\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcc\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcc\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(23): view('login', Array)
+#5 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-19 21:55:11 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tcc\app\Views\login.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\tcc\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcc\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcc\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(23): view('login', Array)
+#5 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-19 21:57:52 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\tcc\app\Views\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\tcc\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcc\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcc\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\tcc\app\Controllers\Admin.php(23): view('login', Array)
+#5 C:\xampp\htdocs\tcc\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

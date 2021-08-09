@@ -1,0 +1,621 @@
+CRITICAL - 2021-04-14 17:24:44 --> Invalid file: admin_teste.php
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_teste.php')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('admin_teste', Array, true)
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(37): view('admin_teste', Array)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-14 18:04:52 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(41): view('teste', Array)
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 18:05:11 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(41): view('teste')
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 18:05:23 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(41): view('teste')
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 18:12:05 --> Call to a member function close() on null
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 18:12:16 --> Call to a member function close() on null
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 18:35:19 --> Call to undefined function App\Controllers\autenticacao()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 18:40:57 --> Call to undefined function App\Controllers\autenticacao()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 18:42:06 --> Call to undefined function App\Controllers\autenticacao()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 18:42:38 --> Call to undefined function App\Controllers\autenticacao()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 18:43:52 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(33): view('teste')
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 18:56:08 --> Too few arguments to function App\Controllers\Admin::autenticar(), 0 passed in C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php on line 936 and exactly 2 expected
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 18:56:23 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): view('teste')
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 21:14:48 --> Call to a member function flashdata() on null
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('admin', Array, true)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(23): view('admin')
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-14 21:17:49 --> Call to a member function model() on null
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 21:22:39 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 21:22:40 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 21:22:48 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 21:24:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:26:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:26:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:26:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:27:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:30:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:36:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:36:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:36:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:37:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:37:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:37:19 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Models\AdminModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-14 21:37:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:38:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:38:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:44:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:44:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:44:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:44:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:44:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:44:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:44:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:44:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:44:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:44:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:44:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(35): App\Models\AdminModel->logarUser('teste', 'teste')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 21:49:04 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(41): redirect('/Home')
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-14 21:49:29 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(41): redirect('http://localhos...')
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-14 21:49:36 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(41): redirect('http://localhos...')
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-14 21:49:45 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(41): redirect('localhost/main2...')
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-14 21:49:50 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(41): redirect('localhost/main2...')
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-14 21:50:44 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(41): view('teste')
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 21:52:10 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(41): view('teste')
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 21:57:42 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(40): view('teste')
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 22:00:39 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): view('teste')
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 22:01:13 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(42): view('teste')
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 22:01:34 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(42): view('teste')
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 22:03:51 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(42): view('teste')
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 22:03:55 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(42): view('teste')
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 22:08:31 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 45
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): CodeIgniter\HTTP\RedirectResponse->to('admin/index', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 22:08:38 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 45
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): CodeIgniter\HTTP\RedirectResponse->to('admin/index', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 22:09:09 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 45
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): CodeIgniter\HTTP\RedirectResponse->to('index', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 22:09:14 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 45
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): CodeIgniter\HTTP\RedirectResponse->to('index', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 22:09:26 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 45
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): CodeIgniter\HTTP\RedirectResponse->to('teste', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 22:09:32 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 45
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): CodeIgniter\HTTP\RedirectResponse->to('teste', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 22:17:41 --> Invalid file: admin/.php
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/.php')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('admin/', Array, true)
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(47): view('admin/', Array)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-14 22:18:03 --> Invalid file: admin/.php
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/.php')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('admin/', Array, true)
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(47): view('admin/', Array)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-14 22:18:37 --> Call to undefined function App\Controllers\index()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 22:18:51 --> Invalid file: index().php
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index().php')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('index()', Array, true)
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(47): view('index()')
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-14 22:19:00 --> Invalid file: home.php
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(47): view('home')
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-14 22:19:01 --> Invalid file: home.php
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(47): view('home')
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-14 22:19:13 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Views\teste.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\Common.php(1217): CodeIgniter\View\View->render('teste', Array, true)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(47): view('teste')
+#5 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#6 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-14 22:19:42 --> Call to undefined function App\Controllers\index()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 22:20:12 --> Call to undefined function App\Controllers\index()
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-14 22:22:04 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 46
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(46): CodeIgniter\HTTP\RedirectResponse->to('http://localhos...', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 22:26:58 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 45
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): CodeIgniter\HTTP\RedirectResponse->to('http://localhos...', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 22:27:05 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 45
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): CodeIgniter\HTTP\RedirectResponse->to('http://localhos...', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 22:27:33 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 45
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): CodeIgniter\HTTP\RedirectResponse->to('http://localhos...', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 22:28:19 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 45
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): CodeIgniter\HTTP\RedirectResponse->to('http://localhos...', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 22:29:43 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 45
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): CodeIgniter\HTTP\RedirectResponse->to('http://localhos...', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 22:30:03 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php on line 45
+#0 C:\xampp\htdocs\main2\ADS_Page_Project\app\Controllers\Admin.php(45): CodeIgniter\HTTP\RedirectResponse->to('http://localhos...', Array)
+#1 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\main2\ADS_Page_Project\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\main2\ADS_Page_Project\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

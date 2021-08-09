@@ -1,0 +1,133 @@
+CRITICAL - 2021-07-27 21:24:15 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Tcc\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Tcc\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2021-07-27 14:35:54 --> mysqli_sql_exception: Table 'tcc.empresa' doesn't exist in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM e...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-27 14:36:09 --> mysqli_sql_exception: Table 'tcc.empresa' doesn't exist in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM e...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-27 14:36:57 --> mysqli_sql_exception: Table 'tcc.empresa' doesn't exist in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM e...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-27 14:38:33 --> mysqli_sql_exception: Table 'tcc.empresa' doesn't exist in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM e...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-27 14:38:40 --> mysqli_sql_exception: Table 'tcc.empresa' doesn't exist in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM e...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-27 14:39:45 --> mysqli_sql_exception: Table 'tcc.empresa' doesn't exist in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM e...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-27 14:40:21 --> mysqli_sql_exception: Table 'tcc.empresa' doesn't exist in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM e...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-27 14:40:47 --> mysqli_sql_exception: Table 'tcc.empresa' doesn't exist in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM e...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-27 14:40:47 --> Table 'tcc.empresa' doesn't exist
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM e...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-27 15:30:29 --> mysqli_sql_exception: Unknown column 'admin' in 'where clause' in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM a...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(36): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-27 15:30:33 --> mysqli_sql_exception: Unknown column 'admin' in 'where clause' in C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\Tcc\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM a...')
+#1 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\Tcc\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(36): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#5 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-27 15:34:34 --> Undefined array key 0
+#0 C:\xampp\htdocs\Tcc\app\Controllers\Admin.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(936): App\Controllers\Admin->autenticar()
+#2 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\Tcc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tcc\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
