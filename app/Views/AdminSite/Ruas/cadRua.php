@@ -1,8 +1,39 @@
 <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
 
 <style>
-
     @media screen and (max-width: 1920px){
+        h1{
+            text-align: center;
+        }
+
+        .divCampos{
+            margin-left: 25%;
+        }
+
+        .form-control{
+            width: 200px;
+            margin-top: -37px;
+            margin-left: 65px;
+        }
+        
+        .label{
+            font-weight: bold;
+            font-size: large;
+        }
+        .voltar{
+            margin-left: 9%;
+            margin-top: -5.85%;
+        }
+        .img{
+            margin-left: 52%;
+            margin-top: 25px;
+        }
+        #formInserir{
+            margin-top: -13%;
+            margin-left: 5%;
+        }
+    }
+    @media screen and (max-width: 1600px){
         h1{
             text-align: center;
         }

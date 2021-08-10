@@ -24,11 +24,13 @@
 
                 }
                 .btn{
+                    text-align: center;
                     margin-left: 22%;
                     margin-top: 25px;
                 }
                 .Reg{
-                    margin-left:40%;
+                    text-align: center;
+                    margin-left:39%;
                     margin-top: -2.5%;
                 }
                 .img{
@@ -36,7 +38,7 @@
                     margin-top: 25px;
                 }
                 #imgLabel{
-                    margin-left: 80.5%;
+                    margin-left: 77%;
                     margin-top: 20px;
                 }
             }

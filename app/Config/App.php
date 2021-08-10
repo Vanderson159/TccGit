@@ -22,7 +22,7 @@ class App extends BaseConfig{
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost/Tcc/';
+	public $baseURL = 'http://localhost/TccGit/';
 
 	/**
 	 * --------------------------------------------------------------------------
