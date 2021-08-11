@@ -4,6 +4,28 @@
             width: 500px;
             height: 200px;
             position: absolute;
+            left: 37%;
+            top: 35%
+        }
+        .busca{
+            margin-top: 5%;
+            margin-left: 44.5%;
+            width: 200px;
+        }
+        .origem{
+            margin-top:-4%;
+            margin-left: 47%;
+        }
+        .destino{
+            margin-top: 5%;
+            margin-left: 47%;
+        }
+    }
+    @media screen and (max-width: 1600px){
+        .form-control{
+            width: 500px;
+            height: 200px;
+            position: absolute;
             left: 34%;
             top: 35%
         }
