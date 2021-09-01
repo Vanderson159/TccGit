@@ -63,7 +63,7 @@
 <div class="enunciado">
     <div class="retangulo">  
         <p class="enunciadoTexto">Encontre seu ônibus por ruas, avenidas...:</p>
-        <form class="formOrigem" id="formFiltro"  method="post" action="<?php //echo base_url("public/home/filtro");?>">
+        <form class="formOrigem" id="formFiltro"  method="post" action="<?php echo base_url("public/home/filtro");?>">
             <h4 class="origem" for="rua_cep">DESTINO:</h4>
             <select name="rua_cep" id="rua_cep" class="form-control">
                 <?php foreach ($rua_cep as $rua_cep):?>

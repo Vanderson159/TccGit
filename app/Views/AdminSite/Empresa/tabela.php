@@ -139,9 +139,9 @@
         <table class="tabela">
             <tr class="trTable">
                 <td>Id (CNPJ)</td>
+                <td>Nome</td>
                 <td>Login</td>
                 <td>Senha</td>
-                <td>Nome</td>
                 <td></td>
                 <td></td>
                 <?php foreach ($empresa as $empresas):?>
