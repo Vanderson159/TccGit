@@ -1,0 +1,99 @@
+ERROR - 2021-09-03 19:18:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(37): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusFiltro('97547215')
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-03 19:19:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(37): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusFiltro('97547215')
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-03 19:32:42 --> Undefined variable $results
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusFiltro.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusFiltro.ph...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(49): view('onibusFiltro.ph...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusFiltro('3002')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-03 19:33:09 --> Undefined variable $results
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusFiltro.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusFiltro.ph...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(49): view('onibusFiltro.ph...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusFiltro('3002')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-03 19:34:19 --> Undefined variable $results
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusFiltro.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusFiltro.ph...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(49): view('onibusFiltro.ph...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusFiltro('3002')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-03 19:35:13 --> Undefined variable $results
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusFiltro.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusFiltro.ph...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(49): view('onibusFiltro.ph...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusFiltro('3002')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-03 19:35:21 --> Undefined variable $results
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusFiltro.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusFiltro.ph...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(49): view('onibusFiltro.ph...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusFiltro('3002')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-03 19:37:39 --> Undefined variable $results
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusFiltro.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusFiltro.ph...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(49): view('onibusFiltro.ph...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusFiltro('3002')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-03 19:39:46 --> Undefined property: stdClass::$rua_cep
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusFiltro.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusFiltro.ph...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(49): view('onibusFiltro.ph...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusFiltro('3002')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

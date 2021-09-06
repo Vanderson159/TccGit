@@ -41,7 +41,7 @@
               <nav class="site-navigation text-right ml-auto " role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                   <li><a href="<?php echo base_url('public/home')?>" class="nav-link" style="font-size: 1.3rem;">Home</a></li>
-                  <li><a href="project.html" class="nav-link" style="font-size: 1.3rem;">Linhas</a></li>
+                  <li><a href="<?php echo base_url('public/home/linhas')?>" class="nav-link" style="font-size: 1.3rem;">Linhas</a></li>
                   <li><a href="services.html" class="nav-link" style="font-size: 1.3rem;">Horários</a></li>
                 </ul>
               </nav>
