@@ -1,3 +1,8 @@
+      <script>
+        if ( window.history.replaceState ) {
+            window.history.replaceState( null, null, "http://localhost/TccGit/public/admin/index" );
+        }
+    </script>
 <div class="retangulo">
 <form id="formLogin" class="form-signin text-center" method="post" action="<?php echo base_url("public/admin/autenticar")?>">
       <img class="mb-4" src="<?php echo base_url("assets/IMG/user.png")?>" alt="" width="100" height="100">

@@ -371,7 +371,11 @@
     }
 }
 </style>
-
+    <script>
+        if ( window.history.replaceState ) {
+            window.history.replaceState( null, null, "http://localhost/TccGit/public/admin/voltarPainelAdm" );
+        }
+    </script>
 <?php $session = session();?>
 <?php if(isset($_SESSION['user'])) : ?>
     <?php 

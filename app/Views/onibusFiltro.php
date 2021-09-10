@@ -54,6 +54,18 @@
                     width: 1050px;
                     margin-left: 8%;
                 }
+                .Btnlogut{
+                    margin-top: 2%;
+                    margin-left: 15%;
+                    width: 120px;
+                    height: 50px;
+                    border: none;
+                    background-color: #BCB9B9;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                    background-image: url('<?php echo base_url('assets/IMG/adminSite/logOut.png')?>');
+                }
             }
             @media screen and (max-width: 1366px){
                 .tabela, .tabela td, .tabela tr{
@@ -99,20 +111,21 @@
         </style>
 <div class="retangulo">
     <div class="base">
-    <div class="table-wrapper">
-        <h1 class="letreiro" style="text-align: center;">Ônibus: <?php echo $result[0]->nome ?></h1>
-        <table class="tabela">
-            <tr class="trTable">
-                <td style="text-align: center;">Pontos</td>
-                <td style="text-align: center;">Horários</td>
-                <?php foreach ($ponto as $pontos):?>
-                    <tr>
-                        <td style="text-align: center;"><?php echo $pontos->endereco?></td>
-                        <td style="text-align: center;"><a href="<?php echo base_url('/public/home/onibusHorario');?>/<?php echo $pontos->id?>/<?php echo $idBus?>">Visualizar</a></td>
-                    </tr> 
-                <?php endforeach ?>
-            </tr>
-        </table>
+        <div class="table-wrapper">
+            <h1 class="letreiro" style="text-align: center;">Ônibus: <?php echo $result[0]->nome ?></h1>
+            <table class="tabela">
+                <tr class="trTable">
+                    <td style="text-align: center;">Pontos</td>
+                    <td style="text-align: center;">Horários</td>
+                    <?php foreach ($ponto as $pontos):?>
+                        <tr>
+                            <td style="text-align: center;"><a href="<?php echo $pontos->localizacao?>" target="_blank"><?php echo $pontos->endereco?></a></td>
+                            <td style="text-align: center;"><a href="<?php echo base_url('/public/home/onibusHorario');?>/<?php echo $pontos->id?>/<?php echo $idBus?>">Visualizar</a></td>
+                        </tr> 
+                    <?php endforeach ?>
+                </tr>
+            </table>
+        </div>
     </div>
-    </div>
+        <a href="<?php echo base_url('/public/home/filtro');?>/<?php echo $_SESSION['destino']?>"><button class="Btnlogut" type="button"></button></a>
 </div>

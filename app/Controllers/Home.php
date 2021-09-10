@@ -15,20 +15,33 @@ class Home extends BaseController
 		echo view('footer.php');
 	}
 
-	public function filtro(){
+	public function filtro($escolha = null){
 		$db = \Config\Database::connect();
         $db = db_connect();
 		//get do form
-		$destino = $this->request->getPost('rua_cep');
-		$query = $db->query('SELECT DISTINCT onibus.nome, ponto.rua_cep, onibus.id FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and ponto.rua_cep = '.$destino.';');
-		$results = $query->getResult();
-		$data['result'] = $results; //passa pro data pra poder acessar em outras páginas 
+		if(is_null($escolha)){
+			$destino = $this->request->getPost('rua_cep');
+			$query = $db->query('SELECT DISTINCT onibus.nome, ponto.rua_cep, onibus.id FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and ponto.rua_cep = '.$destino.';');
+			$results = $query->getResult();
+			$data['destino'] = $destino;
+			$data['result'] = $results; //passa pro data pra poder acessar em outras páginas 
+		}else{
+			$destino = $this->request->getPost('rua_cep');
+			$query = $db->query('SELECT DISTINCT onibus.nome, ponto.rua_cep, onibus.id FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and ponto.rua_cep = '.$escolha.';');
+			$results = $query->getResult();
+			$data['destino'] = $escolha;
+			$data['result'] = $results; //passa pro data pra poder acessar em outras páginas 
+		}
+		
 		echo view('header.php');
 		echo view('result.php', $data);
 		echo view('footer.php');
 	}
 
+
+
 	public function onibusFiltro($id = null){
+		session_start();
 		//quando tiver o model ônibus vai ficar fácil fazer isso!
 		if(is_null($id)){
 			//redirecionar a aplicação para o categoria index    view das listas
@@ -43,7 +56,7 @@ class Home extends BaseController
         $db = db_connect();
 		//get do form
 		$query = $db->query('SELECT onibus.nome FROM onibus WHERE onibus.id = '.$id.';');
-		$pontos = $db->query('SELECT DISTINCT onibus.nome, ponto.rua_cep, ponto.endereco, ponto.id FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and onibus.id = '.$id.';');		
+		$pontos = $db->query('SELECT DISTINCT onibus.nome, ponto.rua_cep, ponto.endereco, ponto.id, ponto.localizacao FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and onibus.id = '.$id.';');		
 		$results = $query->getResult();
 		$ponto = $pontos->getResult();
 		$data['result'] = $results; //passa pro data pra poder acessar em outras páginas 
