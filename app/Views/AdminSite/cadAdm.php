@@ -110,7 +110,7 @@
         <?php
             if($acao == "Inserir"){
                 $form = base_url("public/admin/inserir");
-                $statusId = "enabled";
+                $statusId = "disabled";
             }else{
                 if($acao == "Editar"){
                     $form = "";

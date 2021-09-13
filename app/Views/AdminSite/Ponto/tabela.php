@@ -150,27 +150,12 @@
                     <tr>
                         <td><?php echo $pontos->id ?></td>  
                         <td><?php echo $pontos->endereco ?></td>
-                        <td><?php echo $pontos->localizacao ?></td>
+                        <td><a href="<?php echo $pontos->localizacao ?>" target="_blank">GOOGLE MAPS</a></td>
                         <td><?php echo $pontos->rua_cep ?></td>
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarPonto');?>/<?php echo $pontos->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirPonto');?>/<?php echo $pontos->id?>">Excluir</a></td>
                     </tr>    
-                    <tr>
-                        <td><?php echo $pontos->id ?></td>  
-                        <td><?php echo $pontos->endereco ?></td>
-                        <td><?php echo $pontos->localizacao ?></td>
-                        <td><?php echo $pontos->rua_cep ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarPonto');?>/<?php echo $pontos->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluirPonto');?>/<?php echo $pontos->id?>">Excluir</a></td>
-                    </tr> 
-                    <tr>
-                        <td><?php echo $pontos->id ?></td>  
-                        <td><?php echo $pontos->endereco ?></td>
-                        <td><?php echo $pontos->localizacao ?></td>
-                        <td><?php echo $pontos->rua_cep ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarPonto');?>/<?php echo $pontos->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluirPonto');?>/<?php echo $pontos->id?>">Excluir</a></td>
-                    </tr>                               
+                                                  
                 <?php endforeach ?>
             </tr>
         </table>

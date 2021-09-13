@@ -1,0 +1,42 @@
+ERROR - 2021-09-10 14:07:16 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_pontoXlinha` FOREIGN KEY (`ponto_id`) REFERENCES `ponto` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `po...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `po...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `po...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `po...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(424): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->excluirPonto('2')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-09-10 14:07:17 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_pontoXlinha` FOREIGN KEY (`ponto_id`) REFERENCES `ponto` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `po...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `po...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `po...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `po...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(424): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->excluirPonto('1')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-09-10 14:07:20 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_pontoXlinha` FOREIGN KEY (`ponto_id`) REFERENCES `ponto` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `po...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `po...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `po...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `po...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(424): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->excluirPonto('1')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
