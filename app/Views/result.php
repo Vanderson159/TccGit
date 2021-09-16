@@ -146,7 +146,7 @@
                     <?php foreach ($result as $results):?>
                         <tr>
                             <td style="text-align: center;"><?php echo $results->nome ?></td>
-                            <td style="text-align: center;"><a href="<?php echo base_url('/public/home/onibusFiltro');?>/<?php echo $results->id?>">Visualizar</a></td>
+                            <td style="text-align: center;"><a href="<?php echo base_url('/public/home/escolha');?>/<?php echo $results->id?>">Visualizar</a></td>
                         </tr> 
                     <?php endforeach ?>
                 </tr>

@@ -1,0 +1,11 @@
+CRITICAL - 2021-09-13 15:56:08 --> Undefined variable $results
+#0 C:\xampp\htdocs\TccGit\app\Views\escolha.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('escolha.php', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(20): view('escolha.php')
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->escolha('3002')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

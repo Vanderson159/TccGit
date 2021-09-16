@@ -56,7 +56,7 @@
                 }
                 .Btnlogut{
                     margin-top: 2%;
-                    margin-left: 15%;
+                    margin-left: 45.7%;
                     width: 120px;
                     height: 50px;
                     border: none;
@@ -127,5 +127,6 @@
             </table>
         </div>
     </div>
-        <a href="<?php echo base_url('/public/home/filtro');?>/<?php echo $_SESSION['destino']?>"><button class="Btnlogut" type="button"></button></a>
+        <a href="<?php echo base_url('/public/home/escolha');?>/<?php echo $idBus?>"><button class="Btnlogut" type="button"></button></a>
+        <!-- <a href="<?php //echo base_url('/public/home/filtro');?>/<?php //echo $_SESSION['destino']?>"><button class="Btnlogut" type="button"></button></a> -->
 </div>

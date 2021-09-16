@@ -1,0 +1,11 @@
+CRITICAL - 2021-09-15 12:34:46 --> Undefined array key 0
+#0 C:\xampp\htdocs\TccGit\app\Views\mapaRota.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('mapaRota.php', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(121): view('mapaRota.php', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->mapaRota('imgJo\xC3\xA3o23.png')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

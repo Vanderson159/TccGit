@@ -5,14 +5,30 @@ namespace App\Controllers;
 class Home extends BaseController
 {
 	public function index(){
-		$ruaModel = new \App\Models\RuaModel(); //criou um obj model
-        $rua = $ruaModel->find();
+		$db = \Config\Database::connect();
+        $db = db_connect();
+		//$ruaModel = new \App\Models\RuaModel(); //criou um obj model
+        // $rua = $ruaModel->find();
+		$query = $db->query('SELECT * FROM `ruasavenidas` ORDER by nome ASC;');
+		$rua = $query->getResult();
         $data['rua_cep'] = $rua;
 		$data['rua'] = $rua;
-		
 		echo view('header.php');
 		echo view('site.php', $data);
 		echo view('footer.php');
+	}
+
+	public function escolha($id = null){
+		if(is_null($id)){
+			$retorno = $this->filtro();
+			return $retorno;
+		}else{
+			$data['id'] = $id;
+			echo view('header.php');
+			echo view('escolha.php', $data);
+			echo view('footer.php');
+			
+		}
 	}
 
 	public function filtro($escolha = null){
@@ -86,6 +102,26 @@ class Home extends BaseController
 		$data['result'] = $results; //passa pro data pra poder acessar em outras páginas
 		echo view('header.php');
 		echo view('onibusHorario.php', $data);
+		echo view('footer.php');
+	}
+
+	public function mapaRota( $idBus = null){
+		if(is_null($idBus)){
+			//redirecionar a aplicação para o categoria index    view das listas
+			//definir uma msg via session
+			//flashdata tu acessa ela e ela se destroi
+			$this->session->setFlashdata('msg', 'id do ônibus não encontrado');
+			$retorno = $this->escolha();
+			return $retorno;
+		}
+		$db = \Config\Database::connect();
+        $db = db_connect();
+		$sql = "SELECT DISTINCT onibus.nome ,linha.mapa FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and onibus.id = ?";
+		$query = $db->query($sql, [$idBus]);
+		$results = $query->getResult();
+		$data['result'] = $results; //passa pro data pra poder acessar em outras páginas
+		echo view('header.php');
+		echo view('mapaRota.php', $data);
 		echo view('footer.php');
 	}
 }
