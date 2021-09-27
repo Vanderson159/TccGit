@@ -159,70 +159,14 @@
                         <td><?php echo $administradores->senha ?></td>
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editar');?>/<?php echo $administradores->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluir');?>/<?php echo $administradores->id?>">Excluir</a></td>
-                    </tr>
+                    </tr>  
                     <tr>
                         <td><?php echo $administradores->id ?></td>  
                         <td><?php echo $administradores->login ?></td>
                         <td><?php echo $administradores->senha ?></td>
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editar');?>/<?php echo $administradores->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluir');?>/<?php echo $administradores->id?>">Excluir</a></td>
-                    </tr> 
-                    <tr>
-                        <td><?php echo $administradores->id ?></td>  
-                        <td><?php echo $administradores->login ?></td>
-                        <td><?php echo $administradores->senha ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editar');?>/<?php echo $administradores->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluir');?>/<?php echo $administradores->id?>">Excluir</a></td>
-                    </tr> 
-                    <tr>
-                        <td><?php echo $administradores->id ?></td>  
-                        <td><?php echo $administradores->login ?></td>
-                        <td><?php echo $administradores->senha ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editar');?>/<?php echo $administradores->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluir');?>/<?php echo $administradores->id?>">Excluir</a></td>
-                    </tr> 
-                    <tr>
-                        <td><?php echo $administradores->id ?></td>  
-                        <td><?php echo $administradores->login ?></td>
-                        <td><?php echo $administradores->senha ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editar');?>/<?php echo $administradores->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluir');?>/<?php echo $administradores->id?>">Excluir</a></td>
-                    </tr> 
-                    <tr>
-                        <td><?php echo $administradores->id ?></td>  
-                        <td><?php echo $administradores->login ?></td>
-                        <td><?php echo $administradores->senha ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editar');?>/<?php echo $administradores->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluir');?>/<?php echo $administradores->id?>">Excluir</a></td>
-                    </tr> 
-                    <tr>
-                        <td><?php echo $administradores->id ?></td>  
-                        <td><?php echo $administradores->login ?></td>
-                        <td><?php echo $administradores->senha ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editar');?>/<?php echo $administradores->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluir');?>/<?php echo $administradores->id?>">Excluir</a></td>
-                    </tr> 
-                    <tr>
-                        <td><?php echo $administradores->id ?></td>  
-                        <td><?php echo $administradores->login ?></td>
-                        <td><?php echo $administradores->senha ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editar');?>/<?php echo $administradores->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluir');?>/<?php echo $administradores->id?>">Excluir</a></td>
-                    </tr> 
-                    <tr>
-                        <td><?php echo $administradores->id ?></td>  
-                        <td><?php echo $administradores->login ?></td>
-                        <td><?php echo $administradores->senha ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editar');?>/<?php echo $administradores->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluir');?>/<?php echo $administradores->id?>">Excluir</a></td>
-                    </tr> 
-                    <tr>
-                        <td><?php echo $administradores->id ?></td>  
-                        <td><?php echo $administradores->login ?></td>
-                        <td><?php echo $administradores->senha ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editar');?>/<?php echo $administradores->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluir');?>/<?php echo $administradores->id?>">Excluir</a></td>
-                    </tr>                                    
+                    </tr>                                  
                 <?php endforeach ?>
             </tr>
         </table>

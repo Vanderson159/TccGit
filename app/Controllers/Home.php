@@ -18,12 +18,13 @@ class Home extends BaseController
 		echo view('footer.php');
 	}
 
-	public function escolha($id = null){
+	public function escolha($id = null, $cep = null){
 		if(is_null($id)){
 			$retorno = $this->filtro();
 			return $retorno;
 		}else{
 			$data['id'] = $id;
+			$data['cep'] =  $cep;
 			echo view('header.php');
 			echo view('escolha.php', $data);
 			echo view('footer.php');

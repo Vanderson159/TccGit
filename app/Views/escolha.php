@@ -1,3 +1,7 @@
+<?php 	
+    session_start();
+    $_SESSION['cep'] = $cep;
+?>
 <style>
     .btn{
         text-align: center;
@@ -27,8 +31,23 @@
         background-color: #ffcc00;
         background-image: none;
     }
+    .Btnlogut{
+        margin-top: 2%;
+        margin-left: -5%;
+        width: 120px;
+        height: 50px;
+        border: none;
+        background-color: #BCB9B9;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-image: url('<?php echo base_url('assets/IMG/adminSite/logOut.png')?>');
+    }
 </style>
 <div class="retangulo">  
     <a  href="<?php echo base_url('/public/home/onibusFiltro');?>/<?php echo $id?>"><button class="btn btn-lg opcao1" ><p class="label">Horários e Pontos</p></button></a>
     <a  href="<?php echo base_url('/public/home/mapaRota');?>/<?php echo $id?>"><button class="btn btn-lg opcao2"><p class="label">Mapa da Rota</p></button></a>
+    <form id="formLogin" class="form-signin text-center" method="post" action="<?php echo base_url("public/home/filtro/")?>/<?php echo $cep?>">
+        <button class="Btnlogut"></button>
+    </form>
 </div>

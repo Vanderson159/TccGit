@@ -127,6 +127,6 @@
             </table>
         </div>
     </div>
-        <a href="<?php echo base_url('/public/home/escolha');?>/<?php echo $idBus?>"><button class="Btnlogut" type="button"></button></a>
+        <a href="<?php echo base_url('/public/home/escolha');?>/<?php echo $idBus?>/<?php echo $_SESSION['cep']?>"><button class="Btnlogut" type="button"></button></a>
         <!-- <a href="<?php //echo base_url('/public/home/filtro');?>/<?php //echo $_SESSION['destino']?>"><button class="Btnlogut" type="button"></button></a> -->
 </div>
