@@ -22,11 +22,10 @@
             $this->session = \Config\Services::session();
 	    }
         public function tabela(){
-             //chamar view que exibe todas as categorias
              $adminModel = new \App\Models\AdminModel();
-             $data['adm'] = $adminModel->find();//busca todas as categorias e coloca em um array como objetos                         
+             $data['adm'] = $adminModel->find();                      
              echo view ('header');
-             echo view ('AdminSite/tabela', $data); // a posição do array data é categorias
+             echo view ('AdminSite/tabela', $data); 
              echo view ('footer');
         }
         public function index(){
@@ -49,10 +48,10 @@
 
                 if($admin_model->insert()){
                     //deu certo
-                    $data['msg'] = 'Administrador cadastrado com sucesso';
+                    $data['msg'] = 'Sucesso';
                 }else{
                     //deu errado
-                    $data['msg'] = 'Erro ao cadastrar administrador';
+                    $data['msg'] = 'Erro';
                 }
             }
             echo view ('header');
@@ -88,7 +87,6 @@
         }
         public function excluir($id = null){
             if(is_null($id)){
-                //redirecionar a aplicação para o categoria index    view das listas
                 //definir uma msg via session
                 //flashdata tu acessa ela e ela se destroi
                 $this->session->setFlashdata('msg', 'Adm não encontrado');
@@ -181,8 +179,9 @@
             return $retorno;
         }
         public function cadAdm(){
-            $data['titulo'] = 'Inserir Nova Categoria';
+            $data['titulo'] = 'Inserir Novo ADM';
             $data['acao'] = 'Inserir';
+            $data['msg'] = '';
             echo view ('header');
             echo view ('AdminSite/cadAdm', $data);
             echo view ('footer');
@@ -253,11 +252,10 @@
         }
         ////////////////Ruas e Avenidas//////////////////
         public function tabelaRuas(){
-                //chamar view que exibe todas as categorias
                 $ruaModel = new \App\Models\RuaModel();
-                $data['rua'] = $ruaModel->find();//busca todas as categorias e coloca em um array como objetos                         
+                $data['rua'] = $ruaModel->find();                       
                 echo view ('header');
-                echo view ('AdminSite/Ruas/tabela', $data); // a posição do array data é categorias
+                echo view ('AdminSite/Ruas/tabela', $data);
                 echo view ('footer');
         }
         public function editarRua($cep = null){//metodo
@@ -288,7 +286,6 @@
         }
         public function excluirRua($cep = null){
                 if(is_null($cep)){
-                    //redirecionar a aplicação para o categoria index    view das listas
                     //definir uma msg via session
                     //flashdata tu acessa ela e ela se destroi
                     $this->session->setFlashdata('msg', 'Rua não encontrada');
@@ -337,11 +334,10 @@
         }
         ////////////////Pontos//////////////////
         public function tabelaPontos(){
-            //chamar view que exibe todas as categorias
             $pontoModel = new \App\Models\PontoModel();
-            $data['ponto'] = $pontoModel->find();//busca todas as categorias e coloca em um array como objetos                         
+            $data['ponto'] = $pontoModel->find();                    
             echo view ('header');
-            echo view ('AdminSite/Ponto/tabela', $data); // a posição do array data é categorias
+            echo view ('AdminSite/Ponto/tabela', $data); 
             echo view ('footer');
         }
         public function cadPonto(){
@@ -413,7 +409,6 @@
         }
         public function excluirPonto($id = null){
             if(is_null($id)){
-                //redirecionar a aplicação para o categoria index    view das listas
                 //definir uma msg via session
                 //flashdata tu acessa ela e ela se destroi
                 $this->session->setFlashdata('msg', 'Ponto não encontrado');
@@ -433,11 +428,10 @@
         }
         ////////////////Empresa//////////////////
         public function tabelaEmpresa(){
-            //chamar view que exibe todas as categorias
             $empresaModel = new \App\Models\EmpresaModel();
-            $data['empresa'] = $empresaModel->find();//busca todas as categorias e coloca em um array como objetos                         
+            $data['empresa'] = $empresaModel->find();                       
             echo view ('header');
-            echo view ('AdminSite/Empresa/tabela', $data); // a posição do array data é categorias
+            echo view ('AdminSite/Empresa/tabela', $data);
             echo view ('footer');
         }
         public function cadEmpresa(){
@@ -503,7 +497,6 @@
         }
         public function excluirEmpresa($id = null){
             if(is_null($id)){
-                //redirecionar a aplicação para o categoria index    view das listas
                 //definir uma msg via session
                 //flashdata tu acessa ela e ela se destroi
                 $this->session->setFlashdata('msg', 'Empresa não encontrado');

@@ -42,6 +42,9 @@
                     margin-left: 77%;
                     margin-top: 20px;
                 }
+                td{
+                    text-align: center;
+                }
             }
             @media screen and (max-width: 1600px){
                 .tabela, .tabela td, .tabela tr{
@@ -54,14 +57,14 @@
                     font-weight: bold;
                     margin-left: 50px;
                     width: 1050px;
-                    height: 400px;
+                    height: 300px;
                 }
                 .trTable{
                     background-color: #ffcc00;
                 }
                 .table-wrapper {
                     overflow: scroll;
-                    margin-right: 500px;
+                    margin-right: 450px;
                     margin-top: -18%;
                     height: 320px;
                 }
@@ -83,6 +86,9 @@
                     margin-left: 74%;
                     margin-top: 20px;
                 }
+                td{
+                    text-align: center;
+                }
             }
             @media screen and (max-width: 1366px){
                 .tabela, .tabela td, .tabela tr{
@@ -102,7 +108,7 @@
                 }
                 .table-wrapper {
                     overflow: scroll;
-                    margin-right: 500px;
+                    margin-right: 450px;
                     margin-top: -20%;
                     height: 300px;
 
@@ -128,6 +134,9 @@
                 .imgLetreiro{
                     margin-left:-5%;
                 }
+                td{
+                    text-align: center;
+                }
             }
         </style>
    
@@ -149,21 +158,18 @@
             <tr class="trTable">
                 <td>Id</td>
                 <td>Login</td>
-                <td>Senha</td>
                 <td></td>
                 <td></td>
                 <?php foreach ($adm as $administradores):?>
                     <tr>
                         <td><?php echo $administradores->id ?></td>  
                         <td><?php echo $administradores->login ?></td>
-                        <td><?php echo $administradores->senha ?></td>
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editar');?>/<?php echo $administradores->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluir');?>/<?php echo $administradores->id?>">Excluir</a></td>
                     </tr>  
                     <tr>
                         <td><?php echo $administradores->id ?></td>  
                         <td><?php echo $administradores->login ?></td>
-                        <td><?php echo $administradores->senha ?></td>
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editar');?>/<?php echo $administradores->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluir');?>/<?php echo $administradores->id?>">Excluir</a></td>
                     </tr>                                  

@@ -51,14 +51,14 @@
                     font-weight: bold;
                     margin-left: 50px;
                     width: 1050px;
-                    height: 400px;
+                    height: 300px;
                 }
                 .trTable{
                     background-color: #ffcc00;
                 }
                 .table-wrapper {
                     overflow: scroll;
-                    margin-right: 500px;
+                    margin-right: 450px;
                     margin-top: -18%;
                     height: 320px;
                 }
@@ -97,7 +97,7 @@
                 }
                 .table-wrapper {
                     overflow: scroll;
-                    margin-right: 500px;
+                    margin-right: 450px;
                     margin-top: -20%;
                     height: 300px;
 

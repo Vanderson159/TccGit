@@ -60,7 +60,7 @@
                 }
                 .table-wrapper {
                     overflow: scroll;
-                    margin-right: 500px;
+                    margin-right: 450px;
                     margin-top: -18%;
                     height: 320px;
                 }
@@ -99,7 +99,7 @@
                 }
                 .table-wrapper {
                     overflow: scroll;
-                    margin-right: 500px;
+                    margin-right: 450px;
                     margin-top: -20%;
                     height: 300px;
 
@@ -154,7 +154,23 @@
                         <td><?php echo $pontos->rua_cep ?></td>
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarPonto');?>/<?php echo $pontos->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirPonto');?>/<?php echo $pontos->id?>">Excluir</a></td>
-                    </tr>    
+                    </tr>
+                    <tr>
+                        <td><?php echo $pontos->id ?></td>  
+                        <td><?php echo $pontos->endereco ?></td>
+                        <td><a href="<?php echo $pontos->localizacao ?>" target="_blank">GOOGLE MAPS</a></td>
+                        <td><?php echo $pontos->rua_cep ?></td>
+                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarPonto');?>/<?php echo $pontos->id?>">Editar</a></td>
+                        <td><a href="<?php echo base_url('/public/admin/excluirPonto');?>/<?php echo $pontos->id?>">Excluir</a></td>
+                    </tr> 
+                    <tr>
+                        <td><?php echo $pontos->id ?></td>  
+                        <td><?php echo $pontos->endereco ?></td>
+                        <td><a href="<?php echo $pontos->localizacao ?>" target="_blank">GOOGLE MAPS</a></td>
+                        <td><?php echo $pontos->rua_cep ?></td>
+                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarPonto');?>/<?php echo $pontos->id?>">Editar</a></td>
+                        <td><a href="<?php echo base_url('/public/admin/excluirPonto');?>/<?php echo $pontos->id?>">Excluir</a></td>
+                    </tr>  
                                                   
                 <?php endforeach ?>
             </tr>

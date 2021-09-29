@@ -102,7 +102,17 @@
 
 <?php $session = session();?>
 <?php if(isset($_SESSION['user'])) : ?>
-    <div class="retangulo"> 
+        <?php if($msg == 'Sucesso') : ?>
+            <div class="alert alert-success" id="alert" role="alert" style="text-align: center;">
+                Administrador inserido com sucesso!
+            </div>
+        <?php endif ?>
+        <?php if($msg == 'Erro') : ?>
+            <div class="alert alert-danger" id="alert" role="alert" style="text-align: center;">
+                Erro ao tentar inserir Administrador!
+            </div>
+        <?php endif ?>
+    <div class="retangulo" id="retangulo"> 
         <h1><?php echo $titulo; ?></h1>
         <br>
         <img class="img" src="<?php echo base_url("assets/IMG/adminSite/man.png")?>" alt="" width="200" height="200">
@@ -155,3 +165,10 @@
         echo view('footer');
     ?>
 <?php endif ?>
+ <!-- jQUery-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Ação para ocultar a div depois de 5 segundos -->
+<script>
+	$("#alert").hide(5000);
+</script>

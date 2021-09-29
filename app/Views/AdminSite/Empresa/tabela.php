@@ -60,7 +60,7 @@
                 }
                 .table-wrapper {
                     overflow: scroll;
-                    margin-right: 500px;
+                    margin-right: 450px;
                     margin-top: -18%;
                     height: 320px;
                 }
@@ -99,7 +99,7 @@
                 }
                 .table-wrapper {
                     overflow: scroll;
-                    margin-right: 500px;
+                    margin-right: 450px;
                     margin-top: -20%;
                     height: 300px;
 
@@ -168,7 +168,71 @@
                         <td><?php echo $empresas->senha ?></td>    
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
-                    </tr>                                     
+                    </tr> 
+                    <tr>
+                        <td><?php echo $empresas->id ?></td>  
+                        <td><?php echo $empresas->nome ?></td>
+                        <td><?php echo $empresas->login ?></td>
+                        <td><?php echo $empresas->senha ?></td>    
+                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
+                        <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
+                    </tr> 
+                    <tr>
+                        <td><?php echo $empresas->id ?></td>  
+                        <td><?php echo $empresas->nome ?></td>
+                        <td><?php echo $empresas->login ?></td>
+                        <td><?php echo $empresas->senha ?></td>    
+                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
+                        <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
+                    </tr>      
+                    <tr>
+                        <td><?php echo $empresas->id ?></td>  
+                        <td><?php echo $empresas->nome ?></td>
+                        <td><?php echo $empresas->login ?></td>
+                        <td><?php echo $empresas->senha ?></td>    
+                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
+                        <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
+                    </tr> 
+                    <tr>
+                        <td><?php echo $empresas->id ?></td>  
+                        <td><?php echo $empresas->nome ?></td>
+                        <td><?php echo $empresas->login ?></td>
+                        <td><?php echo $empresas->senha ?></td>    
+                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
+                        <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
+                    </tr>  
+                    <tr>
+                        <td><?php echo $empresas->id ?></td>  
+                        <td><?php echo $empresas->nome ?></td>
+                        <td><?php echo $empresas->login ?></td>
+                        <td><?php echo $empresas->senha ?></td>    
+                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
+                        <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
+                    </tr> 
+                    <tr>
+                        <td><?php echo $empresas->id ?></td>  
+                        <td><?php echo $empresas->nome ?></td>
+                        <td><?php echo $empresas->login ?></td>
+                        <td><?php echo $empresas->senha ?></td>    
+                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
+                        <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
+                    </tr> 
+                    <tr>
+                        <td><?php echo $empresas->id ?></td>  
+                        <td><?php echo $empresas->nome ?></td>
+                        <td><?php echo $empresas->login ?></td>
+                        <td><?php echo $empresas->senha ?></td>    
+                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
+                        <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
+                    </tr> 
+                    <tr>
+                        <td><?php echo $empresas->id ?></td>  
+                        <td><?php echo $empresas->nome ?></td>
+                        <td><?php echo $empresas->login ?></td>
+                        <td><?php echo $empresas->senha ?></td>    
+                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
+                        <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
+                    </tr>                               
                 <?php endforeach ?>
             </tr>
         </table>
