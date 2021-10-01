@@ -141,7 +141,6 @@
                 <td>Id (CNPJ)</td>
                 <td>Nome</td>
                 <td>Login</td>
-                <td>Senha</td>
                 <td></td>
                 <td></td>
                 <?php foreach ($empresa as $empresas):?>
@@ -149,7 +148,6 @@
                         <td><?php echo $empresas->id ?></td>  
                         <td><?php echo $empresas->nome ?></td>
                         <td><?php echo $empresas->login ?></td>
-                        <td><?php echo $empresas->senha ?></td>    
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
                     </tr> 
@@ -157,7 +155,6 @@
                         <td><?php echo $empresas->id ?></td>  
                         <td><?php echo $empresas->nome ?></td>
                         <td><?php echo $empresas->login ?></td>
-                        <td><?php echo $empresas->senha ?></td>    
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
                     </tr>  
@@ -165,7 +162,6 @@
                         <td><?php echo $empresas->id ?></td>  
                         <td><?php echo $empresas->nome ?></td>
                         <td><?php echo $empresas->login ?></td>
-                        <td><?php echo $empresas->senha ?></td>    
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
                     </tr> 
@@ -173,7 +169,6 @@
                         <td><?php echo $empresas->id ?></td>  
                         <td><?php echo $empresas->nome ?></td>
                         <td><?php echo $empresas->login ?></td>
-                        <td><?php echo $empresas->senha ?></td>    
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
                     </tr> 
@@ -181,7 +176,6 @@
                         <td><?php echo $empresas->id ?></td>  
                         <td><?php echo $empresas->nome ?></td>
                         <td><?php echo $empresas->login ?></td>
-                        <td><?php echo $empresas->senha ?></td>    
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
                     </tr>      
@@ -189,7 +183,6 @@
                         <td><?php echo $empresas->id ?></td>  
                         <td><?php echo $empresas->nome ?></td>
                         <td><?php echo $empresas->login ?></td>
-                        <td><?php echo $empresas->senha ?></td>    
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
                     </tr> 
@@ -197,7 +190,6 @@
                         <td><?php echo $empresas->id ?></td>  
                         <td><?php echo $empresas->nome ?></td>
                         <td><?php echo $empresas->login ?></td>
-                        <td><?php echo $empresas->senha ?></td>    
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
                     </tr>  
@@ -205,7 +197,6 @@
                         <td><?php echo $empresas->id ?></td>  
                         <td><?php echo $empresas->nome ?></td>
                         <td><?php echo $empresas->login ?></td>
-                        <td><?php echo $empresas->senha ?></td>    
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
                     </tr> 
@@ -213,7 +204,6 @@
                         <td><?php echo $empresas->id ?></td>  
                         <td><?php echo $empresas->nome ?></td>
                         <td><?php echo $empresas->login ?></td>
-                        <td><?php echo $empresas->senha ?></td>    
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
                     </tr> 
@@ -221,7 +211,6 @@
                         <td><?php echo $empresas->id ?></td>  
                         <td><?php echo $empresas->nome ?></td>
                         <td><?php echo $empresas->login ?></td>
-                        <td><?php echo $empresas->senha ?></td>    
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
                     </tr> 
@@ -229,7 +218,6 @@
                         <td><?php echo $empresas->id ?></td>  
                         <td><?php echo $empresas->nome ?></td>
                         <td><?php echo $empresas->login ?></td>
-                        <td><?php echo $empresas->senha ?></td>    
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
                     </tr>                               

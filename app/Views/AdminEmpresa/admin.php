@@ -126,7 +126,6 @@
 <?php $login = $_SESSION['user'];?>
 <div class="retangulo"> 
     <h1>Área administrativa da Empresa</h1>
-    <h2><?php echo $login?></h2>
 <div class="div5">
     <div class="div1"><button class="btnMan"><p class="label">Administradores</p></button></div>
     <div class="div2"><button class="btnEstrada"><p class="label">Ruas/Avenidas</p></button></div>
