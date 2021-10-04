@@ -30,6 +30,8 @@
         }
         public function index(){
             //$data['msg'] = $this->session->getFlashdata('msg'); //tentativa de mensagem de erro
+            $_SESSION['user'] = null;
+            $_SESSION['senha'] = null;
             echo view ('header');
             echo view ('login');
             echo view ('footer'); 
@@ -74,9 +76,9 @@
                 $admin->senha = $senha;
                 //if para ver se att
                 if($adminModel->update($id, $admin)){
-                     $data['msg'] = 'ADM editada com sucesso';
+                     $data['msg'] = 'Sucesso';
                 }else{
-                    $data['msg'] = 'Erro ao editar ADM';
+                    $data['msg'] = 'Erro';
                 }
             }
 
@@ -129,6 +131,7 @@
                         
                         $_SESSION['user'] = $resultsAdmin[0]->login;
                         $_SESSION['senha'] = $resultsAdmin[0]->senha;
+                        $_SESSION['userType'] = 'adm';
 
                         echo view('header');
                         echo view('AdminSite/admin');
@@ -150,6 +153,7 @@
                             //passando o objeto que foi resultado da busca no bd para a session global
                             $_SESSION['user'] = $resultsEmpresa[0]->login;
                             $_SESSION['senha'] = $resultsEmpresa[0]->senha;
+                            $_SESSION['userType'] = 'admEmpresa';
 
                             echo view('header');
                             echo view('AdminEmpresa/admin');
@@ -206,7 +210,8 @@
                             //$data['msg'] = 'Logado com sucesso';
                             $_SESSION['user'] = $resultsAdmin[0]->login;
                             $_SESSION['senha'] = $resultsAdmin[0]->senha;
-
+                            $_SESSION['userType'] = 'adm';
+                            
                             echo view('header');
                             echo view('AdminSite/admin');
                             echo view('footer');
@@ -225,7 +230,9 @@
                         if($resultsEmpresa[0]->login == $login){
                             if($resultsEmpresa[0]->senha == $senha){
                                 //passando o objeto que foi resultado da busca no bd para a session global
-                                $_SESSION['user'] = $resultsEmpresa;
+                                $_SESSION['user'] = $resultsEmpresa[0]->login;
+                                $_SESSION['senha'] = $resultsEmpresa[0]->senha;
+                                $_SESSION['userType'] = 'admEmpresa';
 
                                 echo view('header');
                                 echo view('AdminEmpresa/admin');
@@ -269,13 +276,13 @@
                 if($this->request->getMethod() === 'post'){
                     //quando o form for submetido
                     //vai pegar o valor inserido no forme pelo getPost e vai atribuir ao objeto
-                    $rua->cep = $this->request->getPost('cep'); 
+                   // $rua->cep = $this->request->getPost('cep'); 
                     $rua->nome = $this->request->getPost('nome');
                     //if para ver se att
                     if($ruaModel->update($cep, $rua)){
-                        $data['msg'] = 'Rua editada com sucesso';
+                        $data['msg'] = 'Sucesso';
                     }else{
-                        $data['msg'] = 'Erro ao editar Rua';
+                        $data['msg'] = 'Erro';
                     }
                 }
 
@@ -306,6 +313,7 @@
         public function cadRua(){
                 $data['titulo'] = 'Inserir Nova Rua';
                 $data['acao'] = 'Inserir';
+                $data['msg'] = '';
                 echo view ('header');
                 echo view ('AdminSite/Ruas/cadRua', $data);
                 echo view ('footer');
@@ -321,11 +329,9 @@
                     $rua_model->set('nome', $this->request->getPost('nome'));
 
                     if($rua_model->insert()){
-                        //deu certo
-                        $data['msg'] = 'Rua cadastrada com sucesso';
+                        $data['msg'] = 'Erro';
                     }else{
-                        //deu errado
-                        $data['msg'] = 'Erro ao cadastrar rua';
+                        $data['msg'] = 'Sucesso';
                     }
                 }
                 echo view ('header');
@@ -343,6 +349,7 @@
         public function cadPonto(){
             $data['titulo'] = 'Inserir Novo Ponto';
             $data['acao'] = 'Inserir';
+            $data['msg'] = '';
             $ruaModel = new \App\Models\RuaModel(); //criou um obj model
             $rua = $ruaModel->find();
             $data['rua_cep'] = $rua;
@@ -366,11 +373,9 @@
                 $ponto_model->set('rua_cep', $this->request->getPost('rua_cep'));
 
                 if($ponto_model->insert()){
-                    //deu certo
-                    $data['msg'] = 'Ponto cadastrado com sucesso';
+                    $data['msg'] = 'Sucesso';
                 }else{
-                    //deu errado
-                    $data['msg'] = 'Erro ao cadastrar Ponto';
+                    $data['msg'] = 'Erro';
                 }
             }
             echo view ('header');
@@ -396,9 +401,9 @@
                 $ponto->rua_cep = $this->request->getPost('rua_cep');
                 //if para ver se att
                 if($pontoModel->update($id, $ponto)){
-                    $data['msg'] = 'Ponto editado com sucesso';
+                    $data['msg'] = 'Sucesso';
                 }else{
-                    $data['msg'] = 'Erro ao editar Ponto';
+                    $data['msg'] = 'Erro';
                 }
             }
 
@@ -437,6 +442,7 @@
         public function cadEmpresa(){
             $data['titulo'] = 'Inserir Nova Empresa';
             $data['acao'] = 'Inserir';
+            $data['msg'] = '';
 
             echo view ('header');
             echo view ('AdminSite/Empresa/cadEmpresa', $data);
@@ -456,11 +462,9 @@
                 $empresa_model->set('nome', $this->request->getPost('nome'));
 
                 if($empresa_model->insert()){
-                    //deu certo
-                    $data['msg'] = 'Empresa cadastrada com sucesso';
+                    $data['msg'] = 'Erro';
                 }else{
-                    //deu errado
-                    $data['msg'] = 'Erro ao cadastrar Empresa';
+                    $data['msg'] = 'Sucesso';
                 }
             }
             echo view ('header');
@@ -484,9 +488,9 @@
                 $empresa->nome = $this->request->getPost('nome');
                 //if para ver se att
                 if($empresaModel->update($id, $empresa)){
-                    $data['msg'] = 'Empresa editada com sucesso';
+                    $data['msg'] = 'Sucesso';
                 }else{
-                    $data['msg'] = 'Erro ao editar Empresa';
+                    $data['msg'] = 'Erro';
                 }
             }
 
@@ -514,6 +518,7 @@
             $retorno = $this->tabelaEmpresa();
             return $retorno;
         }
+
     }
 ?>
 

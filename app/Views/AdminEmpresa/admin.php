@@ -4,12 +4,12 @@
         margin-top: 1%;
     }
 
-    .btnMan{
+    .btnOnibus{
         background-repeat: no-repeat;
         text-align: center;
         width: 210px;
         height: 142px;
-        background-image: url('<?php echo base_url('assets/IMG/adminSite/man.png')?>');
+        background-image: url('<?php echo base_url('assets/IMG/adminEmpresa/bus.png')?>');
         background-color: #282828;
         background-size: contain;
         background-position: center;
@@ -85,7 +85,7 @@
         margin-top: 60;
     }
 
-    .btnMan:hover,.btnEstrada:hover, .btnPonto:hover, .btnEmpresa:hover{
+    .btnOnibus:hover,.btnEstrada:hover, .btnPonto:hover, .btnEmpresa:hover{
        background-color: #ffcc00;
        background-image: none;
     }
@@ -121,13 +121,18 @@
         font-weight: bold;
     }
 </style>
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, "http://localhost/TccGit/public/adminEmpresa/voltarPainelAdmEmpresa" );
+    }
+</script>
 <?php $session = session();?>
 <?php if(isset($_SESSION['user'])) : ?>
 <?php $login = $_SESSION['user'];?>
 <div class="retangulo"> 
     <h1>Área administrativa da Empresa</h1>
 <div class="div5">
-    <div class="div1"><button class="btnMan"><p class="label">Administradores</p></button></div>
+    <div class="div1"><button class="btnOnibus"><a href="<?php echo base_url("public/adminEmpresa/tabelaOnibus")?>"><p class="label">Ônibus</p></a></button></div>
     <div class="div2"><button class="btnEstrada"><p class="label">Ruas/Avenidas</p></button></div>
     <div class="div3"><button class="btnPonto"><p class="label">Pontos</p></button></div>
     <div class="div4"><button class="btnEmpresa"><p class="label">Empresas</p></button></div>

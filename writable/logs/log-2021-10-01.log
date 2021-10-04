@@ -1,0 +1,206 @@
+CRITICAL - 2021-10-01 19:35:01 --> Array to string conversion
+#0 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 198)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->voltarPainelAdm()
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 19:56:23 --> Array to string conversion
+#0 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->voltarPainelAdmEmpresa()
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 19:56:58 --> Array to string conversion
+#0 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->voltarPainelAdmEmpresa()
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 20:03:08 --> Array to string conversion
+#0 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->voltarPainelAdmEmpresa()
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 20:03:20 --> Array to string conversion
+#0 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->voltarPainelAdmEmpresa()
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 20:03:59 --> Array to string conversion
+#0 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->voltarPainelAdmEmpresa()
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 20:07:18 --> Array to string conversion
+#0 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(528): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 528)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->voltarPainelAdmEmpresa()
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 20:48:56 --> Array to string conversion
+#0 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(528): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 528)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->voltarPainelAdmEmpresa()
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 20:50:38 --> Array to string conversion
+#0 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 198)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->voltarPainelAdm()
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 20:57:24 --> Array to string conversion
+#0 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->voltarPainelAdmEmpresa()
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 21:19:14 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\cadAdm.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/cadAd...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(60): view('AdminSite/cadAd...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-01 21:19:40 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\cadAdm.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/cadAd...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(60): view('AdminSite/cadAd...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-01 21:27:11 --> Array to string conversion
+#0 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->voltarPainelAdmEmpresa()
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 21:27:13 --> Array to string conversion
+#0 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->voltarPainelAdmEmpresa()
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 22:15:20 --> Undefined variable $linha
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Onibus\cadOnibus.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/On...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(111): view('AdminEmpresa/On...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->cadOnibus()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-01 22:19:17 --> Undefined array key 0
+#0 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->cadOnibus()
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-01 22:27:22 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Onibus\cadOnibus.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/On...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(116): view('AdminEmpresa/On...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->cadOnibus()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-01 22:28:12 --> Undefined property: stdClass::$linha_id
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Onibus\cadOnibus.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/On...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(116): view('AdminEmpresa/On...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->cadOnibus()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-01 22:35:23 --> Invalid file: AdminEmpresa/cadOnibus.php
+#0 C:\xampp\htdocs\TccGit\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminEmpresa/ca...')
+#1 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/ca...', Array, true)
+#2 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(155): view('AdminEmpresa/ca...', Array)
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-01 22:35:46 --> mysqli_sql_exception: Duplicate entry '3004' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(146): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-01 22:35:46 --> Invalid file: AdminEmpresa/cadOnibus.php
+#0 C:\xampp\htdocs\TccGit\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminEmpresa/ca...')
+#1 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/ca...', Array, true)
+#2 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(155): view('AdminEmpresa/ca...', Array)
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-01 22:35:58 --> Invalid file: AdminEmpresa/cadOnibus.php
+#0 C:\xampp\htdocs\TccGit\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminEmpresa/ca...')
+#1 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/ca...', Array, true)
+#2 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(155): view('AdminEmpresa/ca...', Array)
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-01 22:36:34 --> Invalid file: AdminEmpresa/cadOnibus.php
+#0 C:\xampp\htdocs\TccGit\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminEmpresa/ca...')
+#1 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/ca...', Array, true)
+#2 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(155): view('AdminEmpresa/ca...', Array)
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-01 22:38:04 --> Invalid file: AdminEmpresa/cadOnibus.php
+#0 C:\xampp\htdocs\TccGit\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminEmpresa/ca...')
+#1 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/ca...', Array, true)
+#2 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(155): view('AdminEmpresa/ca...', Array)
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

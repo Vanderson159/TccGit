@@ -129,7 +129,7 @@
         <!--passa o controle e a função como parametros -->
        <!-- <p><a href="admin/inserir">+Inserir novo administrador</a></p> -->
 <?php $session = session();?>
-<?php if(isset($_SESSION['user'])) : ?>
+<?php if((isset($_SESSION['user'])) && ($_SESSION['userType'] == 'adm')) : ?>
     <?php 
         $login = $_SESSION['user'];
         $senha = $_SESSION['senha'];
