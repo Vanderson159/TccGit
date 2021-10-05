@@ -96,7 +96,7 @@
                 return $retorno;
             } 
         }
-
+        ////////// crud bus //////////////
         public function cadOnibus(){
             $db = \Config\Database::connect();
             $db = db_connect();
@@ -116,8 +116,20 @@
             echo view ('AdminEmpresa/Onibus/cadOnibus', $data);
             echo view ('footer');
         }
-
+    
         public function tabelaOnibus(){
+            $db = \Config\Database::connect();
+            $db = db_connect();
+            $sql = "SELECT empresa.id FROM `empresa` WHERE empresa.login = ?";
+            $query = $db->query($sql, [$_SESSION['user']]);
+            $results = $query->getResult();
+            $_SESSION['idEmpresa'] = $results[0]->id;
+            $sql2 = "SELECT empresa.nome FROM `empresa` WHERE empresa.id = ?";
+            $query2 = $db->query($sql2, [$results[0]->id]);
+            $results2 = $query2->getResult();
+
+            $_SESSION['nomeEmp'] = $results2[0]->nome;
+
             $onibusModel = new \App\Models\OnibusModel();
             $data['bus'] = $onibusModel->find();                      
             echo view ('header');
@@ -125,16 +137,13 @@
             echo view ('footer');
         }
 
-       public function inserir(){
+        public function inserir(){
             $data['msg'] = '';
             $db = \Config\Database::connect();
             $db = db_connect();
             $sql = "SELECT  empresa.id FROM empresa WHERE empresa.login = ?";
             $query = $db->query($sql, [$_SESSION['user']]);
 		    $results = $query->getResult();
-            $sql = "SELECT empresa.id FROM `empresa` WHERE empresa.login = ?";
-            $query = $db->query($sql, [$_SESSION['user']]);
-            $results = $query->getResult();
            // SELECT linha.id FROM `linha` WHERE linha.empresa_id = 1002
             $sql2 = "SELECT linha.id FROM `linha` WHERE linha.empresa_id = ?";
             $query2 = $db->query($sql2, [$results[0]->id]);
@@ -163,8 +172,6 @@
             echo view ('footer');
         }
 
-    
-        
         public function editarBus($id = null){//metodo
             $data['titulo'] = 'Editar Ônibus '. $id;
             $data['acao'] = 'Editar';
@@ -225,5 +232,131 @@
             $retorno = $this->tabelaOnibus();
             return $retorno;
         }
+        ////////// crud linha //////////////
+        public function tabelaLinha(){
+            $db = \Config\Database::connect();
+            $db = db_connect();
+            $sql = "SELECT empresa.id FROM `empresa` WHERE empresa.login = ?";
+            $query = $db->query($sql, [$_SESSION['user']]);
+            $results = $query->getResult();
+            $_SESSION['idEmpresa'] = $results[0]->id;
+            $sql2 = "SELECT empresa.nome FROM `empresa` WHERE empresa.id = ?";
+            $query2 = $db->query($sql2, [$results[0]->id]);
+            $results2 = $query2->getResult();
+
+            $_SESSION['nomeEmp'] = $results2[0]->nome;
+            $linhaModel = new \App\Models\LinhaModel();
+            $data['linha'] = $linhaModel->find();      
+                 
+            echo view ('header');
+            echo view ('AdminEmpresa/Linha/tabela', $data); 
+            echo view ('footer');
+        }
+
+        public function cadLinha(){
+            // SELECT linha.id FROM `linha` WHERE linha.empresa_id = 1002
+            //$sql2 = "SELECT linha.id FROM `linha` WHERE linha.empresa_id = ?";
+            //$query2 = $db->query($sql2, [$results[0]->id]);
+		    //$results2 = $query2->getResult();
+            //$data['linha'] = $results2;
+
+            $data['titulo'] = 'Inserir Nova Linha';
+            $data['acao'] = 'Inserir';
+            $data['msg'] = '';
+            echo view ('header');
+            echo view ('AdminEmpresa/Linha/cadLinha', $data);
+            echo view ('footer');
+        }
+
+        public function inserirLinha(){
+            $data['msg'] = '';
+            $data['linha'] = '';
+            $data['titulo'] = 'Inserir Novo Ônibus';
+            $data['acao'] = 'Inserir';
+            $data['linha'] = null;
+            if($this->request->getMethod() === 'post'){
+                //acessou a classe pelo namespace dela
+                $linhaModel = new \App\Models\LinhaModel(); //criou um obj model
+                //parametros (nomedacoluna, valor)
+                $linhaModel->set('id', $this->request->getPost('id'));
+                $linhaModel->set('mapa', $this->request->getPost('mapa'));
+                $linhaModel->set('tempo', $this->request->getPost('tempo'));
+                $linhaModel->set('passagens', $this->request->getPost('passagens'));
+                $linhaModel->set('empresa_id', $_SESSION['idEmpresa']);
+
+                if($linhaModel->insert()){
+                    $data['msg'] = 'Erro';
+                }else{
+                    $data['msg'] = 'Sucesso';
+                }
+            }
+            echo view ('header');
+            echo view ('AdminEmpresa/Linha/cadLinha', $data);
+            echo view ('footer');
+        }
+
+        public function editarLinha($id = null){//metodo
+            $data['titulo'] = 'Editar Linha '. $id;
+            $data['acao'] = 'Editar';
+            $data['msg'] = '';
+
+            //$db = \Config\Database::connect();
+            //$db = db_connect();
+           // $sql = "SELECT empresa.id FROM `empresa` WHERE empresa.login = ?";
+            //$query = $db->query($sql, [$_SESSION['user']]);
+            //$results = $query->getResult();
+           // SELECT linha.id FROM `linha` WHERE linha.empresa_id = 1002
+            //$sql2 = "SELECT linha.id FROM `linha` WHERE linha.empresa_id = ?";
+           // $query2 = $db->query($sql2, [$results[0]->id]);
+		    //$results2 = $query2->getResult();
+           // $data['linha'] = $results2;
+
+            $linhaModel = new \App\Models\LinhaModel(); //criou um obj model
+            
+            $linha = $linhaModel->find($id); // busca através deste método
+
+            if($this->request->getMethod() === 'post'){
+                //quando o form for submetido
+                //vai pegar o valor inserido no forme pelo getPost e vai atribuir ao objeto
+               // $onibus->id = $this->request->getPost('id'); 
+                $linha->mapa = $this->request->getPost('mapa');
+                $linha->tempo = $this->request->getPost('tempo');
+                $linha->passagens = $this->request->getPost('passagens');
+                
+                //if para ver se att
+                if($linhaModel->update($id, $linha)){
+                    $data['msg'] = 'Sucesso';
+                }else{
+                    $data['msg'] = 'Erro';
+                }
+            }
+            $data['nomeEmpresa'] =  $_SESSION['nomeEmp'];
+            $data['linha'] = $linha; //passa pro data pra poder acessar em outras páginas 
+            echo view('header');
+            echo view('AdminEmpresa/Linha/cadLinha', $data);
+            echo view('footer');
+        }
+
+        public function excluirLinha($id = null){
+            if(is_null($id)){
+                //definir uma msg via session
+                //flashdata tu acessa ela e ela se destroi
+                $this->session->setFlashdata('msg', 'Linha não encontrado');
+                $retorno = $this->tabelaLinha();
+                return $retorno;
+            }
+            $linhaModel = new \App\Models\LinhaModel();
+            if($linhaModel->delete($id)){
+                //excluiu com sucesso
+                $this->session->setFlashdata('msg', 'linha excluida com sucesso');
+            }else{
+                //erro ao excluir
+                $this->session->setFlashdata('msg', 'Erro ao excluir linha');
+            }
+            $retorno = $this->tabelaLinha();
+            return $retorno;
+        }
+        ////////// crud pontos //////////////
+
     }
 ?>

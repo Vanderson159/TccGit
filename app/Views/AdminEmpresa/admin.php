@@ -16,12 +16,12 @@
         border: 2px double #404040;
     }
 
-    .btnEstrada{
+    .btnLinha{
         background-repeat: no-repeat;
         text-align: center;
         width: 210px;
         height: 142px;
-        background-image: url('<?php echo base_url('assets/IMG/adminSite/estrada.png')?>');
+        background-image: url('<?php echo base_url('assets/IMG/adminEmpresa/gps.png')?>');
         background-color: #282828;
         background-size: contain;
         background-position: center;
@@ -85,7 +85,7 @@
         margin-top: 60;
     }
 
-    .btnOnibus:hover,.btnEstrada:hover, .btnPonto:hover, .btnEmpresa:hover{
+    .btnOnibus:hover,.btnLinha:hover, .btnPonto:hover, .btnEmpresa:hover{
        background-color: #ffcc00;
        background-image: none;
     }
@@ -133,7 +133,7 @@
     <h1>Área administrativa da Empresa</h1>
 <div class="div5">
     <div class="div1"><button class="btnOnibus"><a href="<?php echo base_url("public/adminEmpresa/tabelaOnibus")?>"><p class="label">Ônibus</p></a></button></div>
-    <div class="div2"><button class="btnEstrada"><p class="label">Ruas/Avenidas</p></button></div>
+    <div class="div2"><button class="btnLinha"><a href="<?php echo base_url("public/adminEmpresa/tabelaLinha")?>"><p class="label">Linhas</p></a></button></div>
     <div class="div3"><button class="btnPonto"><p class="label">Pontos</p></button></div>
     <div class="div4"><button class="btnEmpresa"><p class="label">Empresas</p></button></div>
     <ul>

@@ -166,7 +166,7 @@
                     <tr>
                         <td><?php echo $onibus->id ?></td>  
                         <td><?php echo $onibus->nome ?></td>
-                        <td><?php echo $onibus->empresa_id ?></td>
+                        <td><?php echo  $_SESSION['nomeEmp'] ?></td>
                         <td><?php echo $onibus->linha_id ?></td>
                         <td><a class="editar" href="<?php echo base_url('/public/adminEmpresa/editarBus');?>/<?php echo $onibus->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/adminEmpresa/excluirOnibus');?>/<?php echo $onibus->id?>">Excluir</a></td>

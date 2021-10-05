@@ -137,7 +137,7 @@
                 <br>
                 <ol>
                     <label class="label">Nome:&nbsp;&nbsp;</label>
-                    <input name="nome" id="nome" type="text" class="form-control" value="<?php echo (isset($onibus) ? $onibus->nome : 'Terminal')?>" placeholder="Nome do ônibus" required autofocus>
+                    <input name="nome" id="nome" type="text" class="form-control" value="<?php echo (isset($onibus) ? $onibus->nome : 'Bus')?>" placeholder="Nome do ônibus" required autofocus>
                 </ol>
                 <br>
                 <ol>
