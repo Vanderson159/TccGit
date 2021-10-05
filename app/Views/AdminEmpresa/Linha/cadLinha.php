@@ -65,7 +65,7 @@
         }
         .img{
             margin-left: 54.5%;
-            margin-top: 40px;
+            margin-top: 50px;
         }
         #formInserir{
             margin-top: -13%;
@@ -84,6 +84,75 @@
         }
         .inputs{
             margin-top: -22%;
+        }
+        .btnAlert{
+            margin-left: 50%;
+            margin-top: -11.7%;
+            background-image: url(<?php echo base_url("assets/IMG/adminEmpresa/alerta.png")?>);
+            width: 30;
+            height: 30;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #BCB9B9;
+            border: none;
+        }
+        .btnAlert:hover{
+            margin-left: 50%;
+            margin-top: -11.7%;
+            background-image: url(<?php echo base_url("assets/IMG/adminEmpresa/alertaRed.png")?>);
+            width: 30;
+            height: 30;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #BCB9B9;
+            border: none;
+        }
+        
+        .hide {
+            display: none;
+        }
+
+        .modal-bg {
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            background: gainsboro;
+            opacity: 0.7;
+        }
+
+        .modal-content {
+            position: fixed;
+            margin: 0 auto;
+            width: 800px;
+            height: 500;
+            top: 50px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            background: white;
+            box-shadow: 0px 0px 10px black;
+            border-radius: 5px;
+            padding: 5px;
+            margin-top: 5%;
+        }
+
+        .modal-close {
+            font-size: 2rem;
+            line-height: 1;
+            position: absolute;
+            top: 0px;
+            right: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #AAAAAA;
+            font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+        }
+        .video{
+            margin-left: 5%;
         }
     }
     @media screen and (max-width: 1366px){
@@ -120,6 +189,8 @@
         }
     }
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 
 <?php $session = session();?>
 <?php if(isset($_SESSION['user'])) : ?>
@@ -137,6 +208,22 @@
         <h1><?php echo $titulo; ?></h1>
         <br>
         <img class="img" src="<?php echo base_url("assets/IMG/adminEmpresa/gps.png")?>" alt="" width="200" height="200">
+        <button class="btnAlert" id="btAbrirModal"></button>
+        <div id="modal" class="hide">
+            <div class="modal-bg"></div>
+            <div class="modal-content">
+                <a href="https://www.google.com/intl/pt-BR/maps/about/mymaps/" target="_blank"><h3>MyMaps</h3></a>
+                <p style="color: black; font-family: Arial;">Neste campo você deve inserir o link do iframe ao gerar seu mapa no site do  <a href="https://www.google.com/intl/pt-BR/maps/about/mymaps/" target="_blank">MyMaps</a>.
+                Tutorial de como gerar o iframe:</p>
+                <video width="700" height="340" controls="controls" autoplay="autoplay" class="video">
+                    <source src="<?php echo base_url("assets/VIDEO/Tutorial.mp4")?>" type="video/mp4">
+                    <object data="" width="320" height="240">
+                    <embed width="320" height="240" src="Yes Bank Advertisment.mp4">
+                    </object>
+                </video>
+                <a class="modal-close">&#215;</a>
+            </div>
+        </div>
         <div class="divCampos">
         <?php
             if($acao == "Inserir"){
@@ -203,4 +290,25 @@
 <!-- Ação para ocultar a div depois de 5 segundos -->
 <script>
 	$("#alert").hide(5000);
+</script>
+
+<script type="text/javascript">
+    //btn de aviso
+        var btAbrirModal = $("#btAbrirModal");
+        var modal = $("#modal");
+        var modalClose = $("#modal .modal-close");
+        var modalBackground = $("#modal .modal-bg");
+        btAbrirModal.click(function () {
+            modal.fadeIn(500);
+        });
+
+        modalClose.click(function () {
+            modal.fadeOut(500);
+        });
+
+        //Caso queira que o dialogo feche ao realizar um click fora dele.
+        //
+        //modalBackground.click(function () {
+        //    modal.fadeOut(500);
+        //});
 </script>
