@@ -134,7 +134,7 @@
 <div class="div5">
     <div class="div1"><button class="btnOnibus"><a href="<?php echo base_url("public/adminEmpresa/tabelaOnibus")?>"><p class="label">Ônibus</p></a></button></div>
     <div class="div2"><button class="btnLinha"><a href="<?php echo base_url("public/adminEmpresa/tabelaLinha")?>"><p class="label">Linhas</p></a></button></div>
-    <div class="div3"><button class="btnPonto"><p class="label">Pontos</p></button></div>
+    <div class="div3"><button class="btnPonto"><a href="<?php echo base_url("public/adminEmpresa/tabelaPonto")?>"><p class="label">Pontos</p></a></button></div>
     <div class="div4"><button class="btnEmpresa"><p class="label">Empresas</p></button></div>
     <ul>
         <ol>

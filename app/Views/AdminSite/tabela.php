@@ -89,6 +89,10 @@
                 td{
                     text-align: center;
                 }
+                .alert{
+                    width: 2000px;
+                    height: 20px;
+                }
             }
             @media screen and (max-width: 1366px){
                 .tabela, .tabela td, .tabela tr{
@@ -148,6 +152,26 @@
         $login = $_SESSION['user'];
         $senha = $_SESSION['senha'];
     ?>
+        <?php if($msg == 'Sucesso' && $cod == 111) : ?>
+            <div class="alert alert-success" id="alert" role="alert" style="text-align: center;">
+                ADM inserido com sucesso!
+            </div>
+        <?php endif ?>
+        <?php if($msg == 'Sucesso' && $cod == 444) : ?>
+            <div class="alert alert-success" id="alert" role="alert" style="text-align: center;">
+                ADM deletado com sucesso!
+            </div>
+        <?php endif ?>
+        <?php if($msg == 'Erro'  && $cod == 222) : ?>
+            <div class="alert alert-danger" id="alert" role="alert" style="text-align: center;">
+                Erro ao tentar inserir ADM!
+            </div>
+        <?php endif ?>
+        <?php if($msg == 'Erro' && $cod == 333) : ?>
+            <div class="alert alert-danger" id="alert" role="alert" style="text-align: center;">
+                Erro ao tentar excluir ADM!
+            </div>
+        <?php endif ?>
 <div class="retangulo"> 
     <div class="imgLetreiro">
     <img class="img" src="<?php echo base_url("assets/IMG/adminSite/man.png")?>" alt="" width="200" height="200">
@@ -193,3 +217,10 @@
         echo view('footer');
     ?>
 <?php endif ?>
+ <!-- jQUery-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Ação para ocultar a div depois de 5 segundos -->
+<script>
+	$("#alert").hide(5000);
+</script>

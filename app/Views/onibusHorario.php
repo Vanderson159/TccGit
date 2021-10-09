@@ -16,21 +16,34 @@
                         <tr>
                                 <?php $aux=1;?>
                                 <?php if($contador == 7):?>
-                                    <?php $timestamp = strtotime($results->manha) + 60*30; ?>
+                                    <?php 
+                                        $tempo = strtotime($results->tempo); 
+                                        $horasLinha =  strftime('%H', $tempo);
+                                        $minutosLinha =  strftime('%M', $tempo);
+                                        $segundosLinha =  strftime('%S', $tempo);
+                                        if($horasLinha > 0){
+                                            $horasLinha = $horasLinha * 60;
+                                        }
+                                        if($segundosLinha > 0){
+                                            $segundosLinha = $segundosLinha / 60;
+                                        }
+                                        $tempo = $minutosLinha + $horasLinha + $segundosLinha;
+                                    ?>
+                                    <?php $timestamp = strtotime($results->manha) + 60*$tempo; ?>
                                     <?php $dataHora = strftime('%H:%M:%S', $timestamp); ?>
                                     <td style="text-align: center;"><?php echo $dataHora?></td>
                                 <?php else : ?>
-                                    <?php $dataHora = strtotime($dataHora) + 60*30; ?>
+                                    <?php $dataHora = strtotime($dataHora) + 60*$tempo; ?>
                                     <?php $dataHora = strftime('%H:%M:%S', $dataHora); ?>
                                     <td style="text-align: center;"><?php echo $dataHora?></td>
                                 <?php endif?>
                                 <?php if($contador > 1):?>
                                     <?php if($contador == 7):?>
-                                        <?php $timestamp = strtotime($results->tarde) + 60*30; ?>
+                                        <?php $timestamp = strtotime($results->tarde) + 60*$tempo; ?>
                                         <?php $dataHoraTarde = strftime('%H:%M:%S', $timestamp); ?>
                                         <td style="text-align: center;"><?php echo $dataHoraTarde?></td>
                                     <?php else : ?>
-                                        <?php $dataHoraTarde = strtotime($dataHoraTarde) + 60*30; ?>
+                                        <?php $dataHoraTarde = strtotime($dataHoraTarde) + 60*$tempo; ?>
                                         <?php $dataHoraTarde = strftime('%H:%M:%S', $dataHoraTarde); ?>
                                         <td style="text-align: center;"><?php echo $dataHoraTarde?></td>
                                     <?php endif?>

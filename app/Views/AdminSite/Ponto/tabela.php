@@ -80,6 +80,10 @@
                     margin-left: 75%;
                     margin-top: 20px;
                 }
+                .alert{
+                    width: 2000px;
+                    height: 20px;
+                }
             }
             @media screen and (max-width: 1366px){
                 .tabela, .tabela td, .tabela tr{
@@ -134,6 +138,26 @@
         $login = $_SESSION['user'];
         $senha = $_SESSION['senha'];
     ?>
+        <?php if($msg == 'Sucesso' && $cod == 111) : ?>
+            <div class="alert alert-success" id="alert" role="alert" style="text-align: center;">
+                Ponto inserido com sucesso!
+            </div>
+        <?php endif ?>
+        <?php if($msg == 'Sucesso' && $cod == 444) : ?>
+            <div class="alert alert-success" id="alert" role="alert" style="text-align: center;">
+                Ponto deletado com sucesso!
+            </div>
+        <?php endif ?>
+        <?php if($msg == 'Erro'  && $cod == 222) : ?>
+            <div class="alert alert-danger" id="alert" role="alert" style="text-align: center;">
+                Erro ao tentar inserir ponto!
+            </div>
+        <?php endif ?>
+        <?php if($msg == 'Erro' && $cod == 333) : ?>
+            <div class="alert alert-danger" id="alert" role="alert" style="text-align: center;">
+                Erro ao tentar excluir ponto!
+            </div>
+        <?php endif ?>
 <div class="retangulo"> 
     <img class="img" src="<?php echo base_url("assets/IMG/adminSite/pontoOnibus.png")?>" alt="" width="200" height="200">
     <h2 id="imgLabel">Gerenciamento de Pontos</h2>
@@ -192,3 +216,10 @@
         echo view('footer');
     ?>
 <?php endif ?>
+ <!-- jQUery-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Ação para ocultar a div depois de 5 segundos -->
+<script>
+	$("#alert").hide(5000);
+</script>

@@ -23,6 +23,8 @@
 	    }
         public function tabela(){
              $adminModel = new \App\Models\AdminModel();
+             $data['msg'] = '';                      
+
              $data['adm'] = $adminModel->find();                      
              echo view ('header');
              echo view ('AdminSite/tabela', $data); 
@@ -37,6 +39,8 @@
             echo view ('footer'); 
         }
         public function inserir(){
+            $db = \Config\Database::connect();
+            $db = db_connect();
             $data['titulo'] = 'Inserir Novo ADM';
             $data['acao'] = 'Inserir';
             if($this->request->getMethod() === 'post'){
@@ -48,16 +52,20 @@
                 $admin_model->set('login', $this->request->getPost('login'));
                 $admin_model->set('senha', $senha);
 
-                if($admin_model->insert()){
-                    //deu certo
-                    $data['msg'] = 'Sucesso';
-                }else{
-                    //deu errado
-                    $data['msg'] = 'Erro';
-                }
+                //gambiarra
+            
+                    if($admin_model->insert()){
+                        $data['msg'] = 'Sucesso';
+                        $data['cod'] = 111;
+                    }else{
+                        $data['msg'] = 'Erro';
+                        $data['cod'] = 222;
+                    }
+                
             }
+            $data['adm'] = $admin_model->find();  
             echo view ('header');
-            echo view ('AdminSite/cadAdm', $data);
+            echo view ('AdminSite/tabela', $data);
             echo view ('footer');
         }
         public function editar($id = null){//metodo
@@ -88,6 +96,8 @@
             echo view('footer');
         }
         public function excluir($id = null){
+            $db = \Config\Database::connect();
+            $db = db_connect();
             if(is_null($id)){
                 //definir uma msg via session
                 //flashdata tu acessa ela e ela se destroi
@@ -96,15 +106,23 @@
                 return $retorno;
             }
             $adminModel = new \App\Models\AdminModel();
-            if($adminModel->delete($id)){
-                //excluiu com sucesso
-                $this->session->setFlashdata('msg', 'Administrador excluido com sucesso');
-            }else{
-                //erro ao excluir
-                $this->session->setFlashdata('msg', 'Erro ao excluir administrador');
-            }
-            $retorno = $this->tabela();
-            return $retorno;
+            $check = $id;
+            $sql4 = "SELECT * FROM `admin` WHERE admin.id = ?";
+            $query4 = $db->query($sql4, [$check]);
+            $results4 = $query4->getResult();
+
+                if($adminModel->delete($id)){
+                    $data['msg'] = 'Sucesso';
+                    $data['cod'] = 444;
+                }else{
+                    $data['msg'] = 'Erro';   
+                    $data['cod'] = 333;
+                }
+            
+            $data['adm'] = $adminModel->find();  
+            echo view ('header');
+            echo view ('AdminSite/tabela', $data);
+            echo view ('footer');
         }
         public function autenticar(){
             $db = \Config\Database::connect();
@@ -260,7 +278,8 @@
         ////////////////Ruas e Avenidas//////////////////
         public function tabelaRuas(){
                 $ruaModel = new \App\Models\RuaModel();
-                $data['rua'] = $ruaModel->find();                       
+                $data['rua'] = $ruaModel->find(); 
+                $data['msg']='';                      
                 echo view ('header');
                 echo view ('AdminSite/Ruas/tabela', $data);
                 echo view ('footer');
@@ -302,13 +321,18 @@
                 $ruaModel = new \App\Models\RuaModel();
                 if($ruaModel->delete($cep)){
                     //excluiu com sucesso
-                    $this->session->setFlashdata('msg', 'Rua excluida com sucesso');
+                    $data['msg'] = 'Sucesso';
+                    $data['cod'] = 444;
                 }else{
                     //erro ao excluir
-                    $this->session->setFlashdata('msg', 'Erro ao excluir rua');
+                    $data['msg'] = 'Erro';   
+                    $data['cod'] = 333;
                 }
-                $retorno = $this->tabelaRuas();
-                return $retorno;
+                $data['rua'] = $ruaModel->find();  
+
+                echo view ('header');
+                echo view ('AdminSite/Ruas/tabela', $data);
+                echo view ('footer');
         }
         public function cadRua(){
                 $data['titulo'] = 'Inserir Nova Rua';
@@ -328,20 +352,29 @@
                     $rua_model->set('cep', $this->request->getPost('cep'));
                     $rua_model->set('nome', $this->request->getPost('nome'));
 
-                    if($rua_model->insert()){
+                    if($rua_model->find($this->request->getPost('cep')) != null){
                         $data['msg'] = 'Erro';
+                        $data['cod'] = 222;
                     }else{
-                        $data['msg'] = 'Sucesso';
+                        if($rua_model->insert()){
+                            $data['msg'] = 'Sucesso';
+                            $data['cod'] = 111;
+                        }else{
+                            $data['msg'] = 'Sucesso';
+                            $data['cod'] = 111;
+                        }
                     }
                 }
+                $data['rua'] = $rua_model->find(); 
                 echo view ('header');
-                echo view ('AdminSite/Ruas/cadRua', $data);
+                echo view ('AdminSite/Ruas/tabela', $data);
                 echo view ('footer');
         }
         ////////////////Pontos//////////////////
         public function tabelaPontos(){
             $pontoModel = new \App\Models\PontoModel();
-            $data['ponto'] = $pontoModel->find();                    
+            $data['ponto'] = $pontoModel->find(); 
+            $data['msg'] = '';                     
             echo view ('header');
             echo view ('AdminSite/Ponto/tabela', $data); 
             echo view ('footer');
@@ -374,12 +407,16 @@
 
                 if($ponto_model->insert()){
                     $data['msg'] = 'Sucesso';
+                    $data['cod'] = 111;
                 }else{
                     $data['msg'] = 'Erro';
+                    $data['cod'] = 222;
                 }
             }
+            $data['ponto'] = $ponto_model->find(); 
+
             echo view ('header');
-            echo view ('AdminSite/Ponto/cadPonto', $data);
+            echo view ('AdminSite/Ponto/tabela', $data);
             echo view ('footer');
         }
         public function editarPonto($id = null){//metodo
@@ -423,18 +460,25 @@
             $pontoModel = new \App\Models\PontoModel();
             if($pontoModel->delete($id)){
                 //excluiu com sucesso
-                $this->session->setFlashdata('msg', 'Ponto excluido com sucesso');
+                $data['msg'] = 'Sucesso';
+                $data['cod'] = 444;
             }else{
                 //erro ao excluir
-                $this->session->setFlashdata('msg', 'Erro ao excluir Ponto');
+                $data['msg'] = 'Erro';
+                $data['cod'] = 333;
             }
-            $retorno = $this->tabelaPontos();
-            return $retorno;
+            $data['ponto'] = $pontoModel->find(); 
+
+            echo view ('header');
+            echo view ('AdminSite/Ponto/tabela', $data);
+            echo view ('footer');
         }
         ////////////////Empresa//////////////////
         public function tabelaEmpresa(){
             $empresaModel = new \App\Models\EmpresaModel();
-            $data['empresa'] = $empresaModel->find();                       
+            $data['msg'] = '';
+            $data['empresa'] = $empresaModel->find();   
+                               
             echo view ('header');
             echo view ('AdminSite/Empresa/tabela', $data);
             echo view ('footer');
@@ -449,26 +493,38 @@
             echo view ('footer');
         }
         public function inserirEmpresa(){
+            $db = \Config\Database::connect();
+            $db = db_connect();
             $data['titulo'] = 'Inserir Nova Empresa';
             $data['acao'] = 'Inserir';
             if($this->request->getMethod() === 'post'){
                 //acessou a classe pelo namespace dela
                 $empresa_model = new \App\Models\EmpresaModel(); //criou um obj model
                 //parametros (nomedacoluna, valor)
+                $check = $empresa_model->find($this->request->getPost('id'));
+                $empresaModel = new \App\Models\EmpresaModel(); //criou um obj model
                 $senha = md5($this->request->getPost('senha'));
-                $empresa_model->set('id', $this->request->getPost('id'));
-                $empresa_model->set('login', $this->request->getPost('login'));
-                $empresa_model->set('senha', $senha);
-                $empresa_model->set('nome', $this->request->getPost('nome'));
+                $empresaModel->set('id', $this->request->getPost('id'));
+                $empresaModel->set('login', $this->request->getPost('login'));
+                $empresaModel->set('senha', $senha);
+                $empresaModel->set('nome', $this->request->getPost('nome'));
 
-                if($empresa_model->insert()){
+                if($check != null){
                     $data['msg'] = 'Erro';
+                    $data['cod'] = 222;
                 }else{
-                    $data['msg'] = 'Sucesso';
-                }
+                    if($empresaModel->insert()){
+                        $data['msg'] = 'Erro';
+                    }else{
+                        $data['msg'] = 'Sucesso';
+                        $data['cod'] = 111;
+                    }
+                } 
             }
+
+            $data['empresa'] = $empresa_model->find();                       
             echo view ('header');
-            echo view ('AdminSite/Empresa/cadEmpresa', $data);
+            echo view ('AdminSite/Empresa/tabela', $data);
             echo view ('footer');
         }
         public function editarEmpresa($id = null){//metodo
@@ -503,20 +559,25 @@
             if(is_null($id)){
                 //definir uma msg via session
                 //flashdata tu acessa ela e ela se destroi
-                $this->session->setFlashdata('msg', 'Empresa não encontrado');
+                $this->session->setFlashdata('msg', 'empresa não encontrada');
                 $retorno = $this->tabelaEmpresa();
                 return $retorno;
             }
             $empresaModel = new \App\Models\EmpresaModel();
             if($empresaModel->delete($id)){
                 //excluiu com sucesso
-                $this->session->setFlashdata('msg', 'Empresa excluida com sucesso');
+                $data['msg'] = 'Sucesso';
+                $data['cod'] = 444;
             }else{
                 //erro ao excluir
-                $this->session->setFlashdata('msg', 'Erro ao excluir Empresa');
+                $data['msg'] = 'Erro';
+                $data['cod'] = 333;
             }
-            $retorno = $this->tabelaEmpresa();
-            return $retorno;
+            $data['empresa'] = $empresaModel->find(); 
+
+            echo view ('header');
+            echo view ('AdminSite/Empresa/tabela', $data);
+            echo view ('footer');
         }
 
     }

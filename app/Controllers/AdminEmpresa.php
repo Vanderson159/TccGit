@@ -129,16 +129,17 @@
             $results2 = $query2->getResult();
 
             $_SESSION['nomeEmp'] = $results2[0]->nome;
+            
+            $busModel = new \App\Models\OnibusModel(); //criou um obj model
 
-            $onibusModel = new \App\Models\OnibusModel();
-            $data['bus'] = $onibusModel->find();                      
+            $data['msg'] = '';  
+            $data['bus'] = $busModel->find();                     
             echo view ('header');
             echo view ('AdminEmpresa/Onibus/tabela', $data); 
             echo view ('footer');
         }
 
         public function inserir(){
-            $data['msg'] = '';
             $db = \Config\Database::connect();
             $db = db_connect();
             $sql = "SELECT  empresa.id FROM empresa WHERE empresa.login = ?";
@@ -148,7 +149,7 @@
             $sql2 = "SELECT linha.id FROM `linha` WHERE linha.empresa_id = ?";
             $query2 = $db->query($sql2, [$results[0]->id]);
 		    $results2 = $query2->getResult();
-
+           
             $data['linha'] = $results2;
             $data['titulo'] = 'Inserir Novo Ônibus';
             $data['acao'] = 'Inserir';
@@ -157,18 +158,33 @@
                 $onibusModel = new \App\Models\onibusModel(); //criou um obj model
                 //parametros (nomedacoluna, valor)
                 $onibusModel->set('id', $this->request->getPost('id'));
+
+                $check = $this->request->getPost('id');
+                $sql4 = "SELECT * FROM `onibus` WHERE onibus.id = ?";
+                $query4 = $db->query($sql4, [$check]);
+                $results4 = $query4->getResult();
+
                 $onibusModel->set('nome', $this->request->getPost('nome'));
                 $onibusModel->set('empresa_id', $results[0]->id);
                 $onibusModel->set('linha_id', $this->request->getPost('linha'));
 
-                if($onibusModel->insert()){
+                //gambiarra
+                if($results4 != null){
                     $data['msg'] = 'Erro';
+                    $data['cod'] = 222;
                 }else{
-                    $data['msg'] = 'Sucesso';
+                    if($onibusModel->insert()){
+                        $data['msg'] = 'Erro';
+                    }else{
+                        $data['msg'] = 'Sucesso';
+                        $data['cod'] = 111;
+                    }
                 }
             }
+            $busModel = new \App\Models\OnibusModel(); //criou um obj model
+            $data['bus'] = $busModel->find(); 
             echo view ('header');
-            echo view ('AdminEmpresa/Onibus/cadOnibus', $data);
+            echo view ('AdminEmpresa/Onibus/tabela', $data);
             echo view ('footer');
         }
 
@@ -206,14 +222,17 @@
                     $data['msg'] = 'Erro';
                 }
             }
-
+            
             $data['onibus'] = $onibus; //passa pro data pra poder acessar em outras páginas 
+            
             echo view('header');
             echo view('AdminEmpresa/Onibus/cadOnibus', $data);
             echo view('footer');
         }
 
         public function excluirOnibus($id = null){
+            $busModel = new \App\Models\OnibusModel(); //criou um obj model
+
             if(is_null($id)){
                 //definir uma msg via session
                 //flashdata tu acessa ela e ela se destroi
@@ -224,13 +243,18 @@
             $busModel = new \App\Models\OnibusModel();
             if($busModel->delete($id)){
                 //excluiu com sucesso
-                $this->session->setFlashdata('msg', 'ônibus excluido com sucesso');
+                $data['msg'] = 'Sucesso';
+                $data['cod'] = 444;
             }else{
                 //erro ao excluir
-                $this->session->setFlashdata('msg', 'Erro ao excluir ônibus');
+                $data['msg'] = 'Erro';
+                $data['cod'] = 333;
             }
-            $retorno = $this->tabelaOnibus();
-            return $retorno;
+            $data['bus'] = $busModel->find(); 
+
+            echo view ('header');
+            echo view ('AdminEmpresa/Onibus/tabela', $data);
+            echo view ('footer');
         }
         ////////// crud linha //////////////
         public function tabelaLinha(){
@@ -245,21 +269,17 @@
             $results2 = $query2->getResult();
 
             $_SESSION['nomeEmp'] = $results2[0]->nome;
-            $linhaModel = new \App\Models\LinhaModel();
-            $data['linha'] = $linhaModel->find();      
-                 
+           
+            $tabelaModel = new \App\Models\LinhaModel(); //criou um obj model
+
+            $data['linha'] = $tabelaModel->find();      
+            $data['msg'] = '';
             echo view ('header');
             echo view ('AdminEmpresa/Linha/tabela', $data); 
             echo view ('footer');
         }
 
         public function cadLinha(){
-            // SELECT linha.id FROM `linha` WHERE linha.empresa_id = 1002
-            //$sql2 = "SELECT linha.id FROM `linha` WHERE linha.empresa_id = ?";
-            //$query2 = $db->query($sql2, [$results[0]->id]);
-		    //$results2 = $query2->getResult();
-            //$data['linha'] = $results2;
-
             $data['titulo'] = 'Inserir Nova Linha';
             $data['acao'] = 'Inserir';
             $data['msg'] = '';
@@ -269,12 +289,19 @@
         }
 
         public function inserirLinha(){
+            $db = \Config\Database::connect();
+            $db = db_connect();
             $data['msg'] = '';
             $data['linha'] = '';
             $data['titulo'] = 'Inserir Novo Ônibus';
             $data['acao'] = 'Inserir';
             $data['linha'] = null;
             if($this->request->getMethod() === 'post'){
+
+                $check = $this->request->getPost('id');
+                $sql4 = "SELECT * FROM `linha` WHERE linha.id = ?";
+                $query4 = $db->query($sql4, [$check]);
+                $results4 = $query4->getResult();
                 //acessou a classe pelo namespace dela
                 $linhaModel = new \App\Models\LinhaModel(); //criou um obj model
                 //parametros (nomedacoluna, valor)
@@ -284,14 +311,23 @@
                 $linhaModel->set('passagens', $this->request->getPost('passagens'));
                 $linhaModel->set('empresa_id', $_SESSION['idEmpresa']);
 
-                if($linhaModel->insert()){
+                if($results4 != null){
                     $data['msg'] = 'Erro';
+                    $data['cod'] = 222;
                 }else{
-                    $data['msg'] = 'Sucesso';
-                }
+                    if($linhaModel->insert()){
+                        $data['msg'] = 'Erro';
+                    }else{
+                        $data['msg'] = 'Sucesso';
+                        $data['cod'] = 111;
+                    }
+                } 
             }
+          
+            $data['linha'] = $linhaModel->find(); 
+
             echo view ('header');
-            echo view ('AdminEmpresa/Linha/cadLinha', $data);
+            echo view ('AdminEmpresa/Linha/tabela', $data);
             echo view ('footer');
         }
 
@@ -338,6 +374,8 @@
         }
 
         public function excluirLinha($id = null){
+            $db = \Config\Database::connect();
+            $db = db_connect();
             if(is_null($id)){
                 //definir uma msg via session
                 //flashdata tu acessa ela e ela se destroi
@@ -346,17 +384,99 @@
                 return $retorno;
             }
             $linhaModel = new \App\Models\LinhaModel();
-            if($linhaModel->delete($id)){
-                //excluiu com sucesso
-                $this->session->setFlashdata('msg', 'linha excluida com sucesso');
+            
+            $check = $id;
+            $sql4 = "SELECT * FROM `onibus` WHERE onibus.linha_id = ?";
+            $query4 = $db->query($sql4, [$check]);
+            $results4 = $query4->getResult();
+
+            if($results4 != null){
+                $data['msg'] = 'Erro';
+                $data['cod'] = 333;
             }else{
-                //erro ao excluir
-                $this->session->setFlashdata('msg', 'Erro ao excluir linha');
-            }
-            $retorno = $this->tabelaLinha();
-            return $retorno;
+                if($linhaModel->delete($id)){
+                    $data['msg'] = 'Sucesso';
+                    $data['cod'] = 444;
+                }else{
+                    $data['msg'] = 'Sucesso';    
+                }
+            } 
+
+            //tabela lista 
+            $data['linha'] = $linhaModel->find(); 
+
+            echo view ('header');
+            echo view ('AdminEmpresa/Linha/tabela', $data); 
+            echo view ('footer');
         }
         ////////// crud pontos //////////////
+        public function tabelaPonto(){
+            $db = \Config\Database::connect();
+            $db = db_connect();
+            $sql = "SELECT empresa.id FROM `empresa` WHERE empresa.login = ?";
+            $query = $db->query($sql, [$_SESSION['user']]);
+            $results = $query->getResult();
+            $_SESSION['idEmpresa'] = $results[0]->id;
+            $sql2 = "SELECT empresa.nome FROM `empresa` WHERE empresa.id = ?";
+            $query2 = $db->query($sql2, [$results[0]->id]);
+            $results2 = $query2->getResult();
 
+            $_SESSION['nomeEmp'] = $results2[0]->nome;
+
+            $sql3 = "SELECT linha.id, onibus.nome FROM linha, empresa, onibus WHERE linha.id = onibus.linha_id and
+            onibus.linha_id = linha.id and linha.empresa_id = empresa.id and empresa.id = linha.empresa_id and 
+            onibus.empresa_id = empresa.id and empresa.id = onibus.empresa_id and empresa.id = ?";
+            $query3 = $db->query($sql3, [$results[0]->id]);
+            $results3 = $query3->getResult();
+            $data['linha'] = $results3;      
+
+            echo view ('header');
+            echo view ('AdminEmpresa/Ponto/tabela', $data); 
+            echo view ('footer');
+        }
+        public function adicionarPonto($id = null){
+            $pontoModel = new \App\Models\PontoModel();
+            $data['ponto'] = $pontoModel->find();  
+            $_SESSION['idLinha'] = $id;                 
+            echo view ('header');
+            echo view ('AdminEmpresa/Ponto/listaPonto', $data); 
+            echo view ('footer');
+        }
+        public function relacionarPonto($id = null){
+            $data['ponto'] = '';
+            $data['acao'] = 'Inserir';
+            $data['msg'] = '';
+            $data['titulo'] = 'Adicione pontos de parada a sua linha:';
+            $_SESSION['idPonto'] = $id; 
+
+            echo view('header');
+            echo view('AdminEmpresa/Ponto/definirHorarios', $data);
+            echo view('footer');
+        }
+        public function inserirPonto(){
+            $data['msg'] = '';
+            $data['linha'] = '';
+            $data['titulo'] = 'Adicione pontos de parada a sua linha:';
+            $data['acao'] = 'Inserir';
+            $data['linha'] = null;
+            if($this->request->getMethod() === 'post'){
+                //acessou a classe pelo namespace dela
+                $linhapontoModel = new \App\Models\LinhaPontoModel(); //criou um obj model
+                //parametros (nomedacoluna, valor)
+                $linhapontoModel->set('ponto_id',  $_SESSION['idPonto']);
+                $linhapontoModel->set('linha_id',  $_SESSION['idLinha']);
+                $linhapontoModel->set('manha', $this->request->getPost('timeManha'));
+                $linhapontoModel->set('tarde', $this->request->getPost('timeTarde'));
+
+                if($linhapontoModel->insert()){
+                    $data['msg'] = 'Erro';
+                }else{
+                    $data['msg'] = 'Sucesso';
+                }
+            }
+            echo view ('header');
+            echo view ('AdminEmpresa/Ponto/definirHorarios', $data);
+            echo view ('footer');
+        }
     }
 ?>

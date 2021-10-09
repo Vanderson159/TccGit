@@ -64,6 +64,10 @@
             margin-top: -13%;
             margin-left: 5%;
         }
+        .alert{
+            width: 2000px;
+            height: 20px;
+        }
     }
     @media screen and (max-width: 1366px){
         h1{
@@ -132,7 +136,7 @@
             <ul>
                 <ol>
                     <label class="label">Id:&nbsp;&nbsp;</label>
-                    <input name="id" id="id" type="text" class="form-control" value="<?php echo (isset($onibus) ? $onibus->id : '2968')?>" placeholder="ID do ônibus" required autofocus <?php echo $statusId?>>
+                    <input name="id" id="id" type="numeric" class="form-control" value="<?php echo (isset($onibus) ? $onibus->id : '2000')?>" placeholder="ID do ônibus" required autofocus <?php echo $statusId?>>
                 </ol>
                 <br>
                 <ol>

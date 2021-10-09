@@ -1,0 +1,975 @@
+CRITICAL - 2021-10-09 08:50:42 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(105): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('3', '1009')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 08:50:50 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(105): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('3', '1009')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 08:50:57 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(105): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('3', '1009')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 08:55:43 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(105): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('3', '1009')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 08:56:46 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(105): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('3', '1009')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 08:57:18 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(105): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('3', '1009')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 08:57:31 --> Undefined variable $tempoLinha
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(105): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('3', '1009')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 08:57:42 --> strftime(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(20): strftime('%H:%M:%S', '00:10:00')
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(105): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('3', '1009')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 09:12:22 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(105): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('3', '1009')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 09:14:54 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(105): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('2', '3003')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 09:16:26 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(105): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('2', '3003')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 09:28:01 --> strftime(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(20): strftime('%H', '01:00:00')
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(105): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('3', '1009')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 09:30:00 --> strftime(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(22): strftime('%M', '01:00:00')
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(105): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('3', '1009')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 09:51:32 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Linha\tabela.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Li...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(277): view('AdminEmpresa/Li...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->tabelaLinha()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-09 10:06:12 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-09 10:06:16 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-09 10:06:32 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-09 10:06:50 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-09 10:06:51 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-09 10:06:52 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`onibus`, CONSTRAINT `fk_onibus_linha` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('4')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-09 10:07:50 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-09 10:10:03 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-09 10:11:03 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-09 10:12:28 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-09 10:12:30 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-09 10:12:30 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-09 10:12:58 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-09 10:12:58 --> Undefined variable $data
+#0 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(402): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 402)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-09 10:13:19 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-09 10:13:19 --> Undefined variable $data
+#0 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(402): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 402)
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-09 10:13:36 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-09 10:13:36 --> Undefined variable $linha
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Linha\tabela.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 180)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Li...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(402): view('AdminEmpresa/Li...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-09 10:14:00 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(393): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-09 10:26:51 --> Undefined variable $cod
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Linha\tabela.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 165)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Li...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(421): view('AdminEmpresa/Li...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('29678')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 10:29:40 --> Undefined variable $cod
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Linha\tabela.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 160)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Li...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(339): view('AdminEmpresa/Li...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserirLinha()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 10:31:34 --> Undefined variable $cod
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Linha\tabela.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 160)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Li...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(423): view('AdminEmpresa/Li...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('29658')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 10:33:26 --> Undefined variable $cod
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Linha\tabela.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 165)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Li...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(424): view('AdminEmpresa/Li...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('22968')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-09 11:43:27 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(407): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-09 11:43:46 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(407): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirLinha('2968')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-09 13:05:13 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\tabela.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(28): view('AdminSite/tabel...', Array)
+#5 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(120): App\Controllers\Admin->tabela()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->excluir('4')
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-09 13:07:57 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\tabela.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(28): view('AdminSite/tabel...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 13:07:59 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\tabela.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(28): view('AdminSite/tabel...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 13:08:06 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\tabela.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(28): view('AdminSite/tabel...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 13:08:31 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\tabela.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(28): view('AdminSite/tabel...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 13:09:03 --> Undefined variable $cod
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\tabela.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(75): view('AdminSite/tabel...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-09 13:11:05 --> mysqli_sql_exception: Duplicate entry 'Userdefault' for key 'login' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(65): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-09 13:12:25 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\tabela.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(28): view('AdminSite/tabel...', Array)
+#5 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(133): App\Controllers\Admin->tabela()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->excluir('5')
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-09 13:13:21 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\tabela.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(28): view('AdminSite/tabel...', Array)
+#5 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(134): App\Controllers\Admin->tabela()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->excluir('5')
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-09 13:13:24 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\tabela.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(28): view('AdminSite/tabel...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 13:13:27 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\tabela.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(28): view('AdminSite/tabel...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 13:13:34 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\tabela.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(28): view('AdminSite/tabel...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->tabela()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 13:16:01 --> Undefined variable $cod
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\tabela.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/tabel...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(76): view('AdminSite/tabel...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 13:30:27 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\Ruas\tabela.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 139)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/Ruas/...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(283): view('AdminSite/Ruas/...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->tabelaRuas()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 13:32:21 --> Undefined variable $rua
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\Ruas\tabela.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 169)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/Ruas/...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(360): view('AdminSite/Ruas/...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserirRua()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-09 13:32:45 --> mysqli_sql_exception: Duplicate entry '97547214' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ru...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ru...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ru...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ru...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(350): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserirRua()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-09 14:42:14 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\TccGit\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/tabelaPon...')
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/tabelaPon...')
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-09 14:42:19 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\TccGit\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/cadPonto')
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/cadPonto')
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-09 14:42:20 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\TccGit\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/voltarPai...')
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/voltarPai...')
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-09 14:42:23 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\TccGit\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/excluirRu...')
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/excluirRu...')
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-09 14:42:35 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\TccGit\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/index')
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/index')
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-09 14:42:41 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\TccGit\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/index')
+#1 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/index')
+#2 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-09 14:49:08 --> Undefined variable $ponto
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\Ponto\tabela.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 149)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/Ponto...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(417): view('AdminSite/Ponto...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserirPonto()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 15:11:47 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\Empresa\tabela.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 139)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/Empre...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(481): view('AdminSite/Empre...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->tabelaEmpresa()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 15:22:19 --> Undefined variable $ponto
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\Ponto\tabela.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/Ponto...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(578): view('AdminSite/Ponto...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->excluirEmpresa('2147483647')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-09 15:23:23 --> Undefined variable $ponto
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminSite\Ponto\tabela.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminSite/Ponto...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(578): view('AdminSite/Ponto...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->excluirEmpresa('2147483647')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-09 15:26:47 --> mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(515): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserirEmpresa()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-09 15:27:01 --> mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(515): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserirEmpresa()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-09 15:27:22 --> mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(515): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserirEmpresa()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-09 15:28:14 --> mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(515): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserirEmpresa()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-09 15:31:17 --> mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(516): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserirEmpresa()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-09 15:34:36 --> mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(516): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserirEmpresa()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-09 15:35:24 --> mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(516): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserirEmpresa()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-09 15:41:54 --> mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(516): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserirEmpresa()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-09 15:44:18 --> mysqli_sql_exception: Duplicate entry '2147483647' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `em...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(516): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserirEmpresa()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-09 15:50:36 --> mysqli_sql_exception: Table 'tcc.linha' doesn't exist in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT linha.id...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT linha.id...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT linha.id...')
+#3 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(273): CodeIgniter\Database\BaseConnection->query('SELECT linha.id...', Array)
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->tabelaLinha()
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-09 15:50:39 --> mysqli_sql_exception: Table 'tcc.onibus' doesn't exist in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT onibus.i...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onibus.i...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onibus.i...')
+#3 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(135): CodeIgniter\Database\BaseConnection->query('SELECT onibus.i...', Array)
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->tabelaOnibus()
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-09 15:57:07 --> mysqli_sql_exception: Table 'tcc.onibus' doesn't exist in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT onibus.i...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onibus.i...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onibus.i...')
+#3 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(135): CodeIgniter\Database\BaseConnection->query('SELECT onibus.i...', Array)
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->tabelaOnibus()
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-09 15:57:30 --> mysqli_sql_exception: Table 'tcc.onibus' doesn't exist in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM `...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(167): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...', Array)
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-09 15:57:30 --> mysqli_sql_exception: Table 'tcc.onibus' doesn't exist in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(178): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-09 15:57:30 --> mysqli_sql_exception: Table 'tcc.onibus' doesn't exist in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT onibus.i...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onibus.i...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onibus.i...')
+#3 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(187): CodeIgniter\Database\BaseConnection->query('SELECT onibus.i...', Array)
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-09 15:57:34 --> mysqli_sql_exception: Table 'tcc.onibus' doesn't exist in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT onibus.i...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT onibus.i...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT onibus.i...')
+#3 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(135): CodeIgniter\Database\BaseConnection->query('SELECT onibus.i...', Array)
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->tabelaOnibus()
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-09 17:05:36 --> Undefined variable $cod
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Onibus\tabela.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 165)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/On...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(196): view('AdminEmpresa/On...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -66,6 +66,10 @@
             margin-top: -13%;
             margin-left: 5%;
         }
+        .alert{
+            width: 2000px;
+            height: 20px;
+        }
     }
     @media screen and (max-width: 1366px){
         h1{

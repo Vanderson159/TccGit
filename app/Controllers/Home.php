@@ -97,7 +97,7 @@ class Home extends BaseController
 		}
 		$db = \Config\Database::connect();
         $db = db_connect();
-		$sql = "SELECT DISTINCT onibus.nome, ponto.rua_cep, ponto.endereco, ponto.id, linha_has_ponto.manha, linha_has_ponto.tarde FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and onibus.id = ? and ponto.id = ?";
+		$sql = "SELECT DISTINCT onibus.nome,linha.tempo, ponto.rua_cep, ponto.endereco, ponto.id, linha_has_ponto.manha, linha_has_ponto.tarde FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and onibus.id = ? and ponto.id = ?";
 		$query = $db->query($sql, [$idBus, $id]);
 		$results = $query->getResult();
 		$data['result'] = $results; //passa pro data pra poder acessar em outras páginas

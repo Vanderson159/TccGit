@@ -133,7 +133,7 @@
             right: 0px;
             bottom: 0px;
             left: 0px;
-            background: white;
+            background: #BCB9B9;
             box-shadow: 0px 0px 10px black;
             border-radius: 5px;
             padding: 5px;
@@ -153,6 +153,10 @@
         }
         .video{
             margin-left: 5%;
+        }
+        .alert{
+            width: 2000px;
+            height: 20px;
         }
     }
     @media screen and (max-width: 1366px){
@@ -209,18 +213,19 @@
         <br>
         <img class="img" src="<?php echo base_url("assets/IMG/adminEmpresa/gps.png")?>" alt="" width="200" height="200">
         <button class="btnAlert" id="btAbrirModal"></button>
+        <!--div da mensagem de alerta-->
         <div id="modal" class="hide">
             <div class="modal-bg"></div>
             <div class="modal-content">
                 <a href="https://www.google.com/intl/pt-BR/maps/about/mymaps/" target="_blank"><h3>MyMaps</h3></a>
-                <p style="color: black; font-family: Arial;">Neste campo você deve inserir o link do iframe ao gerar seu mapa no site do  <a href="https://www.google.com/intl/pt-BR/maps/about/mymaps/" target="_blank">MyMaps</a>.
+                <p style="color: black; font-family: Arial;">Neste campo você deve inserir o link que esta no iframe ao gerar seu mapa no site do  <a href="https://www.google.com/intl/pt-BR/maps/about/mymaps/" target="_blank">MyMaps</a>.
                 Tutorial de como gerar o iframe:</p>
-                <video width="700" height="340" controls="controls" autoplay="autoplay" class="video">
-                    <source src="<?php echo base_url("assets/VIDEO/Tutorial.mp4")?>" type="video/mp4">
-                    <object data="" width="320" height="240">
-                    <embed width="320" height="240" src="Yes Bank Advertisment.mp4">
-                    </object>
-                </video>
+                    <video width="700" height="340" controls="controls" autoplay="autoplay" class="video">
+                        <source src="<?php echo base_url("assets/VIDEO/Tutorial.mp4")?>" type="video/mp4">
+                        <object data="" width="320" height="240">
+                        <embed width="320" height="240" src="Yes Bank Advertisment.mp4">
+                        </object>
+                    </video>
                 <a class="modal-close">&#215;</a>
             </div>
         </div>
@@ -252,7 +257,7 @@
                 <br>
                 <ol>
                     <label class="label">Duração:&nbsp;&nbsp;</label>
-                    <input name="tempo" id="tempo" type="text" class="form-control" value="<?php echo (isset($linha) ? $linha->tempo : '30 min')?>" placeholder="Duração: 20 min" required autofocus>
+                    <input name="tempo" id="tempo" type="time" class="form-control" value="00:30"  required  autofocus>
                 </ol>
                 <br>
                 <ol>

@@ -1,0 +1,568 @@
+CRITICAL - 2021-10-07 13:53:10 --> Undefined array key "idPonto"
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Ponto\definirHorarios.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 165)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Po...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(406): view('AdminEmpresa/Po...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->relacionarPonto('1')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-07 14:06:04 --> mysqli_sql_exception: Duplicate entry '2968' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:12:44 --> mysqli_sql_exception: Duplicate entry '2968' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:12:58 --> mysqli_sql_exception: Duplicate entry '2968' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:22:45 --> mysqli_sql_exception: Duplicate entry '2000' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:22:49 --> mysqli_sql_exception: Duplicate entry '2000' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:23:29 --> mysqli_sql_exception: Duplicate entry '1009' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:24:05 --> mysqli_sql_exception: Duplicate entry '1009' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:25:30 --> mysqli_sql_exception: Duplicate entry '1009' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:27:07 --> mysqli_sql_exception: Duplicate entry '1009' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:27:58 --> mysqli_sql_exception: Duplicate entry '2000' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:28:10 --> mysqli_sql_exception: Duplicate entry '1009' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:30:20 --> mysqli_sql_exception: Duplicate entry 'Userdefaul' for key 'login' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(51): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:30:30 --> mysqli_sql_exception: Duplicate entry 'Userdefaul' for key 'login' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(51): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:31:01 --> mysqli_sql_exception: Duplicate entry '2968' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:31:12 --> mysqli_sql_exception: Duplicate entry '3002' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:31:18 --> mysqli_sql_exception: Duplicate entry '2000' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:33:17 --> mysqli_sql_exception: Duplicate entry '3002' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:33:32 --> mysqli_sql_exception: Duplicate entry '3002' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:34:45 --> mysqli_sql_exception: Duplicate entry '111' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(168): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-07 14:41:22 --> Undefined variable $msg
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Onibus\tabela.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/On...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(141): view('AdminEmpresa/On...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->tabelaOnibus()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-07 14:43:09 --> mysqli_sql_exception: Duplicate entry '2000' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(176): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:44:01 --> mysqli_sql_exception: Duplicate entry '2000' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(169): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:44:36 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tcc`.`onibus`, CONSTRAINT `fk_onibus_empresa` FOREIGN KEY (`empresa_id`) REFERENCES `empresa` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(169): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:48:19 --> mysqli_sql_exception: Duplicate entry '2000' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(169): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-07 14:48:53 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete('0', false)
+#2 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(236): CodeIgniter\BaseModel->delete('0')
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirOnibus('0')
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-07 14:51:22 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(169): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:51:32 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(169): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-07 14:51:37 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete('0', false)
+#2 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(236): CodeIgniter\BaseModel->delete('0')
+#3 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->excluirOnibus('0')
+#4 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-07 14:52:32 --> mysqli_sql_exception: Duplicate entry '2000' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(169): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:53:03 --> mysqli_sql_exception: Duplicate entry '2000' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(169): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 14:56:50 --> mysqli_sql_exception: Duplicate entry '999' for key 'PRIMARY' in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `on...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `on...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `on...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `on...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(169): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserir()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-07 15:06:08 --> Undefined variable $bus
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Onibus\tabela.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 179)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/On...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(232): view('AdminEmpresa/On...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->editarBus('2000')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-07 15:14:10 --> mysqli_sql_exception: Column 'id' cannot be null in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(443): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserirPonto()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 15:16:29 --> mysqli_sql_exception: Column 'id' cannot be null in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(443): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserirPonto()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-07 15:16:29 --> Undefined variable $idLinha
+#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Ponto\definirHorarios.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 165)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Po...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(450): view('AdminEmpresa/Po...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserirPonto()
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-07 15:21:49 --> mysqli_sql_exception: Column 'id' cannot be null in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(443): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserirPonto()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 15:31:04 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(443): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserirPonto()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-10-07 15:31:46 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tcc`.`linha_has_ponto`, CONSTRAINT `fk_linhaXponto` FOREIGN KEY (`linha_id`) REFERENCES `linha` (`id`)) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `li...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `li...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `li...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `li...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TccGit\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(443): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->inserirPonto()
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
+#10 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-07 19:00:55 --> Undefined array key 0
+#0 C:\xampp\htdocs\TccGit\app\Views\mapaRota.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('mapaRota.php', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(125): view('mapaRota.php', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->mapaRota('teste2')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
