@@ -1,65 +1,211 @@
+<style>
+            @media screen and (max-width: 1920px){
+                .tabela, .tabela td, .tabela tr{
+                    border: 1px solid; 
+                }
+                .tabela{
+                    background-color: white;
+                    color: black;
+                    font-size: 20;
+                    font-weight: bold;
+                    margin-left: 120px;
+                    width: 1050px;
+                    height: 500px;
+                }
+                .trTable{
+                    background-color: #ffcc00;
+                }
+                .table-wrapper {
+                    overflow: scroll;
+                    margin-right: 500px;
+                    margin-top: -14%;   
+                    height: 450px;
+
+                }
+                .btn{
+                    text-align: center;
+                    margin-left: 22%;
+                    margin-top: 25px;
+                }
+                .Reg{
+                    text-align: center;
+                    margin-left:39%;
+                    margin-top: -2.5%;
+                }
+                .img{
+                    margin-left: 82%;
+                    margin-top: 25px;
+                }
+                #imgLabel{
+                    margin-left: 77%;
+                    margin-top: 20px;
+                }
+                td{
+                    text-align: center;
+                }
+            }
+            @media screen and (max-width: 1600px){
+                .tabela, .tabela td, .tabela tr{
+                    border: 1px solid; 
+                }
+                .tabela{
+                    background-color: white;
+                    color: black;
+                    font-size: 20;
+                    font-weight: bold;
+                    margin-left: 15%;
+                    margin-top: 4%;
+                    width: 1050px;
+                    height: 300px;
+                }
+                .trTable{
+                    background-color: #ffcc00;
+                }
+                .table-wrapper {
+                    overflow: scroll;
+                    margin-right: 450px;
+                    margin-top: -1%;
+                    height: 350px;
+                }
+                .btn{
+                    text-align: center;
+                    margin-left: 22%;
+                    margin-top: 25px;
+                }
+                .Reg{
+                    text-align: center;
+                    margin-left:40%;
+                    margin-top: -3%;
+                }
+                .img{
+                    margin-left: 80%;
+                    margin-top: 25px;
+                }
+                #imgLabel{
+                    margin-left: 74%;
+                    margin-top: 20px;
+                }
+                td{
+                    text-align: center;
+                }
+                .alert{
+                    width: 2000px;
+                    height: 20px;
+                }
+            }
+            @media screen and (max-width: 1366px){
+                .tabela, .tabela td, .tabela tr{
+                    border: 1px solid; 
+                }
+                .tabela{
+                    background-color: white;
+                    color: black;
+                    font-size: 20;
+                    font-weight: bold;
+                    margin-left: 30px;
+                    width: 835px;
+                    height: 200px;
+                }
+                .trTable{
+                    background-color: #ffcc00;
+                }
+                .table-wrapper {
+                    overflow: scroll;
+                    margin-right: 450px;
+                    margin-top: -20%;
+                    height: 300px;
+
+                }
+                .btn{
+                    text-align: center;
+                    margin-left: 10%;
+                    margin-top: 10px;
+                }
+                .Reg{
+                    margin-left:35%;
+                    margin-top: -3.5%;
+                    text-align: center;
+                }
+                .img{
+                    margin-left: 78%;
+                    margin-top: 25px;
+                } 
+                #imgLabel{
+                    margin-left: 70%;
+                    margin-top: 10px;
+                }
+                .imgLetreiro{
+                    margin-left:-5%;
+                }
+                td{
+                    text-align: center;
+                }
+            }
+        </style>
+
 <div class="retangulo">
-    <table class="tabela">
-        <tr class="trTable">
-           <td style="text-align: center;">Manhã</td>
-            <td style="text-align: center;">Tarde</td>
-            <?php foreach ($result as $results):?>
-                <?php if($results):?>
-                    <?php $contador = 7;?>
-                    <?php if($contador == 7):?>
-                        <tr>
-                            <td style="text-align: center;"><?php echo $results->manha?></td>
-                            <td style="text-align: center;"><?php echo $results->tarde?></td>
-                        </tr>
-                    <?php endif?>
-                    <?php while($contador > 0):?>
-                        <tr>
-                                <?php $aux=1;?>
-                                <?php if($contador == 7):?>
-                                    <?php 
-                                        $tempo = strtotime($results->tempo); 
-                                        $horasLinha =  strftime('%H', $tempo);
-                                        $minutosLinha =  strftime('%M', $tempo);
-                                        $segundosLinha =  strftime('%S', $tempo);
-                                        if($horasLinha > 0){
-                                            $horasLinha = $horasLinha * 60;
-                                        }
-                                        if($segundosLinha > 0){
-                                            $segundosLinha = $segundosLinha / 60;
-                                        }
-                                        $tempo = $minutosLinha + $horasLinha + $segundosLinha;
-                                    ?>
-                                    <?php $timestamp = strtotime($results->manha) + 60*$tempo; ?>
-                                    <?php $dataHora = strftime('%H:%M:%S', $timestamp); ?>
-                                    <td style="text-align: center;"><?php echo $dataHora?></td>
-                                <?php else : ?>
-                                    <?php $dataHora = strtotime($dataHora) + 60*$tempo; ?>
-                                    <?php $dataHora = strftime('%H:%M:%S', $dataHora); ?>
-                                    <td style="text-align: center;"><?php echo $dataHora?></td>
-                                <?php endif?>
-                                <?php if($contador > 1):?>
+        <table class="tabela">
+            <tr class="trTable">
+                <td style="text-align: center;">Manhã</td>
+                <td style="text-align: center;">Tarde</td>
+                <?php foreach ($result as $results):?>
+                    <?php if($results):?>
+                        <?php $contador = 7;?>
+                            <tr>
+                            <?php if($contador == 6):?>
+                                <td style="text-align: center;"><?php echo $results->manha?></td>
+                                <td style="text-align: center;"><?php echo $results->tarde?></td>
+                            </tr>
+                            <?php $contador--;?>
+                        <?php endif?>
+                        <?php while($contador > 0):?>
+                            <tr>
+                                    <?php $aux=1;?>
                                     <?php if($contador == 7):?>
-                                        <?php $timestamp = strtotime($results->tarde) + 60*$tempo; ?>
-                                        <?php $dataHoraTarde = strftime('%H:%M:%S', $timestamp); ?>
-                                        <td style="text-align: center;"><?php echo $dataHoraTarde?></td>
+                                        <?php 
+                                            $tempo = strtotime($results->tempo); 
+                                            $horasLinha =  strftime('%H', $tempo);
+                                            $minutosLinha =  strftime('%M', $tempo);
+                                            $segundosLinha =  strftime('%S', $tempo);
+                                            if($horasLinha > 0){
+                                                $horasLinha = $horasLinha * 60;
+                                            }
+                                            if($segundosLinha > 0){
+                                                $segundosLinha = $segundosLinha / 60;
+                                            }
+                                            $tempo = $minutosLinha + $horasLinha + $segundosLinha;
+                                        ?>
+                                        <?php $timestamp = strtotime($results->manha) + 60*$tempo; ?>
+                                        <?php $dataHora = strftime('%H:%M:%S', $timestamp); ?>
+                                        <td style="text-align: center;"><?php echo $dataHora?></td>
                                     <?php else : ?>
-                                        <?php $dataHoraTarde = strtotime($dataHoraTarde) + 60*$tempo; ?>
-                                        <?php $dataHoraTarde = strftime('%H:%M:%S', $dataHoraTarde); ?>
-                                        <td style="text-align: center;"><?php echo $dataHoraTarde?></td>
+                                        <?php $dataHora = strtotime($dataHora) + 60*$tempo; ?>
+                                        <?php $dataHora = strftime('%H:%M:%S', $dataHora); ?>
+                                        <td style="text-align: center;"><?php echo $dataHora?></td>
                                     <?php endif?>
-                                <?php endif?>
+                                    <?php if($contador > 1):?>
+                                        <?php if($contador == 7):?>
+                                            <?php $timestamp = strtotime($results->tarde) + 60*$tempo; ?>
+                                            <?php $dataHoraTarde = strftime('%H:%M:%S', $timestamp); ?>
+                                            <td style="text-align: center;"><?php echo $dataHoraTarde?></td>
+                                        <?php else : ?>
+                                            <?php $dataHoraTarde = strtotime($dataHoraTarde) + 60*$tempo; ?>
+                                            <?php $dataHoraTarde = strftime('%H:%M:%S', $dataHoraTarde); ?>
+                                            <td style="text-align: center;"><?php echo $dataHoraTarde?></td>
+                                        <?php endif?>
+                                    <?php endif?>
 
-                        </tr>
-                        <?php $contador--;?>
-                    <?php endwhile;?>
-                        
-                <?php else : ?>
+                            </tr>
+                            <?php $contador--;?>
+                        <?php endwhile;?>
+                            
+                    <?php else : ?>
 
-                <?php endif?>
-            <?php endforeach ?>
-            
-       </tr>
-   </table>
+                    <?php endif?>
+                <?php endforeach ?>
+                
+            </tr>
+        </table>
 </div>
 
 

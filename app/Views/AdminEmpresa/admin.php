@@ -81,7 +81,7 @@
     }
 
     .div5{
-        margin-left: -15px;
+        margin-left: 14%;
         margin-top: 60;
     }
 
@@ -120,6 +120,9 @@
         font-size: 20;
         font-weight: bold;
     }
+    .ulLogout{
+        margin-left: -19%;
+    }
 </style>
 <script>
     if ( window.history.replaceState ) {
@@ -135,8 +138,8 @@
     <div class="div1"><button class="btnOnibus"><a href="<?php echo base_url("public/adminEmpresa/tabelaOnibus")?>"><p class="label">Ônibus</p></a></button></div>
     <div class="div2"><button class="btnLinha"><a href="<?php echo base_url("public/adminEmpresa/tabelaLinha")?>"><p class="label">Linhas</p></a></button></div>
     <div class="div3"><button class="btnPonto"><a href="<?php echo base_url("public/adminEmpresa/tabelaPonto")?>"><p class="label">Pontos</p></a></button></div>
-    <div class="div4"><button class="btnEmpresa"><p class="label">Empresas</p></button></div>
-    <ul>
+   <!-- <div class="div4"><button class="btnEmpresa"><p class="label">Empresas</p></button></div> -->
+    <ul class="ulLogout">
         <ol>
             <label class="labelLogout">Logout:</label>
         </ol>

@@ -37,11 +37,14 @@ class Home extends BaseController
         $db = db_connect();
 		//get do form
 		if(is_null($escolha)){
+			//ONIBUS QUE PASSAM PELA ORIGEM
 			$destino = $this->request->getPost('rua_cep');
 			$query = $db->query('SELECT DISTINCT onibus.nome, ponto.rua_cep, onibus.id FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and ponto.rua_cep = '.$destino.';');
 			$results = $query->getResult();
 			$data['destino'] = $destino;
 			$data['result'] = $results; //passa pro data pra poder acessar em outras páginas 
+			//ONIBUS QUE PASSAM PELO DESTINO
+			
 		}else{
 			$destino = $this->request->getPost('rua_cep');
 			$query = $db->query('SELECT DISTINCT onibus.nome, ponto.rua_cep, onibus.id FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and ponto.rua_cep = '.$escolha.';');

@@ -91,7 +91,7 @@
                 }
                 .alert{
                     width: 2000px;
-                    height: 20px;
+                    height: 40px;
                 }
             }
             @media screen and (max-width: 1366px){
@@ -185,6 +185,7 @@
                 <td>Duração</td>
                 <td>Passagens</td>
                 <td>Empresa</td>
+                <td>Associados</td>
                 <td></td>
                 <td></td>
                 <?php foreach ($linha as $linhas):?>
@@ -194,6 +195,7 @@
                         <td><?php echo $linhas->tempo ?></td>
                         <td><?php echo $linhas->passagens ?></td>
                         <td><?php echo $_SESSION['nomeEmp'] ?></td>
+                        <td><a href="<?php echo base_url('/public/adminEmpresa/pontosLinha');?>/<?php echo $linhas->id?>">Ponto</a></td>
                         <td><a class="editar" href="<?php echo base_url('/public/adminEmpresa/editarLinha');?>/<?php echo $linhas->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/adminEmpresa/excluirLinha');?>/<?php echo $linhas->id?>">Excluir</a></td>
                     </tr>                                  

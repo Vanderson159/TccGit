@@ -91,7 +91,7 @@
                 }
                 .alert{
                     width: 2000px;
-                    height: 20px;
+                    height: 40px;
                 }
             }
             @media screen and (max-width: 1366px){

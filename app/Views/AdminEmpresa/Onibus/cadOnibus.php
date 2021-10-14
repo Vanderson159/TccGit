@@ -66,7 +66,7 @@
         }
         .alert{
             width: 2000px;
-            height: 20px;
+            height: 40px;
         }
     }
     @media screen and (max-width: 1366px){
@@ -136,7 +136,7 @@
             <ul>
                 <ol>
                     <label class="label">Id:&nbsp;&nbsp;</label>
-                    <input name="id" id="id" type="numeric" class="form-control" value="<?php echo (isset($onibus) ? $onibus->id : '2000')?>" placeholder="ID do ônibus" required autofocus <?php echo $statusId?>>
+                    <input name="id" id="id" type="text" class="form-control" value="<?php echo (isset($onibus) ? $onibus->id : '2000')?>" placeholder="ID do ônibus" required autofocus <?php echo $statusId?>>
                 </ol>
                 <br>
                 <ol>

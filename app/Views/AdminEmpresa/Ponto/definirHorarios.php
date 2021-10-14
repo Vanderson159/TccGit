@@ -76,6 +76,10 @@
         #timeManha, #timeTarde{
             width: 150px;
         }
+        .alert{
+            width: 2000px;
+            height: 40px;
+        }
     }
     @media screen and (max-width: 1366px){
         h1{
@@ -119,9 +123,9 @@
                 Ponto relacionado à linha com sucesso!
             </div>
         <?php endif ?>
-        <?php if($msg == 'Erro') : ?>
+        <?php if($msg == 'Erro' && $cod == 222) : ?>
             <div class="alert alert-danger" id="alert" role="alert" style="text-align: center;">
-                Erro ao tentar relacionar o ponto a linha!
+                Relacionamento já existente!
             </div>
         <?php endif ?>
     <div class="retangulo"> 
@@ -133,25 +137,35 @@
             if($acao == "Inserir"){
                 $form = base_url("public/adminEmpresa/inserirPonto");
                 $statusId = "enabled";
+                $voltar = base_url('public/adminEmpresa/adicionarPonto/'.$_SESSION['idLinha']);
             }else{
                 if($acao == "Editar"){
-                    $form = "";
+                    $form = base_url("public/adminEmpresa/pontosLinhaEditInsert");
                     $statusId = "enabled";
+                    $voltar = base_url('public/adminEmpresa/pontosLinha/'.$_SESSION['idLinha']);
                 }
             }
+
+            if($pontosLinha != null){
+                $timestamp = strtotime($pontosLinha[0]->manha);
+                $dataHoraManha = strftime('%H:%M', $timestamp);
+                $timestamp = strtotime($pontosLinha[0]->tarde);
+                $dataHoraTarde = strftime('%H:%M', $timestamp);
+            }
         ?>
+
         <form id="formInserir"  method="post" action="<?php echo $form?>">
             <ul class="inputs">
                 <ol>
                     <label class="label">Manhã:&nbsp;&nbsp;</label>
                    <!-- <input type="time" id="appt" name="appt" min="06:00" max="19:00" value="<?php //echo (isset($ponto) ? $ponto->manha : "06:00")?>" required  autofocus <?php //echo $statusId?>> -->
-                    <input type="time" id="timeManha" name="timeManha" min="06:00" max="11:00"  value="07:00"  required  autofocus <?php echo $statusId?>>
+                    <input type="time" id="timeManha" name="timeManha" min="06:00" max="11:00" value="<?php echo (isset($pontosLinha) ? $dataHoraManha : "06:00")?>"  required  autofocus <?php echo $statusId?>>
 
                 </ol>
                 <br>
                 <ol>
                     <label class="label">Tarde:&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="time" id="timeTarde" name="timeTarde" min="12:00" max="19:00" value="12:00"  required  autofocus <?php echo $statusId?>>
+                    <input type="time" id="timeTarde" name="timeTarde" min="12:00" max="19:00" value="<?php echo (isset($pontosLinha) ? $dataHoraTarde : "12:00")?>"  required  autofocus <?php echo $statusId?>>
                     <!-- <input type="time" id="appt" name="appt" min="12:00" max="19:00" value="<?php //echo (isset($ponto) ? $ponto->tarde : "12:00")?>" required  autofocus <?php //echo $statusId?>>  -->
                 </ol>
             <ul>
@@ -162,7 +176,7 @@
                 </ol>
                 <br>
                 <ol>
-                    <a href=" <?php echo base_url('public/adminEmpresa/adicionarPonto/')?>/<?php echo $_SESSION['idLinha']?>"><label class="btn btn-lg voltar">Voltar</label></a>
+                    <a href="<?php echo $voltar?>"><label class="btn btn-lg voltar">Voltar</label></a>
                 </ol>
             </ul>
         </form>

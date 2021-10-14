@@ -130,10 +130,12 @@
 
             $_SESSION['nomeEmp'] = $results2[0]->nome;
             
-            $busModel = new \App\Models\OnibusModel(); //criou um obj model
+            $sql3 = "SELECT * FROM `onibus` WHERE empresa_id = ?";
+            $query3 = $db->query($sql3, [$_SESSION['idEmpresa']]);
+            $results3 = $query3->getResult();
 
             $data['msg'] = '';  
-            $data['bus'] = $busModel->find();                     
+            $data['bus'] = $results3;                     
             echo view ('header');
             echo view ('AdminEmpresa/Onibus/tabela', $data); 
             echo view ('footer');
@@ -181,8 +183,11 @@
                     }
                 }
             }
-            $busModel = new \App\Models\OnibusModel(); //criou um obj model
-            $data['bus'] = $busModel->find(); 
+            $sql3 = "SELECT * FROM `onibus` WHERE empresa_id = ?";
+            $query3 = $db->query($sql3, [$_SESSION['idEmpresa']]);
+            $results3 = $query3->getResult();
+
+            $data['bus'] = $results3; 
             echo view ('header');
             echo view ('AdminEmpresa/Onibus/tabela', $data);
             echo view ('footer');
@@ -231,8 +236,8 @@
         }
 
         public function excluirOnibus($id = null){
-            $busModel = new \App\Models\OnibusModel(); //criou um obj model
-
+            $db = \Config\Database::connect();
+            $db = db_connect();
             if(is_null($id)){
                 //definir uma msg via session
                 //flashdata tu acessa ela e ela se destroi
@@ -250,7 +255,10 @@
                 $data['msg'] = 'Erro';
                 $data['cod'] = 333;
             }
-            $data['bus'] = $busModel->find(); 
+            $sql3 = "SELECT * FROM `onibus` WHERE empresa_id = ?";
+            $query3 = $db->query($sql3, [$_SESSION['idEmpresa']]);
+            $results3 = $query3->getResult();
+            $data['bus'] = $results3; 
 
             echo view ('header');
             echo view ('AdminEmpresa/Onibus/tabela', $data);
@@ -270,9 +278,11 @@
 
             $_SESSION['nomeEmp'] = $results2[0]->nome;
            
-            $tabelaModel = new \App\Models\LinhaModel(); //criou um obj model
+            $sql3 = "SELECT * FROM `linha` WHERE empresa_id = ?";
+            $query3 = $db->query($sql3, [$_SESSION['idEmpresa']]);
+            $results3 = $query3->getResult();
 
-            $data['linha'] = $tabelaModel->find();      
+            $data['linha'] = $results3;      
             $data['msg'] = '';
             echo view ('header');
             echo view ('AdminEmpresa/Linha/tabela', $data); 
@@ -324,7 +334,11 @@
                 } 
             }
           
-            $data['linha'] = $linhaModel->find(); 
+            $sql3 = "SELECT * FROM `linha` WHERE empresa_id = ?";
+            $query3 = $db->query($sql3, [$_SESSION['idEmpresa']]);
+            $results3 = $query3->getResult();
+
+            $data['linha'] = $results3;  
 
             echo view ('header');
             echo view ('AdminEmpresa/Linha/tabela', $data);
@@ -403,10 +417,122 @@
             } 
 
             //tabela lista 
-            $data['linha'] = $linhaModel->find(); 
+            $sql3 = "SELECT * FROM `linha` WHERE empresa_id = ?";
+            $query3 = $db->query($sql3, [$_SESSION['idEmpresa']]);
+            $results3 = $query3->getResult();
+
+            $data['linha'] = $results3;  
 
             echo view ('header');
             echo view ('AdminEmpresa/Linha/tabela', $data); 
+            echo view ('footer');
+        }
+
+        public function pontosLinha($id = null){
+            $db = \Config\Database::connect();
+            $db = db_connect();
+
+            $sql = "SELECT empresa.id FROM `empresa` WHERE empresa.login = ?";
+            $query = $db->query($sql, [$_SESSION['user']]);
+            $results = $query->getResult();
+            $_SESSION['idEmpresa'] = $results[0]->id;
+            //sql para a tabela
+            $sql2 = "SELECT ponto.id, ponto.endereco, ponto.localizacao, ponto.rua_cep, onibus.nome, linha_has_ponto.manha, linha_has_ponto.tarde FROM onibus, ponto, linha, linha_has_ponto WHERE ponto.id = linha_has_ponto.ponto_id AND linha_has_ponto.ponto_id = ponto.id AND linha.id = linha_has_ponto.linha_id AND linha_has_ponto.linha_id = linha.id AND 
+            linha.empresa_id = ? AND linha.id = ? AND onibus.linha_id = linha.id";
+            $query2 = $db->query($sql2, [$_SESSION['idEmpresa'], $id]);
+            $results2 = $query2->getResult();
+            $_SESSION['idLinha'] = $id;
+            $data['ponto'] = $results2;      
+            $data['msg'] = '';
+            echo view ('header');
+            echo view ('AdminEmpresa/Linha/pontos', $data); 
+            echo view ('footer');
+        }
+        public function pontosLinhaDelete($idPonto = null){
+            $db = \Config\Database::connect();
+            $db = db_connect();
+            if(is_null($idPonto)){
+                //definir uma msg via session
+                //flashdata tu acessa ela e ela se destroi
+                $this->session->setFlashdata('msg', 'Ponto não encontrado');
+                $retorno = $this->tabelaLinha();
+                return $retorno;
+            }
+
+            $sql = "DELETE FROM `linha_has_ponto` WHERE `linha_has_ponto`.`linha_id` = ? AND `linha_has_ponto`.`ponto_id` = ?";
+            if($db->query($sql, [$_SESSION['idLinha'], $idPonto])){
+                $data['msg'] = 'Sucesso';
+                $data['cod'] = 444;
+            }else{
+                $data['msg'] = 'Erro';
+                $data['cod'] = 333;
+            }
+            //tabela lista 
+            $sql2 = "SELECT ponto.id, ponto.endereco, ponto.localizacao, ponto.rua_cep, onibus.nome, linha_has_ponto.manha, linha_has_ponto.tarde FROM onibus, ponto, linha, linha_has_ponto WHERE ponto.id = linha_has_ponto.ponto_id AND linha_has_ponto.ponto_id = ponto.id AND linha.id = linha_has_ponto.linha_id AND linha_has_ponto.linha_id = linha.id AND 
+            linha.empresa_id = ? AND linha.id = ? AND onibus.linha_id = linha.id";
+            $query2 = $db->query($sql2, [$_SESSION['idEmpresa'], $_SESSION['idLinha']]);
+            $results2 = $query2->getResult();
+            $data['ponto'] = $results2;
+
+
+            echo view ('header');
+            echo view ('AdminEmpresa/Linha/pontos', $data); 
+            echo view ('footer');
+        }
+        public function pontosLinhaEdit($idPonto = null){
+            $db = \Config\Database::connect();
+            $db = db_connect();
+            $sql = "SELECT * FROM `linha_has_ponto` WHERE linha_has_ponto.linha_id = ? AND linha_has_ponto.ponto_id = ?";
+            $query = $db->query($sql, [$_SESSION['idLinha'], $idPonto]);
+            $results = $query->getResult();
+            $data['pontosLinha'] = $results;
+            $_SESSION['ultimaPesquisa'] = $results;
+            $_SESSION['idPonto'] = $idPonto;
+
+            $data['msg'] = '';
+            $data['acao'] = 'Editar';
+            $data['titulo'] = 'Editar';
+
+            echo view ('header');
+            echo view ('AdminEmpresa/Ponto/definirHorarios', $data);
+            echo view ('footer');
+
+        }
+        public function pontosLinhaEditInsert(){
+            $db = \Config\Database::connect();
+            $db = db_connect();
+            //$sql = "SELECT * FROM `linha_has_ponto` WHERE linha_has_ponto.linha_id = ? AND linha_has_ponto.ponto_id = ?";
+            //$query = $db->query($sql, [$_SESSION['idLinha'],$_SESSION['idPonto']]);
+            //$results = $query->getResult();
+            //$_SESSION['idLinha']
+            $data['msg'] = '';
+            $data['linha'] = '';
+            $data['titulo'] = 'Adicione pontos de parada a sua linha:';
+            $data['acao'] = 'Editar';
+            $data['linha'] = null;
+            
+           
+                if($this->request->getMethod() === 'post'){
+                    //acessou a classe pelo namespace dela
+                    //parametros (nomedacoluna, valor)
+                    //$linhapontoModel->set('ponto_id',  $_SESSION['idPonto']);
+                   // $linhapontoModel->set('linha_id',  $_SESSION['idLinha']);
+                    $manha = $this->request->getPost('timeManha');
+                    $tarde = $this->request->getPost('timeTarde');
+                    
+                    $sql = "UPDATE linha_has_ponto SET  linha_has_ponto.manha = ?, linha_has_ponto.tarde = ? WHERE linha_has_ponto.linha_id = ? AND linha_has_ponto.ponto_id = ?";
+                    //$db->query($sql, [$manha, $tarde, $_SESSION['idLinha'],$_SESSION['idPonto']]);
+                    if($db->query($sql, [$manha, $tarde, $_SESSION['idLinha'], $_SESSION['idPonto']])){
+                        //$data['msg'] = 'Erro';
+                        $data['msg'] = 'Sucesso';
+                       // $data['cod'] = 222;
+                    }else{
+                        $data['msg'] = 'Erro';
+                    }
+                }
+            $data['pontosLinha'] =  $_SESSION['ultimaPesquisa'];
+            echo view ('header');
+            echo view ('AdminEmpresa/Ponto/definirHorarios', $data);
             echo view ('footer');
         }
         ////////// crud pontos //////////////
@@ -429,6 +555,7 @@
             $query3 = $db->query($sql3, [$results[0]->id]);
             $results3 = $query3->getResult();
             $data['linha'] = $results3;      
+            $data['msg'] = '';
 
             echo view ('header');
             echo view ('AdminEmpresa/Ponto/tabela', $data); 
@@ -448,32 +575,46 @@
             $data['msg'] = '';
             $data['titulo'] = 'Adicione pontos de parada a sua linha:';
             $_SESSION['idPonto'] = $id; 
+            $data['pontosLinha'] = null;
 
             echo view('header');
             echo view('AdminEmpresa/Ponto/definirHorarios', $data);
             echo view('footer');
         }
         public function inserirPonto(){
+            $db = \Config\Database::connect();
+            $db = db_connect();
+            $sql = "SELECT * FROM `linha_has_ponto` WHERE linha_has_ponto.linha_id = ? AND linha_has_ponto.ponto_id = ?";
+            $query = $db->query($sql, [$_SESSION['idLinha'],$_SESSION['idPonto']]);
+            $results = $query->getResult();
+            $data['pontosLinha'] = null;
             $data['msg'] = '';
             $data['linha'] = '';
             $data['titulo'] = 'Adicione pontos de parada a sua linha:';
             $data['acao'] = 'Inserir';
             $data['linha'] = null;
-            if($this->request->getMethod() === 'post'){
-                //acessou a classe pelo namespace dela
-                $linhapontoModel = new \App\Models\LinhaPontoModel(); //criou um obj model
-                //parametros (nomedacoluna, valor)
-                $linhapontoModel->set('ponto_id',  $_SESSION['idPonto']);
-                $linhapontoModel->set('linha_id',  $_SESSION['idLinha']);
-                $linhapontoModel->set('manha', $this->request->getPost('timeManha'));
-                $linhapontoModel->set('tarde', $this->request->getPost('timeTarde'));
-
-                if($linhapontoModel->insert()){
-                    $data['msg'] = 'Erro';
-                }else{
-                    $data['msg'] = 'Sucesso';
+            if($results != null){
+                $data['msg'] = 'Erro';
+                $data['cod'] = 222;
+            }else{
+                if($this->request->getMethod() === 'post'){
+                    //acessou a classe pelo namespace dela
+                    $linhapontoModel = new \App\Models\LinhaPontoModel(); //criou um obj model
+                    //parametros (nomedacoluna, valor)
+                    $linhapontoModel->set('ponto_id',  $_SESSION['idPonto']);
+                    $linhapontoModel->set('linha_id',  $_SESSION['idLinha']);
+                    $linhapontoModel->set('manha', $this->request->getPost('timeManha'));
+                    $linhapontoModel->set('tarde', $this->request->getPost('timeTarde'));
+    
+                    if($linhapontoModel->insert()){
+                        //$data['msg'] = 'Erro';
+                       // $data['cod'] = 222;
+                    }else{
+                        $data['msg'] = 'Sucesso';
+                    }
                 }
             }
+            
             echo view ('header');
             echo view ('AdminEmpresa/Ponto/definirHorarios', $data);
             echo view ('footer');
