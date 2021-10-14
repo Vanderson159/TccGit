@@ -1,301 +1,4 @@
-CRITICAL - 2021-10-13 16:31:11 --> Undefined property: stdClass::$manha
-#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Linha\pontos.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 181)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Li...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(479): view('AdminEmpresa/Li...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->pontosLinhaDelete('9')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:35:23 --> Undefined property: stdClass::$manha
-#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Linha\pontos.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 181)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Li...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(479): view('AdminEmpresa/Li...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->pontosLinhaDelete('6')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:36:29 --> Undefined property: stdClass::$manha
-#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Linha\pontos.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 181)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Li...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(479): view('AdminEmpresa/Li...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->pontosLinhaDelete('6')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:36:30 --> Undefined property: stdClass::$manha
-#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Linha\pontos.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 181)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Li...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(479): view('AdminEmpresa/Li...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->pontosLinhaDelete('6')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:36:31 --> Undefined property: stdClass::$manha
-#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Linha\pontos.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 181)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Li...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(479): view('AdminEmpresa/Li...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->pontosLinhaDelete('6')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:36:49 --> Undefined property: stdClass::$manha
-#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Linha\pontos.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 181)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Li...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(479): view('AdminEmpresa/Li...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->pontosLinhaDelete('9')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:37:07 --> Undefined property: stdClass::$tarde
-#0 C:\xampp\htdocs\TccGit\app\Views\AdminEmpresa\Linha\pontos.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 182)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('AdminEmpresa/Li...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\AdminEmpresa.php(479): view('AdminEmpresa/Li...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\AdminEmpresa->pontosLinhaDelete('9')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmpresa))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:46:58 --> Undefined variable $dataHora
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 181)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '2000')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:48:17 --> Undefined variable $dataHora
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 182)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '2000')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:50:30 --> Undefined variable $dataHora
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 185)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '2000')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:50:31 --> Undefined variable $dataHora
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 185)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '2000')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:50:57 --> Undefined variable $contador2
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 167)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '2000')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:51:16 --> Undefined variable $contador2
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 168)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '2000')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:51:17 --> Undefined variable $contador2
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 168)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '2000')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:51:36 --> Undefined variable $dataHoraTarde
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 196)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '2000')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 16:52:19 --> Undefined variable $contador2
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 168)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '2000')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 20:28:13 --> Undefined variable $dataHora
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 181)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 20:28:26 --> Undefined variable $dataHoraTarde
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 191)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 20:28:56 --> Undefined variable $dataHoraTarde
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 191)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 20:32:53 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
-#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
-#1 {main}
-CRITICAL - 2021-10-13 20:33:28 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
-#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
-#1 {main}
-CRITICAL - 2021-10-13 20:33:33 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
-#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
-#1 {main}
-CRITICAL - 2021-10-13 20:33:38 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
-#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
-#1 {main}
-CRITICAL - 2021-10-13 20:33:56 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
-#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
-#1 {main}
-CRITICAL - 2021-10-13 20:34:16 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
-#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
-#1 {main}
-CRITICAL - 2021-10-13 20:34:18 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
-#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
-#1 {main}
-CRITICAL - 2021-10-13 20:34:39 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
-#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
-#1 {main}
-CRITICAL - 2021-10-13 20:34:54 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
-#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
-#1 {main}
-CRITICAL - 2021-10-13 20:35:10 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
-#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
-#1 {main}
-CRITICAL - 2021-10-13 20:35:32 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
-#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
-#1 {main}
-CRITICAL - 2021-10-13 20:36:02 --> Undefined variable $dataHora
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 181)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 20:41:58 --> Undefined variable $contador
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 20:42:38 --> Undefined variable $contador
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 20:42:39 --> Undefined variable $contador
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 20:42:39 --> Undefined variable $contador
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163)
-#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
-#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
-#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
-#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
-#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
-#9 {main}
-CRITICAL - 2021-10-13 20:44:17 --> Undefined variable $dataHora
+CRITICAL - 2021-10-14 17:12:17 --> Undefined variable $dataHora
 #0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 183)
 #1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
 #2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
@@ -306,8 +9,8 @@ CRITICAL - 2021-10-13 20:44:17 --> Undefined variable $dataHora
 #7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #9 {main}
-CRITICAL - 2021-10-13 20:45:29 --> Undefined variable $contador
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 189)
+CRITICAL - 2021-10-14 17:13:30 --> Undefined variable $dataHora
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 183)
 #1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
 #2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
 #3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
@@ -317,7 +20,18 @@ CRITICAL - 2021-10-13 20:45:29 --> Undefined variable $contador
 #7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #9 {main}
-CRITICAL - 2021-10-13 20:46:10 --> Undefined variable $dataHoraTarde
+CRITICAL - 2021-10-14 17:13:37 --> Undefined variable $dataHoraTarde
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 193)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 17:22:24 --> Undefined variable $dataHoraTarde
 #0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 194)
 #1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
 #2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
@@ -328,8 +42,8 @@ CRITICAL - 2021-10-13 20:46:10 --> Undefined variable $dataHoraTarde
 #7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #9 {main}
-CRITICAL - 2021-10-13 20:51:26 --> Undefined variable $results
-#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 147)
+CRITICAL - 2021-10-14 17:24:23 --> Undefined variable $tempo
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 185)
 #1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
 #2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
 #3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
@@ -339,3 +53,212 @@ CRITICAL - 2021-10-13 20:51:26 --> Undefined variable $results
 #7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2021-10-14 17:24:44 --> Undefined variable $tempo
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 17:33:31 --> Attempt to read property "tempo" on array
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 17:34:42 --> Attempt to read property "tempo" on array
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 149)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 17:35:59 --> Undefined variable $results
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 154)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 17:36:20 --> Undefined variable $results
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 154)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 17:40:58 --> Undefined variable $contador
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 170)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 17:47:11 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-14 17:47:13 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-14 17:47:28 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 268451840 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-14 17:59:22 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-14 17:59:25 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 268451840 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-14 17:59:47 --> Undefined variable $var
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 18:00:08 --> Undefined variable $var
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 18:00:09 --> Undefined variable $var
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 18:00:10 --> Undefined variable $var
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 18:00:11 --> Undefined variable $var
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 18:01:06 --> Undefined variable $var
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 18:01:07 --> Undefined variable $var
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 18:01:08 --> Undefined variable $var
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 18:01:08 --> Undefined variable $var
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 18:01:09 --> Undefined variable $var
+#0 C:\xampp\htdocs\TccGit\app\Views\onibusHorario.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\TccGit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TccGit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TccGit\system\Common.php(1217): CodeIgniter\View\View->render('onibusHorario.p...', Array, true)
+#4 C:\xampp\htdocs\TccGit\app\Controllers\Home.php(108): view('onibusHorario.p...', Array)
+#5 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Home->onibusHorario('6', '4500')
+#6 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 18:06:58 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-14 18:10:59 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-14 18:11:11 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-14 18:28:17 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-14 18:28:18 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-14 18:28:20 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

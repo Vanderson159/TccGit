@@ -142,70 +142,74 @@
                 }
             }
         </style>
+                    <?php 
+                        // convertendo o tempo da linha em minutos
+                        $tempo = strtotime($result[0]->tempo); 
+                        $horasLinha =  strftime('%H', $tempo);
+                        $minutosLinha =  strftime('%M', $tempo);
+                        $segundosLinha =  strftime('%S', $tempo);
+                        if($horasLinha > 0){
+                            $horasLinha = $horasLinha * 60;
+                        }
+                        if($segundosLinha > 0){
+                            $segundosLinha = $segundosLinha / 60;
+                        }
+                        $tempo = $minutosLinha + $horasLinha + $segundosLinha;
+                        $contador = 0;
+                        $contadorTeste = 8;
+                        $contadorM = 0;
+                        $validacao = false;
 
+                    ?>
 <div class="retangulo">
+    <div class="table-wrapper">
         <table class="tabela">
             <tr class="trTable">
                 <td style="text-align: center;">Manhã</td>
                 <td style="text-align: center;">Tarde</td>
                 <?php foreach ($result as $results):?>
-                    <?php if($results):?>
-                        <?php $contador = 7;?>
-                            <tr>
-                            <?php if($contador == 6):?>
+                    <?php $timestamp = strtotime($results->manha) + 60*$tempo; ?>
+                    <?php $dataHora = strftime('%H:%M:%S', $timestamp); ?>
+                    
+                    <?php $timestamp = strtotime($results->tarde) + 60*$tempo; ?>
+                    <?php $dataHoraT = strftime('%H:%M:%S', $timestamp); ?>
+
+                    <?php while($validacao == false):?>
+                        <tr>
+                            <?php if($contador == 0):?>
                                 <td style="text-align: center;"><?php echo $results->manha?></td>
                                 <td style="text-align: center;"><?php echo $results->tarde?></td>
-                            </tr>
-                            <?php $contador--;?>
-                        <?php endif?>
-                        <?php while($contador > 0):?>
-                            <tr>
-                                    <?php $aux=1;?>
-                                    <?php if($contador == 7):?>
-                                        <?php 
-                                            $tempo = strtotime($results->tempo); 
-                                            $horasLinha =  strftime('%H', $tempo);
-                                            $minutosLinha =  strftime('%M', $tempo);
-                                            $segundosLinha =  strftime('%S', $tempo);
-                                            if($horasLinha > 0){
-                                                $horasLinha = $horasLinha * 60;
-                                            }
-                                            if($segundosLinha > 0){
-                                                $segundosLinha = $segundosLinha / 60;
-                                            }
-                                            $tempo = $minutosLinha + $horasLinha + $segundosLinha;
-                                        ?>
-                                        <?php $timestamp = strtotime($results->manha) + 60*$tempo; ?>
-                                        <?php $dataHora = strftime('%H:%M:%S', $timestamp); ?>
-                                        <td style="text-align: center;"><?php echo $dataHora?></td>
-                                    <?php else : ?>
-                                        <?php $dataHora = strtotime($dataHora) + 60*$tempo; ?>
-                                        <?php $dataHora = strftime('%H:%M:%S', $dataHora); ?>
-                                        <td style="text-align: center;"><?php echo $dataHora?></td>
-                                    <?php endif?>
-                                    <?php if($contador > 1):?>
-                                        <?php if($contador == 7):?>
-                                            <?php $timestamp = strtotime($results->tarde) + 60*$tempo; ?>
-                                            <?php $dataHoraTarde = strftime('%H:%M:%S', $timestamp); ?>
-                                            <td style="text-align: center;"><?php echo $dataHoraTarde?></td>
-                                        <?php else : ?>
-                                            <?php $dataHoraTarde = strtotime($dataHoraTarde) + 60*$tempo; ?>
-                                            <?php $dataHoraTarde = strftime('%H:%M:%S', $dataHoraTarde); ?>
-                                            <td style="text-align: center;"><?php echo $dataHoraTarde?></td>
-                                        <?php endif?>
-                                    <?php endif?>
+                                <?php $contador++;?>                    
+                            <?php endif?>
+                        </tr>
+                        <tr>
+                            <?php if($dataHora < 12 || $dataHoraT < 20):?>
+                                <?php if($dataHora < 12):?>
+                                    <td style="text-align: center;"><?php echo $dataHora?></td>
+                                <?php else : ?>
+                                    <td style="text-align: center;"></td>
+                                <?php endif?>
+                                <?php if($dataHoraT < 20):?>
+                                    <td style="text-align: center;"><?php echo $dataHoraT?></td>
+                                <?php else : ?>
+                                    <td style="text-align: center;"></td>
+                                <?php endif?>
+                            <?php else : ?>
+                                <?php $validacao = true;?>
+                            <?php endif?>
+                        </tr>
+                        
+                        <?php $timestamp = strtotime($dataHora) + 60*$tempo; ?>
+                        <?php $dataHora = strftime('%H:%M:%S', $timestamp); ?>
+                        <?php $timestamp = strtotime($dataHoraT) + 60*$tempo; ?>
+                        <?php $dataHoraT = strftime('%H:%M:%S', $timestamp); ?>
+                        <?php $contadorTeste--; ?>
+                    <?php endwhile;?>
 
-                            </tr>
-                            <?php $contador--;?>
-                        <?php endwhile;?>
-                            
-                    <?php else : ?>
-
-                    <?php endif?>
                 <?php endforeach ?>
-                
             </tr>
         </table>
+    </div>
 </div>
 
 
