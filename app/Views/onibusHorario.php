@@ -205,7 +205,6 @@
                         <?php $dataHoraT = strftime('%H:%M:%S', $timestamp); ?>
                         <?php $contadorTeste--; ?>
                     <?php endwhile;?>
-
                 <?php endforeach ?>
             </tr>
         </table>

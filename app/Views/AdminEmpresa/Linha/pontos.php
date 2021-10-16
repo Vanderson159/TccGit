@@ -182,17 +182,7 @@
                         <td><?php echo $pontos->tarde ?></td>
                         <td><a href="<?php echo base_url('/public/adminEmpresa/pontosLinhaEdit');?>/<?php echo $pontos->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/adminEmpresa/pontosLinhaDelete');?>/<?php echo $pontos->id?>">Excluir</a></td>
-                    </tr> 
-                    <tr>
-                        <td><?php echo $pontos->id ?></td>  
-                        <td><?php echo $pontos->endereco ?></td>
-                        <td><a href="<?php echo $pontos->localizacao ?>" target="_blank">GOOGLE MAPS</a></td>
-                        <td><?php echo $pontos->rua_cep ?></td>
-                        <td><?php echo $pontos->manha ?></td>
-                        <td><?php echo $pontos->tarde ?></td>
-                        <td><a href="<?php echo base_url('/public/adminEmpresa/pontosLinhaEdit');?>/<?php echo $pontos->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/adminEmpresa/pontosLinhaDelete');?>/<?php echo $pontos->id?>">Excluir</a></td>
-                    </tr>                                 
+                    </tr>                                  
                 <?php endforeach ?>
             </tr>
         </table>

@@ -82,7 +82,7 @@
                 }
                 .alert{
                     width: 2000px;
-                    height: 20px;
+                    height: 50px;
                 }
             }
             @media screen and (max-width: 1366px){
@@ -178,24 +178,7 @@
                         <td><?php echo $pontos->rua_cep ?></td>
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarPonto');?>/<?php echo $pontos->id?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirPonto');?>/<?php echo $pontos->id?>">Excluir</a></td>
-                    </tr>
-                    <tr>
-                        <td><?php echo $pontos->id ?></td>  
-                        <td><?php echo $pontos->endereco ?></td>
-                        <td><a href="<?php echo $pontos->localizacao ?>" target="_blank">GOOGLE MAPS</a></td>
-                        <td><?php echo $pontos->rua_cep ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarPonto');?>/<?php echo $pontos->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluirPonto');?>/<?php echo $pontos->id?>">Excluir</a></td>
-                    </tr> 
-                    <tr>
-                        <td><?php echo $pontos->id ?></td>  
-                        <td><?php echo $pontos->endereco ?></td>
-                        <td><a href="<?php echo $pontos->localizacao ?>" target="_blank">GOOGLE MAPS</a></td>
-                        <td><?php echo $pontos->rua_cep ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarPonto');?>/<?php echo $pontos->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluirPonto');?>/<?php echo $pontos->id?>">Excluir</a></td>
-                    </tr>  
-                                                  
+                    </tr>                                            
                 <?php endforeach ?>
             </tr>
         </table>
