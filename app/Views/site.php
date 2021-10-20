@@ -42,6 +42,10 @@
             margin-top: 4%;
             margin-left: 47%;
         }
+        .alert{
+            width: 2000px;
+            height: 50px;
+        }
     }
     @media screen and (max-width: 1366px){
         .origem{
@@ -60,6 +64,11 @@
         }
     }
 </style>
+<?php if($msg == 'Erro') : ?>
+    <div class="alert alert-danger" id="alert" role="alert" style="text-align: center;">
+       Nenhum resultado encontrado!
+    </div>
+<?php endif ?>
 <div class="enunciado">
     <div class="retangulo">  
         <p class="enunciadoTexto">Encontre seu ônibus por ruas, avenidas...:</p>
@@ -82,3 +91,10 @@
         </form>
     </div>
 </div>
+ <!-- jQUery-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Ação para ocultar a div depois de 5 segundos -->
+<script>
+	$("#alert").hide(5000);
+</script>

@@ -312,8 +312,8 @@
         });
 
         //Caso queira que o dialogo feche ao realizar um click fora dele.
-        //
-        //modalBackground.click(function () {
-        //    modal.fadeOut(500);
-        //});
+        
+        modalBackground.click(function () {
+           modal.fadeOut(500);
+        });
 </script>

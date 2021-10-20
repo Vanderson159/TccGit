@@ -66,7 +66,7 @@
         }
         .alert{
             width: 2000px;
-            height: 20px;
+            height: 50px;
         }
     }
     @media screen and (max-width: 1366px){
@@ -146,7 +146,7 @@
                 <br>
                 <ol>
                     <label class="label">Senha:&nbsp;</label>
-                    <input name="senha" id="senha" type="password" class="form-control"  value="<?php echo (isset($admin) ? $admin->senha : '********')?>" placeholder="Sua senha" required autofocus>
+                    <input name="senha" id="senha" type="password" class="form-control"  value="<?php echo (isset($admin) ? $admin->senha : 'AAA')?>" placeholder="Sua senha" required autofocus>
                 </ol>
             <ul>
             <br>

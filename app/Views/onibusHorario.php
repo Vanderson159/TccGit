@@ -53,8 +53,8 @@
                     color: black;
                     font-size: 20;
                     font-weight: bold;
-                    margin-left: 15%;
-                    margin-top: 4%;
+                    margin-left: 5%;
+                    margin-top:1%;
                     width: 1050px;
                     height: 300px;
                 }
@@ -64,13 +64,14 @@
                 .table-wrapper {
                     overflow: scroll;
                     margin-right: 450px;
-                    margin-top: -1%;
-                    height: 350px;
+                    margin-top: -14%;
+                    height: 360px;
                 }
                 .btn{
                     text-align: center;
-                    margin-left: 22%;
-                    margin-top: 25px;
+                    margin-left: 80.5%;
+                    margin-top: -70px;
+                    width: 200px;
                 }
                 .Reg{
                     text-align: center;
@@ -79,7 +80,7 @@
                 }
                 .img{
                     margin-left: 80%;
-                    margin-top: 25px;
+                    margin-top: 15px;
                 }
                 #imgLabel{
                     margin-left: 74%;
@@ -91,6 +92,75 @@
                 .alert{
                     width: 2000px;
                     height: 20px;
+                }
+                h1{
+                    text-align: center;
+                }
+                .btnAlert{
+                    margin-left: 85%;
+                    margin-top: -5%;
+                    background-image: url(<?php echo base_url("assets/IMG/adminEmpresa/alerta.png")?>);
+                    width: 30;
+                    height: 30;
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-color: #BCB9B9;
+                    border: none;
+                }
+                .btnAlert:hover{
+                    margin-left: 85%;
+                    margin-top: -5%;
+                    background-image: url(<?php echo base_url("assets/IMG/adminEmpresa/alertaRed.png")?>);
+                    width: 30;
+                    height: 30;
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-color: #BCB9B9;
+                    border: none;
+                }
+                
+                .hide {
+                    display: none;
+                }
+
+                .modal-bg {
+                    position: fixed;
+                    top: 0px;
+                    right: 0px;
+                    bottom: 0px;
+                    left: 0px;
+                    background: gainsboro;
+                    opacity: 0.7;
+                }
+
+                .modal-content {
+                    position: fixed;
+                    margin: 0 auto;
+                    width: 500px;
+                    height: 200px;
+                    top: 50px;
+                    right: 0px;
+                    bottom: 0px;
+                    left: 0px;
+                    background: #BCB9B9;
+                    box-shadow: 0px 0px 10px black;
+                    border-radius: 5px;
+                    padding: 5px;
+                    margin-top: 5%;
+                }
+
+                .modal-close {
+                    font-size: 2rem;
+                    line-height: 1;
+                    position: absolute;
+                    top: 0px;
+                    right: 5px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    color: #AAAAAA;
+                    font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
                 }
             }
             @media screen and (max-width: 1366px){
@@ -161,7 +231,11 @@
                         $validacao = false;
 
                     ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 <div class="retangulo">
+    <h1>Horários</h1>
+    <img class="img" src="<?php echo base_url("assets/IMG/adminEmpresa/relógio.png")?>" alt="" width="200" height="200">
     <div class="table-wrapper">
         <table class="tabela">
             <tr class="trTable">
@@ -209,7 +283,45 @@
             </tr>
         </table>
     </div>
-</div>
+        <div id="modal" class="hide">
+            <div class="modal-bg"></div>
+            <div class="modal-content">
+                <h3>Aviso</h3>
+                <p style="color: black; font-family: Arial;">Os horários informados não são 100% precisos, porque podem ocorrer imprevistos, 
+                como por exemplo: o ônibus estragar, motorista ou cobrador não comparecerem; resultando assim no atraso da rota. Entre diversos
+                outros imprevistos.</p>
+                <a class="modal-close">&#215;</a>
+            </div>
+        </div>
+    <button id="btAbrirModal" class="btn btn-lg" type="submit">Aviso</button>
 
+</div>
+ <!-- jQUery-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Ação para ocultar a div depois de 5 segundos -->
+<script>
+	$("#alert").hide(5000);
+</script>
+
+<script type="text/javascript">
+        //btn de aviso
+        var btAbrirModal = $("#btAbrirModal");
+        var modal = $("#modal");
+        var modalClose = $("#modal .modal-close");
+        var modalBackground = $("#modal .modal-bg");
+        btAbrirModal.click(function () {
+            modal.fadeIn(500);
+        });
+
+        modalClose.click(function () {
+            modal.fadeOut(500);
+        });
+
+        //Caso queira que o dialogo feche ao realizar um click fora dele.
+        modalBackground.click(function () {
+            modal.fadeOut(500);
+        });
+</script>
 
 

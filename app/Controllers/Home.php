@@ -12,7 +12,8 @@ class Home extends BaseController
 		$query = $db->query('SELECT * FROM `ruasavenidas` ORDER by nome ASC;');
 		$rua = $query->getResult();
         $data['rua_cep'] = $rua;
-		$data['rua'] = $rua;
+		$data['msg'] = "";
+		//$data['rua'] = $rua;
 		echo view('header.php');
 		echo view('site.php', $data);
 		echo view('footer.php');
@@ -53,9 +54,20 @@ class Home extends BaseController
 			$data['result'] = $results; //passa pro data pra poder acessar em outras páginas 
 		}
 		
-		echo view('header.php');
-		echo view('result.php', $data);
-		echo view('footer.php');
+		if($results != null){
+			echo view('header.php');
+			echo view('result.php', $data);
+			echo view('footer.php');
+		}else{
+			$query = $db->query('SELECT * FROM `ruasavenidas` ORDER by nome ASC;');
+			$rua = $query->getResult();
+        	$data['rua_cep'] = $rua;
+			$data['msg'] = "Erro";
+			echo view('header.php');
+			echo view('site.php', $data);
+			echo view('footer.php');
+		}
+		
 	}
 
 

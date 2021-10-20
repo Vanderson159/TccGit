@@ -82,7 +82,7 @@
                 }
                 .alert{
                     width: 2000px;
-                    height: 20px;
+                    height: 50px;
                 }
             }
             @media screen and (max-width: 1366px){
