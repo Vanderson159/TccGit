@@ -97,7 +97,6 @@
                                             $arraySub[$contadorSub] = $sub;
                                             $contadorSub++;
                                         }
-                                       
                                         //echo $arraySub[0]; 
                                         if($arraySub[0] <= 15){
                                             $progresso = base_url("assets/IMG/bus3.png");
@@ -110,6 +109,8 @@
                                                 }
                                             }
                                         }
+                                    }else{
+                                        $progresso = base_url("assets/IMG/bus1.png");
                                     }
                                     
                                     
@@ -153,6 +154,11 @@
                 <div class="barra-bar-porcentagem"></div>
             </div>
         </div>
+        <label class="label">+40 min</label>
+        <label class="label1">-30 min</label>
+        <label class="label2">-15 min</label>
+
+
 </div>
  <!-- jQUery-->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -228,6 +234,18 @@
                 }
             }
             @media screen and (max-width: 1600px){
+                .label{
+                    margin-top:-1%;
+                    margin-left: 76.5%;
+                }
+                .label1{
+                    margin-top:-2%;
+                    margin-left: 85.5%;
+                }
+                .label2{
+                    margin-top:-2%;
+                    margin-left: 94%;
+                }
                 .tabela, .tabela td, .tabela tr{
                     border: 1px solid; 
                 }
