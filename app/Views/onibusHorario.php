@@ -1,18 +1,18 @@
-<?php 
-    $total = rand(1, 100);
-    $progresso = rand(1, $total);
-    $porcentagem = ($progresso/$total) * 100;
+                        <?php 
+                            $total = rand(1, 100);
+                            $progresso = rand(1, $total);
+                            $porcentagem = ($progresso/$total) * 100;
 
-    if($porcentagem >= 40 && $porcentagem <= 70){
-        $color = "yellow";
-    }else{
-        if($porcentagem >= 80 && $porcentagem <= 100){
-            $color = "red";
-        }else{
-            $color = "green";
-        }
-    }
-?>
+                            if($porcentagem >= 40 && $porcentagem <= 70){
+                                $color = "yellow";
+                            }else{
+                                if($porcentagem >= 80 && $porcentagem <= 100){
+                                    $color = "red";
+                                }else{
+                                    $color = "green";
+                                }
+                            }
+                        ?>
 
                     <?php 
                         $cont = 0;
@@ -36,7 +36,10 @@
 
                     ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+<?php 
+     date_default_timezone_set('America/Sao_Paulo');
+     $date = date('H:i');
+?>
 <div class="retangulo">
     <h1>Horários</h1>
     <img class="img" src="<?php echo base_url("assets/IMG/adminEmpresa/relógio.png")?>" alt="" width="200" height="200">
@@ -63,16 +66,7 @@
                         </tr>
                         <tr>
                             <?php if($dataHora < 12 || $dataHoraT < 20):?>
-                                <?php if($dataHora < 12):?>
-                                    <td style="text-align: center;"><?php echo $dataHora?></td>
-                                <?php else : ?>
-                                    <td style="text-align: center;"></td>
-                                <?php endif?>
                                 <?php 
-                                 
-                                    date_default_timezone_set('America/Sao_Paulo');
-                                    $date = date('H:i');
-                                    
                                     //transformar a hora atual em minutos
                                     $atual = strtotime($date);
                                     $horasAtual =  strftime('%H', $atual);
@@ -81,43 +75,83 @@
                                         $horasAtual = $horasAtual * 60;
                                     }
                                     $atualF = $horasAtual + $minAtual;
-                                    //transformar a hora da tabela em minutos
-                                    $tabela = strtotime($dataHoraT);
-                                    $horasTabela =  strftime('%H', $tabela);
-                                    $minTabela =  strftime('%M', $tabela);
-                                    if($horasTabela > 0){
-                                        $horasTabela = $horasTabela * 60;
-                                    }
-                                    $tabelaF = $horasTabela + $minTabela;
-                                    ///////////////////////////////////
-                                    if($atualF <= $tabelaF){
-                                        $sub = $tabelaF - $atualF;
-                                       
-                                        if($contadorSub == 0){
-                                            $arraySub[$contadorSub] = $sub;
-                                            $contadorSub++;
+
+                                    if($date > $dataHora){
+                                         //transformar a hora da tabela em minutos
+                                        $tabela = strtotime($dataHoraT);
+                                        $horasTabela =  strftime('%H', $tabela);
+                                        $minTabela =  strftime('%M', $tabela);
+                                        if($horasTabela > 0){
+                                            $horasTabela = $horasTabela * 60;
                                         }
-                                        //echo $arraySub[0]; 
-                                        if($arraySub[0] <= 15){
-                                            $progresso = base_url("assets/IMG/bus3.png");
-                                        }else{
-                                            if($arraySub[0] > 20 && $sub <= 30 ){
-                                                $progresso = base_url("assets/IMG/bus2.png");
+                                        $tabelaF = $horasTabela + $minTabela;
+                                        ///////////////////////////////////
+                                        if($atualF <= $tabelaF){
+                                            $sub = $tabelaF - $atualF;
+                                        
+                                            if($contadorSub == 0){
+                                                $arraySub[$contadorSub] = $sub;
+                                                $contadorSub++;
+                                            }
+                                            echo $arraySub[0]; 
+                                            if($arraySub[0] <= 15){
+                                                $progresso = base_url("assets/IMG/bus3.png");
                                             }else{
-                                                if($arraySub[0] >= 40){
-                                                    $progresso = base_url("assets/IMG/bus1.png");
+                                                if($arraySub[0] > 20 && $sub <= 30 ){
+                                                    $progresso = base_url("assets/IMG/bus2.png");
+                                                }else{
+                                                    if($arraySub[0] >= 40){
+                                                        $progresso = base_url("assets/IMG/bus1.png");
+                                                    }
                                                 }
                                             }
+                                        }else{
+                                            $progresso = base_url("assets/IMG/bus1.png");
                                         }
                                     }else{
-                                        $progresso = base_url("assets/IMG/bus1.png");
+                                        if($dataHora > $date){
+                                             //transformar a hora da tabela em minutos
+                                            $tabela = strtotime($dataHora);
+                                            $horasTabela =  strftime('%H', $tabela);
+                                            $minTabela =  strftime('%M', $tabela);
+                                            if($horasTabela > 0){
+                                                $horasTabela = $horasTabela * 60;
+                                            }
+                                            $tabelaF = $horasTabela + $minTabela;
+                                            ///////////////////////////////////
+                                            if($atualF <= $tabelaF){
+                                                $sub = $tabelaF - $atualF;
+                                            
+                                                if($contadorSub == 0){
+                                                    $arraySub[$contadorSub] = $sub;
+                                                    $contadorSub++;
+                                                }
+                                                //echo $arraySub[0]; 
+                                                if($arraySub[0] <= 15){
+                                                    $progresso = base_url("assets/IMG/bus3.png");
+                                                }else{
+                                                    if($arraySub[0] > 20 && $sub <= 30 ){
+                                                        $progresso = base_url("assets/IMG/bus2.png");
+                                                    }else{
+                                                        if($arraySub[0] >= 40){
+                                                            $progresso = base_url("assets/IMG/bus1.png");
+                                                        }
+                                                    }
+                                                }
+                                            }else{
+                                                $progresso = base_url("assets/IMG/bus1.png");
+                                            }
+                                        } 
                                     }
-                                    
-                                    
-
                                 ?>
+                                <?php if($dataHora < 12):?>
+                                    <td style="text-align: center;"><?php echo $dataHora?></td>
+                                <?php else : ?>
+                                    <td style="text-align: center;"></td>
+                                <?php endif?>
+                                
                                 <?php if($dataHoraT < 20):?>
-                                    <td style="text-align: center;"><?php echo $dataHoraT?></td>
+                                    <td style="text-align: center; "><?php echo $dataHoraT?></td>
                                 <?php else : ?>
                                     <td style="text-align: center;"></td>
                                 <?php endif?>
