@@ -121,24 +121,29 @@
             $db = \Config\Database::connect();
             $db = db_connect();
             $sql = "SELECT empresa.id FROM `empresa` WHERE empresa.login = ?";
-            $query = $db->query($sql, [$_SESSION['user']]);
-            $results = $query->getResult();
-            $_SESSION['idEmpresa'] = $results[0]->id;
-            $sql2 = "SELECT empresa.nome FROM `empresa` WHERE empresa.id = ?";
-            $query2 = $db->query($sql2, [$results[0]->id]);
-            $results2 = $query2->getResult();
+            if(isset($_SESSION['user'])){ // para evitar que quando clicar no home e voltar esteja logado ainda
+                $query = $db->query($sql, [$_SESSION['user']]);
+                $results = $query->getResult();
+                $_SESSION['idEmpresa'] = $results[0]->id;
+                $sql2 = "SELECT empresa.nome FROM `empresa` WHERE empresa.id = ?";
+                $query2 = $db->query($sql2, [$results[0]->id]);
+                $results2 = $query2->getResult();
 
-            $_SESSION['nomeEmp'] = $results2[0]->nome;
-            
-            $sql3 = "SELECT * FROM `onibus` WHERE empresa_id = ?";
-            $query3 = $db->query($sql3, [$_SESSION['idEmpresa']]);
-            $results3 = $query3->getResult();
+                $_SESSION['nomeEmp'] = $results2[0]->nome;
+                
+                $sql3 = "SELECT * FROM `onibus` WHERE empresa_id = ?";
+                $query3 = $db->query($sql3, [$_SESSION['idEmpresa']]);
+                $results3 = $query3->getResult();
 
-            $data['msg'] = '';  
-            $data['bus'] = $results3;                     
-            echo view ('header');
-            echo view ('AdminEmpresa/Onibus/tabela', $data); 
-            echo view ('footer');
+                $data['msg'] = '';  
+                $data['bus'] = $results3;                     
+                echo view ('header');
+                echo view ('AdminEmpresa/Onibus/tabela', $data); 
+                echo view ('footer');
+            }else{
+                $retorno = $this->index();
+                return $retorno;
+            }
         }
 
         public function inserir(){

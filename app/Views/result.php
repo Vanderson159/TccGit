@@ -142,10 +142,14 @@
             <table class="tabela">
                 <tr class="trTable">
                     <td style="text-align: center;">ÔNIBUS ENCONTRADOS</td>
+                    <td style="text-align: center;">PASSAGEM (INTEIRA)</td>
+                    <td style="text-align: center;">PASSAGEM (MEIA)</td>
                     <td></td>
                     <?php foreach ($result as $results):?>
                         <tr>
                             <td style="text-align: center;"><?php echo $results->nome ?></td>
+                            <td style="text-align: center;">R$ <?php echo $results->passagens ?></td>
+                            <td style="text-align: center;">R$ <?php $meia = number_format(($results->passagens/2), 2); echo $meia;?></td>
                             <td style="text-align: center;"><a href="<?php echo base_url('/public/home/escolha');?>/<?php echo $results->id?>/<?php echo $_SESSION['destino']?>">Visualizar</a></td>
                         </tr> 
                     <?php endforeach ?>

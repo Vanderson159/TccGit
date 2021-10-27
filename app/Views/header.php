@@ -41,8 +41,7 @@
               <nav class="site-navigation text-right ml-auto " role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                   <li><a href="<?php echo base_url('public/home')?>" class="nav-link" style="font-size: 1.3rem;">Home</a></li>
-                  <li><a href="<?php echo base_url('public/home/linhas')?>" class="nav-link" style="font-size: 1.3rem;">Linhas</a></li>
-                  <li><a href="services.html" class="nav-link" style="font-size: 1.3rem;">Horários</a></li>
+                  <li><a href="<?php echo base_url('public/home/linha')?>" class="nav-link" style="font-size: 1.3rem;">Linhas</a></li>
                 </ul>
               </nav>
             </div>
@@ -57,9 +56,8 @@
             <div class="col-lg-4">
               <nav class="site-navigation text-left mr-auto " role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                  <li><a href="about.html" class="nav-link" style="font-size: 1.3rem;">Passagens</a></li>
-                  <li><a href="blog.html" class="nav-link" style="font-size: 1.3rem;">Contato</a></li>
-                  <li><a href="contact.html" class="nav-link" style="font-size: 1.3rem;">Sobre</a></li>
+                  <li><a href="about.html" class="nav-link" style="font-size: 1.3rem;">Contato</a></li>
+                  <li><a href="<?php echo base_url('public/admin/index')?>" class="nav-link" style="font-size: 1.3rem;">Sobre</a></li>
                 </ul>
               </nav>
             </div>

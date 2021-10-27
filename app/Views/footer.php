@@ -3,7 +3,7 @@
         <nav>
             <ul class="list-footer">
                 <li>
-                    <a href="<?php echo base_url('public/admin/index')?>" class="external_link">Página do administrador</a>
+                    <a href="<?php echo base_url('public/admin/index')?>" class="external_link">Painel de Controle</a>
                 </li>
                 <li>    
                     <a class="external_link" style="color: #ffcc00;">@ 2021</a>

@@ -24,12 +24,26 @@ class Home extends BaseController
 			$retorno = $this->filtro();
 			return $retorno;
 		}else{
-			$data['id'] = $id;
-			$data['cep'] =  $cep;
-			echo view('header.php');
-			echo view('escolha.php', $data);
-			echo view('footer.php');
-			
+			if(isset($id) && isset($cep)){
+				$data['id'] = $id;
+				$data['cep'] =  $cep;
+				$data['func'] = "filtro";
+				echo view('header.php');
+				echo view('escolha.php', $data);
+				echo view('footer.php');
+			}else{
+				if(isset($id) && is_null($cep)){
+					$data['id'] = $id;
+					$data['cep'] =  null;
+					$data['func'] = "linha";
+					echo view('header.php');
+					echo view('escolha.php', $data);
+					echo view('footer.php');
+				}else{
+					$retorno = $this->index();
+            		return $retorno;
+				}
+			}
 		}
 	}
 
@@ -40,7 +54,7 @@ class Home extends BaseController
 		if(is_null($escolha)){
 			//ONIBUS QUE PASSAM PELA ORIGEM
 			$destino = $this->request->getPost('rua_cep');
-			$query = $db->query('SELECT DISTINCT onibus.nome, ponto.rua_cep, onibus.id FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and ponto.rua_cep = '.$destino.';');
+			$query = $db->query('SELECT DISTINCT onibus.nome, ponto.rua_cep, onibus.id, linha.passagens FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and ponto.rua_cep = '.$destino.';');
 			$results = $query->getResult();
 			$data['destino'] = $destino;
 			$data['result'] = $results; //passa pro data pra poder acessar em outras páginas 
@@ -48,7 +62,7 @@ class Home extends BaseController
 			
 		}else{
 			$destino = $this->request->getPost('rua_cep');
-			$query = $db->query('SELECT DISTINCT onibus.nome, ponto.rua_cep, onibus.id FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and ponto.rua_cep = '.$escolha.';');
+			$query = $db->query('SELECT DISTINCT onibus.nome, ponto.rua_cep, onibus.id, linha.passagens FROM linha_has_ponto, linha, ponto, onibus WHERE linha.id = linha_has_ponto.linha_id and ponto.id = linha_has_ponto.ponto_id and onibus.linha_id = linha.id and ponto.rua_cep = '.$escolha.';');
 			$results = $query->getResult();
 			$data['destino'] = $escolha;
 			$data['result'] = $results; //passa pro data pra poder acessar em outras páginas 
@@ -69,8 +83,6 @@ class Home extends BaseController
 		}
 		
 	}
-
-
 
 	public function onibusFiltro($id = null){
 		session_start();
@@ -139,5 +151,24 @@ class Home extends BaseController
 		echo view('header.php');
 		echo view('mapaRota.php', $data);
 		echo view('footer.php');
+	}
+
+	public function linha(){
+		//SELECT DISTINCT onibus.nome FROM linha,onibus WHERE onibus.linha_id = linha.id and linha.id = onibus.linha_id;
+		$db = \Config\Database::connect();
+        $db = db_connect();
+		$sql = "SELECT DISTINCT onibus.id, onibus.nome, empresa.nome  as empresa FROM linha, onibus, empresa WHERE onibus.linha_id = linha.id and linha.id = onibus.linha_id and onibus.empresa_id = empresa.id and empresa.id = onibus.empresa_id";
+		$query = $db->query($sql);
+		$results = $query->getResult();
+		$data['result'] = $results;
+
+		if(isset($results)){
+			echo view('header.php');
+			echo view('linhaHeader.php', $data);
+			echo view('footer.php');
+		}else{
+			$retorno = $this->index();
+            return $retorno;
+		}
 	}
 }

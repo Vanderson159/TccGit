@@ -17,6 +17,7 @@
                     <?php 
                         $cont = 0;
                         $contadorSub = 0;
+                        $contadorSubManha = 0;
                         // convertendo o tempo da linha em minutos
                         $tempo = strtotime($result[0]->tempo); 
                         $horasLinha =  strftime('%H', $tempo);
@@ -41,7 +42,7 @@
      $date = date('H:i');
 ?>
 <div class="retangulo">
-    <h1>Horários</h1>
+    <h1>Horários: <?php echo $result[0]->endereco ?></h1>
     <img class="img" src="<?php echo base_url("assets/IMG/adminEmpresa/relógio.png")?>" alt="" width="200" height="200">
     <div class="table-wrapper">
         <table class="tabela">
@@ -76,7 +77,7 @@
                                     }
                                     $atualF = $horasAtual + $minAtual;
 
-                                    if($date > $dataHora){
+                                    if($date > $dataHora && $dataHora < 12){
                                          //transformar a hora da tabela em minutos
                                         $tabela = strtotime($dataHoraT);
                                         $horasTabela =  strftime('%H', $tabela);
@@ -93,7 +94,7 @@
                                                 $arraySub[$contadorSub] = $sub;
                                                 $contadorSub++;
                                             }
-                                            echo $arraySub[0]; 
+                                           echo $arraySub[0]; 
                                             if($arraySub[0] <= 15){
                                                 $progresso = base_url("assets/IMG/bus3.png");
                                             }else{
@@ -109,7 +110,7 @@
                                             $progresso = base_url("assets/IMG/bus1.png");
                                         }
                                     }else{
-                                        if($dataHora > $date){
+                                        if($dataHora > $date && $dataHora < 12){
                                              //transformar a hora da tabela em minutos
                                             $tabela = strtotime($dataHora);
                                             $horasTabela =  strftime('%H', $tabela);
@@ -122,18 +123,19 @@
                                             if($atualF <= $tabelaF){
                                                 $sub = $tabelaF - $atualF;
                                             
-                                                if($contadorSub == 0){
-                                                    $arraySub[$contadorSub] = $sub;
-                                                    $contadorSub++;
+                                                if($contadorSubManha == 0){
+                                                    $arraySubManha[$contadorSubManha] = $sub;
+                                                    $contadorSubManha++;
                                                 }
-                                                //echo $arraySub[0]; 
-                                                if($arraySub[0] <= 15){
+                                                //echo $sub;
+                                                //echo $arraySubManha[0]; 
+                                                if($arraySubManha[0] <= 15){
                                                     $progresso = base_url("assets/IMG/bus3.png");
                                                 }else{
-                                                    if($arraySub[0] > 20 && $sub <= 30 ){
+                                                    if($arraySubManha[0] > 20 && $sub <= 30 ){
                                                         $progresso = base_url("assets/IMG/bus2.png");
                                                     }else{
-                                                        if($arraySub[0] >= 40){
+                                                        if($arraySubManha[0] >= 40){
                                                             $progresso = base_url("assets/IMG/bus1.png");
                                                         }
                                                     }
@@ -159,7 +161,7 @@
                                 <?php $validacao = true;?>
                             <?php endif?>
                         </tr>
-                        
+        
                         <?php $timestamp = strtotime($dataHora) + 60*$tempo; ?>
                         <?php $dataHora = strftime('%H:%M:%S', $timestamp); ?>
                         <?php $timestamp = strtotime($dataHoraT) + 60*$tempo; ?>
