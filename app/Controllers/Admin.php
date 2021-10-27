@@ -508,6 +508,7 @@
                 $empresaModel->set('login', $this->request->getPost('login'));
                 $empresaModel->set('senha', $senha);
                 $empresaModel->set('nome', $this->request->getPost('nome'));
+                $empresaModel->set('numero', $this->request->getPost('numero'));
 
                 if($check != null){
                     $data['msg'] = 'Erro';
@@ -542,6 +543,7 @@
                 $senha = md5($this->request->getPost('senha'));
                 $empresa->senha = $senha;
                 $empresa->nome = $this->request->getPost('nome');
+                $empresa->numero = $this->request->getPost('numero');
                 //if para ver se att
                 if($empresaModel->update($id, $empresa)){
                     $data['msg'] = 'Sucesso';

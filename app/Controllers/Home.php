@@ -152,7 +152,7 @@ class Home extends BaseController
 		echo view('mapaRota.php', $data);
 		echo view('footer.php');
 	}
-
+	// HEADER //
 	public function linha(){
 		//SELECT DISTINCT onibus.nome FROM linha,onibus WHERE onibus.linha_id = linha.id and linha.id = onibus.linha_id;
 		$db = \Config\Database::connect();
@@ -165,6 +165,25 @@ class Home extends BaseController
 		if(isset($results)){
 			echo view('header.php');
 			echo view('linhaHeader.php', $data);
+			echo view('footer.php');
+		}else{
+			$retorno = $this->index();
+            return $retorno;
+		}
+	}
+
+	public function contato(){
+		//SELECT DISTINCT empresa.nome, empresa.numero FROM empresa;
+		$db = \Config\Database::connect();
+        $db = db_connect();
+		$sql = "SELECT DISTINCT empresa.nome, empresa.numero FROM empresa";
+		$query = $db->query($sql);
+		$results = $query->getResult();
+		$data['result'] = $results;
+
+		if(isset($results)){
+			echo view('header.php');
+			echo view('contatoHeader.php', $data);
 			echo view('footer.php');
 		}else{
 			$retorno = $this->index();

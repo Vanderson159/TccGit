@@ -56,7 +56,7 @@
             <div class="col-lg-4">
               <nav class="site-navigation text-left mr-auto " role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                  <li><a href="about.html" class="nav-link" style="font-size: 1.3rem;">Contato</a></li>
+                  <li><a href="<?php echo base_url('public/home/contato')?>" class="nav-link" style="font-size: 1.3rem;">Contato</a></li>
                   <li><a href="<?php echo base_url('public/admin/index')?>" class="nav-link" style="font-size: 1.3rem;">Sobre</a></li>
                 </ul>
               </nav>

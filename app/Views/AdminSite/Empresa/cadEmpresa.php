@@ -63,7 +63,7 @@
             margin-top: 25px;
         }
         #formInserir{
-            margin-top: -17%;
+            margin-top: -18%;
             margin-left: 5%;
         }
         .alert{
@@ -154,6 +154,11 @@
                 <ol>
                     <label class="label">Nome:&nbsp;&nbsp;</label>
                     <input name="nome" id="nome" type="text" class="form-control" value="<?php echo (isset($empresa) ? $empresa->nome : 'Nogueira')?>" placeholder="Noma da Empresa" required autofocus>
+                </ol>
+                <br>
+                <ol>
+                    <label class="label">Número:&nbsp;&nbsp;</label>
+                    <input name="numero" id="numero" type="text" class="form-control" value="<?php echo (isset($empresa) ? $empresa->numero : '')?>" placeholder="Ex: (55)999626538" required autofocus>
                 </ol>
             <ul>
             <br>

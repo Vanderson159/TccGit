@@ -1,5 +1,7 @@
+
+
 <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
-<style>
+        <style>
             @media screen and (max-width: 1920px){
                 .tabela, .tabela td, .tabela tr{
                     border: 1px solid; 
@@ -10,7 +12,7 @@
                     font-size: 20;
                     font-weight: bold;
                     margin-left: 120px;
-                    width: 1200px;
+                    width: 1050px;
                     height: 500px;
                 }
                 .trTable{
@@ -41,6 +43,9 @@
                     margin-left: 77%;
                     margin-top: 20px;
                 }
+                td{
+                    text-align: center;
+                }
             }
             @media screen and (max-width: 1600px){
                 .tabela, .tabela td, .tabela tr{
@@ -53,7 +58,7 @@
                     font-weight: bold;
                     margin-left: 50px;
                     width: 1050px;
-                    height: 400px;
+                    height: 300px;
                 }
                 .trTable{
                     background-color: #ffcc00;
@@ -65,10 +70,12 @@
                     height: 320px;
                 }
                 .btn{
+                    text-align: center;
                     margin-left: 22%;
                     margin-top: 25px;
                 }
                 .Reg{
+                    text-align: center;
                     margin-left:40%;
                     margin-top: -3%;
                 }
@@ -77,12 +84,15 @@
                     margin-top: 25px;
                 }
                 #imgLabel{
-                    margin-left: 73%;
+                    margin-left: 77%;
                     margin-top: 20px;
+                }
+                td{
+                    text-align: center;
                 }
                 .alert{
                     width: 2000px;
-                    height: 50px;
+                    height: 20px;
                 }
             }
             @media screen and (max-width: 1366px){
@@ -109,114 +119,64 @@
 
                 }
                 .btn{
+                    text-align: center;
                     margin-left: 10%;
                     margin-top: 10px;
                 }
                 .Reg{
                     margin-left:35%;
                     margin-top: -3.5%;
+                    text-align: center;
                 }
                 .img{
-                    margin-left: 77%;
+                    margin-left: 78%;
                     margin-top: 25px;
                 } 
                 #imgLabel{
-                    margin-left: 68%;
+                    margin-left: 70%;
                     margin-top: 10px;
                 }
-               
+                .imgLetreiro{
+                    margin-left:-5%;
+                }
+                td{
+                    text-align: center;
+                }
             }
         </style>
    
         <!--passa o controle e a função como parametros -->
        <!-- <p><a href="admin/inserir">+Inserir novo administrador</a></p> -->
 <?php $session = session();?>
-<?php if((isset($_SESSION['user'])) && ($_SESSION['userType'] == 'adm')) : ?>
-    <?php 
-        $login = $_SESSION['user'];
-        $senha = $_SESSION['senha'];
-    ?>
-        <?php if($msg == 'Sucesso' && $cod == 111) : ?>
-            <div class="alert alert-success" id="alert" role="alert" style="text-align: center;">
-                Empresa inserida com sucesso!
-            </div>
-        <?php endif ?>
-        <?php if($msg == 'Sucesso' && $cod == 444) : ?>
-            <div class="alert alert-success" id="alert" role="alert" style="text-align: center;">
-                Empresa deletada com sucesso!
-            </div>
-        <?php endif ?>
-        <?php if($msg == 'Erro'  && $cod == 222) : ?>
-            <div class="alert alert-danger" id="alert" role="alert" style="text-align: center;">
-                Erro ao tentar inserir empresa!
-            </div>
-        <?php endif ?>
-        <?php if($msg == 'Erro' && $cod == 333) : ?>
-            <div class="alert alert-danger" id="alert" role="alert" style="text-align: center;">
-                Erro ao tentar excluir empresa!
-            </div>
-        <?php endif ?>
+<?php if((isset($result))) : ?>
 <div class="retangulo"> 
-    <img class="img" src="<?php echo base_url("assets/IMG/adminSite/empresa.png")?>" alt="" width="200" height="200">
-    <h2 id="imgLabel">Gerenciamento de Empresas</h2>
+    <div class="imgLetreiro">
+    <img class="img" src="<?php echo base_url("assets/IMG/contato.png")?>" alt="" width="200" height="200">
+    <h2 id="imgLabel">Contato das Empresas</h2>
+    </div>
     <div class="table-wrapper">
         <table class="tabela">
             <tr class="trTable">
-                <td>Id (CNPJ)</td>
-                <td>Nome</td>
+                <td>Empresa</td>
                 <td>Número</td>
-                <td>Login</td>
-                <td></td>
-                <td></td>
-                <?php foreach ($empresa as $empresas):?>
+                <?php foreach ($result as $results):?>
+                    <tr> 
+                        <td><?php echo $results->nome ?></td>
+                        <td><?php echo $results->numero ?></td> 
+                    </tr>  
                     <tr>
-                        <td><?php echo $empresas->id ?></td>  
-                        <td><?php echo $empresas->nome ?></td>
-                        <td><?php echo $empresas->numero ?></td>
-                        <td><?php echo $empresas->login ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
-                    </tr>    
-                    <tr>
-                        <td><?php echo $empresas->id ?></td>  
-                        <td><?php echo $empresas->nome ?></td>
-                        <td><?php echo $empresas->numero ?></td>
-                        <td><?php echo $empresas->login ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
-                    </tr> 
-                    <tr>
-                        <td><?php echo $empresas->id ?></td>  
-                        <td><?php echo $empresas->nome ?></td>
-                        <td><?php echo $empresas->numero ?></td>
-                        <td><?php echo $empresas->login ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarEmpresa');?>/<?php echo $empresas->id?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluirEmpresa');?>/<?php echo $empresas->id?>">Excluir</a></td>
-                    </tr>                            
+                        <td><?php echo $results->nome ?></td>  
+                        <td><?php echo $results->numero ?></td>
+                    </tr>                                  
                 <?php endforeach ?>
             </tr>
         </table>
     </div>
-    <ul>
-       <ol>
-            <a href="<?php echo base_url('public/admin/cadEmpresa');?>"><button class="btn btn-lg" style="width: 200px;">Inserir Empresa</button></a>
-       </ol>
-       <ol>
-            <a href="<?php echo base_url('public/admin/voltarPainelAdm');?>"><button class="btn Reg btn-lg" style="width: 200px;">Regressar ao Painel</button></a>
-       </ol>
-    </ul>
 </div>
 <?php else : ?>
     <?php 
         echo view('header');
-        echo view('login');
+        echo view('site');
         echo view('footer');
     ?>
 <?php endif ?>
- <!-- jQUery-->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-<!-- Ação para ocultar a div depois de 5 segundos -->
-<script>
-	$("#alert").hide(5000);
-</script>
