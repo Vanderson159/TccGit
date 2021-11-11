@@ -71,10 +71,7 @@
             margin-top: -13%;
             margin-left: 5%;
         }
-        .empresa{
-            margin-left: 25%;
-            margin-top: -20%;
-        }
+        
         .inputEmpresa{
             margin-left: 11%;
             margin-top: -5%;
@@ -184,12 +181,53 @@
             margin-top: -8.5%;
         }
         .img{
-            margin-left: 58%;
+            margin-left: 78%;
             margin-top: -15px;
         }
         #formInserir{
             margin-top: -13%;
             margin-left: 5%;
+        }
+        .empresa{
+            margin-left: 30%;
+            margin-top: -24%;
+        }
+        .inputEmpresa{
+            margin-left: 15%;
+            margin-top: -6.5%;
+        }
+        .labelEmpresa{
+            margin-top: 2%;
+            margin-left: 0;
+            font-weight: bold;
+            font-size: large;
+        }
+        .btnAlert{
+            margin-left: 55%;
+            margin-top: -11.7%;
+            background-image: url(<?php echo base_url("assets/IMG/adminEmpresa/alerta.png")?>);
+            width: 30;
+            height: 30;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #BCB9B9;
+            border: none;
+        }
+        .btnAlert:hover{
+            margin-left: 55%;
+            margin-top: -11.7%;
+            background-image: url(<?php echo base_url("assets/IMG/adminEmpresa/alertaRed.png")?>);
+            width: 30;
+            height: 30;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #BCB9B9;
+            border: none;
+        }
+        .acoes{
+            margin-top: 20%;
         }
     }
 </style>

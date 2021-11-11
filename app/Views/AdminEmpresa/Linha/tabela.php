@@ -132,7 +132,7 @@
                     margin-top: 25px;
                 } 
                 #imgLabel{
-                    margin-left: 70%;
+                    margin-left: 72%;
                     margin-top: 10px;
                 }
                 .imgLetreiro{

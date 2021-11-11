@@ -72,7 +72,7 @@
         }
     }
     @media screen and (max-width: 1366px){
-        h1{
+        h2{
             text-align: center;
         }
 
@@ -92,8 +92,12 @@
             font-size: large;
         }
         .voltar{
-            margin-left: 11%;
-            margin-top: -8.5%;
+            margin-left: 45%;
+            margin-top: -12.7%;
+        }
+        .salvar{
+            margin-left: 32%;
+            margin-top: -10%;
         }
         .img{
             margin-left: 58%;
@@ -119,7 +123,7 @@
             </div>
         <?php endif ?>
     <div class="retangulo"> 
-        <h1><?php echo $titulo; ?></h1>
+        <h2><?php echo $titulo; ?></h2>
         <br>
         <img class="img" src="<?php echo base_url("assets/IMG/adminSite/empresa.png")?>" alt="" width="200" height="200">
         <div class="divCampos">
@@ -164,7 +168,7 @@
             <br>
             <ul>
                 <ol>
-                    <button class="btn btn-lg" type="submit">Salvar</button>
+                    <button class="btn btn-lg salvar" type="submit">Salvar</button>
                 </ol>
                 <br>
                 <ol>

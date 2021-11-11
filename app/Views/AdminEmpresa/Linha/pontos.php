@@ -114,7 +114,7 @@
                 }
                 .Reg{
                     margin-left:35%;
-                    margin-top: -3.5%;
+                    margin-top: 0.7%;
                 }
                 .img{
                     margin-left: 77%;
