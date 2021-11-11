@@ -43,7 +43,7 @@
 ?>
 <div class="retangulo">
     <h1>Horários: <?php echo $result[0]->endereco ?></h1>
-    <img class="img" src="<?php echo base_url("assets/IMG/adminEmpresa/relógio.png")?>" alt="" width="200" height="200">
+    <img class="img" src="<?php echo base_url("assets/IMG/adminEmpresa/relógio.png")?>" alt="">
     <div class="table-wrapper">
         <table class="tabela">
             <tr class="trTable">
@@ -94,7 +94,7 @@
                                                 $arraySub[$contadorSub] = $sub;
                                                 $contadorSub++;
                                             }
-                                           echo $arraySub[0]; 
+                                           //echo $arraySub[0]; 
                                             if($arraySub[0] <= 15){
                                                 $progresso = base_url("assets/IMG/bus3.png");
                                             }else{
@@ -318,6 +318,8 @@
                 .img{
                     margin-left: 80%;
                     margin-top:-3%;
+                    width: 200;
+                    height: 200;
                 }
                 #imgLabel{
                     margin-left: 74%;
@@ -440,6 +442,18 @@
                
             }
             @media screen and (max-width: 1366px){
+                .label{
+                    margin-top:-1%;
+                    margin-left: 73%;
+                }
+                .label1{
+                    margin-top:-2%;
+                    margin-left: 84%;
+                }
+                .label2{
+                    margin-top:-2%;
+                    margin-left: 93%;
+                }
                 .tabela, .tabela td, .tabela tr{
                     border: 1px solid; 
                 }
@@ -448,9 +462,10 @@
                     color: black;
                     font-size: 20;
                     font-weight: bold;
-                    margin-left: 30px;
+                    margin-left: 5%;
+                    margin-top:1%;
                     width: 835px;
-                    height: 200px;
+                    height: 300px;
                 }
                 .trTable{
                     background-color: #ffcc00;
@@ -458,33 +473,143 @@
                 .table-wrapper {
                     overflow: scroll;
                     margin-right: 450px;
-                    margin-top: -20%;
-                    height: 300px;
-
+                    margin-top: -8%;
+                    height: 305px;
                 }
                 .btn{
                     text-align: center;
-                    margin-left: 10%;
-                    margin-top: 10px;
+                    margin-left: 77%;
+                    margin-top: -180px;
+                    width: 200px;
                 }
                 .Reg{
-                    margin-left:35%;
-                    margin-top: -3.5%;
                     text-align: center;
+                    margin-left:40%;
+                    margin-top: -3%;
                 }
                 .img{
-                    margin-left: 78%;
-                    margin-top: 25px;
-                } 
-                #imgLabel{
-                    margin-left: 70%;
-                    margin-top: 10px;
+                    margin-left: 79%;
+                    margin-top:-3%;
+                    width: 150;
+                    height: 150;
                 }
-                .imgLetreiro{
-                    margin-left:-5%;
+                #imgLabel{
+                    margin-left: 74%;
+                    margin-top: 20px;
                 }
                 td{
                     text-align: center;
+                }
+                .alert{
+                    width: 2000px;
+                    height: 20px;
+                }
+                h1{
+                    text-align: center;
+                }
+                .btnAlert{
+                    margin-left: 85%;
+                    margin-top: -5%;
+                    background-image: url(<?php echo base_url("assets/IMG/adminEmpresa/alerta.png")?>);
+                    width: 30;
+                    height: 30;
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-color: #BCB9B9;
+                    border: none;
+                }
+                .btnAlert:hover{
+                    margin-left: 85%;
+                    margin-top: -5%;
+                    background-image: url(<?php echo base_url("assets/IMG/adminEmpresa/alertaRed.png")?>);
+                    width: 30;
+                    height: 30;
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-color: #BCB9B9;
+                    border: none;
+                }
+                
+                .hide {
+                    display: none;
+                }
+
+                .modal-bg {
+                    position: fixed;
+                    top: 0px;
+                    right: 0px;
+                    bottom: 0px;
+                    left: 0px;
+                    background: gainsboro;
+                    opacity: 0.7;
+                }
+
+                .modal-content {
+                    position: fixed;
+                    margin: 0 auto;
+                    width: 500px;
+                    height: 200px;
+                    top: 50px;
+                    right: 0px;
+                    bottom: 0px;
+                    left: 0px;
+                    background: #BCB9B9;
+                    box-shadow: 0px 0px 10px black;
+                    border-radius: 5px;
+                    padding: 5px;
+                    margin-top: 5%;
+                }
+
+                .modal-close {
+                    font-size: 2rem;
+                    line-height: 1;
+                    position: absolute;
+                    top: 0px;
+                    right: 5px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    color: #AAAAAA;
+                    font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+                }
+                /* content */   
+                #barra{
+                    width: 10px;
+                    height: 100px;
+                    top:0;
+                    left: 0;
+                    background-color: #BCB9B9;
+                    display: flex;
+                    flex-flow: column wrap;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 70%;
+                    margin-top: -10%;
+                }
+                /* barra de progresso */
+                #barra .barra-bar{
+                    width: 400px;
+                    padding: 3px;
+                    margin: 20px 0;
+                    border-radius: 7px;
+                    border:1px solid #000;
+                    height: 50px;
+                    position: relative;
+                    background-image: url(<?php echo $progresso?>);
+                }
+                /* porcentagem na barra */
+                .barra-bar .barra-bar-porcentagem{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    color: #fff;
+                    text-shadow: 0 0 20px #000;
+                    left: 0;
+                    top: 0;
+                    font-size: 13px;
+                    text-align: center;
+                    margin-top: 5px;
                 }
             }
 </style>

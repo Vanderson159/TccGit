@@ -55,7 +55,7 @@
                     margin-left: 8%;
                 }
                 .Btnlogut{
-                    margin-top: 2%;
+                    margin-top: 1%;
                     margin-left: 45.7%;
                     width: 120px;
                     height: 50px;
@@ -77,7 +77,7 @@
                     font-size: 20;
                     font-weight: bold;
                     margin-left: 30px;
-                    width: 835px;
+                    width: 900px;
                     height: 200px;
                 }
                 .trTable{
@@ -86,8 +86,9 @@
                 .table-wrapper {
                     overflow: scroll;
                     margin-right: 500px;
-                    margin-top: -20%;
+                    margin-top: -0.4%;
                     height: 300px;
+                    width:80%;
 
                 }
                 .btn{
@@ -106,7 +107,28 @@
                     margin-left: 68%;
                     margin-top: 10px;
                 }
-               
+                .letreiro{
+                    background-color: #ffcc00;
+                    width: 897px;
+                    height: 50px;
+                    margin-left: 3.5%;
+                    margin-top: 1%;
+                }
+                .base{
+                    margin-left: 12%;
+                }
+                .Btnlogut{
+                    margin-top: 1%;
+                    margin-left: 45.7%;
+                    width: 120px;
+                    height: 50px;
+                    border: none;
+                    background-color: #BCB9B9;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                    background-image: url('<?php echo base_url('assets/IMG/adminSite/logOut.png')?>');
+                }
             }
         </style>
 <div class="retangulo">

@@ -104,9 +104,9 @@
                     color: black;
                     font-size: 20;
                     font-weight: bold;
-                    margin-left: 30px;
-                    width: 835px;
-                    height: 200px;
+                    margin-left: 50px;
+                    width: 900px;
+                    height: 300px;
                 }
                 .trTable{
                     background-color: #ffcc00;
@@ -114,33 +114,34 @@
                 .table-wrapper {
                     overflow: scroll;
                     margin-right: 450px;
-                    margin-top: -20%;
-                    height: 300px;
-
+                    margin-top: -18%;
+                    height: 320px;
+                    width: 980px;
                 }
                 .btn{
                     text-align: center;
-                    margin-left: 10%;
-                    margin-top: 10px;
+                    margin-left: 22%;
+                    margin-top: 25px;
                 }
                 .Reg{
-                    margin-left:35%;
-                    margin-top: -3.5%;
                     text-align: center;
+                    margin-left:40%;
+                    margin-top: -3%;
                 }
                 .img{
-                    margin-left: 78%;
+                    margin-left: 80%;
                     margin-top: 25px;
-                } 
-                #imgLabel{
-                    margin-left: 70%;
-                    margin-top: 10px;
                 }
-                .imgLetreiro{
-                    margin-left:-5%;
+                #imgLabel{
+                    margin-left: 77%;
+                    margin-top: 20px;
                 }
                 td{
                     text-align: center;
+                }
+                .alert{
+                    width: 2000px;
+                    height: 20px;
                 }
             }
         </style>
