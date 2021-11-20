@@ -40,6 +40,7 @@
 
         .divCampos{
             margin-left: 25%;
+
         }
 
         .form-control{
@@ -64,7 +65,7 @@
             margin-top: -7.1%;
         }
         .img{
-            margin-left: 54.5%;
+            margin-left: 56%;
             margin-top: 50px;
         }
         #formInserir{
@@ -154,6 +155,10 @@
         .alert{
             width: 2000px;
             height: 50px;
+        }
+        .empresa{
+            margin-left: 27%;
+            margin-top: -20%;
         }
     }
     @media screen and (max-width: 1366px){

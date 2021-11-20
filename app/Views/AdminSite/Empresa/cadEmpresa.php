@@ -2,7 +2,7 @@
 
 <style>
     @media screen and (max-width: 1920px){
-        h1{
+        h2{
             text-align: center;
         }
 
@@ -35,7 +35,7 @@
         }
     }
     @media screen and (max-width: 1600px){
-        h1{
+        h2{
             text-align: center;
         }
 

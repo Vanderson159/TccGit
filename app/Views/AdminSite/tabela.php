@@ -45,6 +45,10 @@
                 td{
                     text-align: center;
                 }
+                .alert{
+                    width: 2000px;
+                    height: 45px;
+                }
             }
             @media screen and (max-width: 1600px){
                 .tabela, .tabela td, .tabela tr{
@@ -91,7 +95,7 @@
                 }
                 .alert{
                     width: 2000px;
-                    height: 20px;
+                    height: 45px;
                 }
             }
             @media screen and (max-width: 1366px){
@@ -140,6 +144,10 @@
                 }
                 td{
                     text-align: center;
+                }
+                .alert{
+                    width: 2000px;
+                    height: 35px;
                 }
             }
         </style>
