@@ -166,12 +166,7 @@
                         <td><?php echo $results->nome ?></td>  
                         <td><?php echo $results->empresa ?></td>
                         <td style="text-align: center;"><a href="<?php echo base_url('/public/home/escolha');?>/<?php echo $results->id?>">Visualizar</a></td>
-                    </tr>  
-                    <tr>
-                        <td><?php echo $results->nome ?></td>  
-                        <td><?php echo $results->empresa ?></td>
-                        <td style="text-align: center;"><a href="<?php echo base_url('/public/home/escolha');?>/<?php echo $results->id?>">Visualizar</a></td>
-                    </tr>                                  
+                    </tr>                                   
                 <?php endforeach ?>
             </tr>
         </table>

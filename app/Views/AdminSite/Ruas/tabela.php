@@ -172,19 +172,7 @@
                         <td><?php echo $ruas->nome ?></td>
                         <td><a class="editar" href="<?php echo base_url('/public/admin/editarRua');?>/<?php echo $ruas->cep?>">Editar</a></td>
                         <td><a href="<?php echo base_url('/public/admin/excluirRua');?>/<?php echo $ruas->cep?>">Excluir</a></td>
-                    </tr>
-                    <tr>
-                        <td><?php echo $ruas->cep ?></td>  
-                        <td><?php echo $ruas->nome ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarRua');?>/<?php echo $ruas->cep?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluirRua');?>/<?php echo $ruas->cep?>">Excluir</a></td>
-                    </tr> 
-                    <tr>
-                        <td><?php echo $ruas->cep ?></td>  
-                        <td><?php echo $ruas->nome ?></td>
-                        <td><a class="editar" href="<?php echo base_url('/public/admin/editarRua');?>/<?php echo $ruas->cep?>">Editar</a></td>
-                        <td><a href="<?php echo base_url('/public/admin/excluirRua');?>/<?php echo $ruas->cep?>">Excluir</a></td>
-                    </tr>                                    
+                    </tr>                                  
                 <?php endforeach ?>
             </tr>
         </table>

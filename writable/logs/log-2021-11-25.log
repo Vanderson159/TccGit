@@ -1,0 +1,14 @@
+ERROR - 2021-11-25 11:51:34 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tcc`.`linha`, CONSTRAINT `empresa_idFK` FOREIGN KEY (`empresa_id`) REFERENCES `empresa` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) in C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\TccGit\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `em...')
+#1 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `em...')
+#2 C:\xampp\htdocs\TccGit\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `em...')
+#3 C:\xampp\htdocs\TccGit\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `em...', Array, false)
+#4 C:\xampp\htdocs\TccGit\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\TccGit\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\TccGit\app\Controllers\Admin.php(569): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(936): App\Controllers\Admin->excluirEmpresa('97547215634578')
+#8 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\TccGit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TccGit\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}

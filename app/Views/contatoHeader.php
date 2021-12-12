@@ -163,11 +163,7 @@
                     <tr> 
                         <td><?php echo $results->nome ?></td>
                         <td><?php echo $results->numero ?></td> 
-                    </tr>  
-                    <tr>
-                        <td><?php echo $results->nome ?></td>  
-                        <td><?php echo $results->numero ?></td>
-                    </tr>                                  
+                    </tr>                                   
                 <?php endforeach ?>
             </tr>
         </table>

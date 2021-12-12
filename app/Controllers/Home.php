@@ -190,5 +190,11 @@ class Home extends BaseController
             return $retorno;
 		}
 	}
+
+	public function sobre(){
+		echo view('header.php');
+		echo view('sobre.php');
+		echo view('footer.php');
+	}
 	
 }

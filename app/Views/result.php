@@ -173,12 +173,6 @@
                                 <td style="text-align: center;">R$ <?php echo $results->passagens ?></td>
                                 <td style="text-align: center;">R$ <?php $meia = number_format(($results->passagens/2), 2); echo $meia;?></td>
                                 <td style="text-align: center;"><a href="<?php echo base_url('/public/home/escolha');?>/<?php echo $results->id?>/<?php echo $_SESSION['destino']?>">Visualizar</a></td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: center;"><?php echo $results->nome ?></td>
-                                <td style="text-align: center;">R$ <?php echo $results->passagens ?></td>
-                                <td style="text-align: center;">R$ <?php $meia = number_format(($results->passagens/2), 2); echo $meia;?></td>
-                                <td style="text-align: center;"><a href="<?php echo base_url('/public/home/escolha');?>/<?php echo $results->id?>/<?php echo $_SESSION['destino']?>">Visualizar</a></td>
                             </tr>  
                         <?php endforeach ?>
                     </tr>

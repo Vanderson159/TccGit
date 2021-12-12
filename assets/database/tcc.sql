@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 27-Out-2021 às 22:11
+-- Tempo de geração: 12-Dez-2021 às 18:21
 -- Versão do servidor: 10.4.20-MariaDB
 -- versão do PHP: 8.0.8
 
@@ -38,8 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `login`, `senha`) VALUES
-(1, 'vandi', '202cb962ac59075b964b07152d234b70'),
-(11, 'User', '202cb962ac59075b964b07152d234b70');
+(11, 'admin', '202cb962ac59075b964b07152d234b70');
 
 -- --------------------------------------------------------
 
@@ -60,8 +59,8 @@ CREATE TABLE `empresa` (
 --
 
 INSERT INTO `empresa` (`id`, `login`, `senha`, `nome`, `numero`) VALUES
-('2147483647', 'userNogueira', 'd9b1d7db4cd6e70935368a1efb10e377', 'Nogueira', '(55)999517980'),
-('97547215634587', 'userFronteira', 'd9b1d7db4cd6e70935368a1efb10e377', 'Fronteira', '(55)999626534');
+('2147483647', 'userNogueira', '202cb962ac59075b964b07152d234b70', 'Nogueira', '(55)999517980'),
+('97547215634587', 'userFronteira', '202cb962ac59075b964b07152d234b70', 'Fronteira', '(55)999626534');
 
 -- --------------------------------------------------------
 
@@ -74,6 +73,7 @@ CREATE TABLE `linha` (
   `mapa` varchar(1000) NOT NULL,
   `tempo` time NOT NULL,
   `passagens` double NOT NULL,
+  `status` varchar(50) DEFAULT NULL,
   `empresa_id` varchar(14) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -81,9 +81,10 @@ CREATE TABLE `linha` (
 -- Extraindo dados da tabela `linha`
 --
 
-INSERT INTO `linha` (`id`, `mapa`, `tempo`, `passagens`, `empresa_id`) VALUES
-(1000, 'https://www.google.com/maps/d/u/0/embed?mid=1m-FedpFBbY2pRt7xRmkC4YhEphWsaqkq', '00:30:00', 3.75, '2147483647'),
-(3001, 'https://www.google.com/maps/d/u/0/embed?mid=1tASnUobh2i-VygVt4rqGuOXMkxevf0bF', '01:00:00', 3.2, '97547215634587');
+INSERT INTO `linha` (`id`, `mapa`, `tempo`, `passagens`, `status`, `empresa_id`) VALUES
+(1000, 'https://www.google.com/maps/d/u/0/embed?mid=1m-FedpFBbY2pRt7xRmkC4YhEphWsaqkq', '00:31:00', 3.75, 'Em andamento', '2147483647'),
+(2968, 'MyMaps', '00:30:00', 3.75, 'Em andamento', '2147483647'),
+(3001, 'https://www.google.com/maps/d/u/0/embed?mid=1tASnUobh2i-VygVt4rqGuOXMkxevf0bF', '01:00:00', 3.2, 'Linha finalizada', '97547215634587');
 
 -- --------------------------------------------------------
 
@@ -106,12 +107,11 @@ INSERT INTO `linha_has_ponto` (`linha_id`, `ponto_id`, `manha`, `tarde`) VALUES
 (1000, 10, '06:00:00', '12:00:00'),
 (1000, 11, '06:05:00', '12:05:00'),
 (1000, 13, '06:10:00', '12:10:00'),
-(1000, 14, '06:15:00', '12:15:00'),
+(1000, 14, '06:12:00', '12:15:00'),
 (1000, 15, '06:20:00', '12:20:00'),
 (1000, 16, '06:25:00', '12:25:00'),
 (1000, 18, '06:30:00', '12:30:00'),
 (1000, 19, '06:35:00', '12:35:00'),
-(3001, 20, '06:36:00', '14:00:00'),
 (3001, 22, '08:00:00', '15:03:00');
 
 -- --------------------------------------------------------
@@ -161,8 +161,8 @@ INSERT INTO `ponto` (`id`, `endereco`, `localizacao`, `rua_cep`) VALUES
 (16, 'Av. Tiaraju, 958', 'https://www.google.com.br/maps/@-29.7906664,-55.7664465,3a,75y,246.96h,78.96t/data=!3m6!1e1!3m4!1sYfbQeqVIQPCJj_4WU5iKBw!2e0!7i16384!8i8192', 97546550),
 (18, 'Av. Tiaraju, 1096', 'https://www.google.com.br/maps/@-29.7927462,-55.7639963,3a,75y,174.12h,82.02t/data=!3m6!1e1!3m4!1ssEotnT7A2Ge70_rI-BTr7Q!2e0!7i16384!8i8192', 97546550),
 (19, 'Av. Tiaraju, Saleiro', 'https://www.google.com.br/maps/@-29.7962625,-55.7592263,3a,75y,239.7h,67.48t/data=!3m6!1e1!3m4!1sTWfQzwnDb-TlomKSy5rjQA!2e0!7i13312!8i6656', 97546550),
-(20, 'R. Gen. Sampaio, 861', 'https://www.google.com.br/maps/@-29.7817159,-55.7929675,3a,75y,272.33h,83.96t/data=!3m6!1e1!3m4!1ssFpbI2YjJ3WHPAg0EGME8A!2e0!7i13312!8i6656', 97541260),
-(22, 'R. Cel. Cabrita, 44', 'https://www.google.com.br/maps/@-29.7828487,-55.7893477,3a,48.9y,94.9h,75.42t/data=!3m6!1e1!3m4!1s9DMj5yp3aoXjWWSaWEnIyQ!2e0!7i13312!8i6656', 97541100);
+(22, 'R. Cel. Cabrita, 44', 'https://www.google.com.br/maps/@-29.7828487,-55.7893477,3a,48.9y,94.9h,75.42t/data=!3m6!1e1!3m4!1s9DMj5yp3aoXjWWSaWEnIyQ!2e0!7i13312!8i6656', 97541100),
+(26, ' R. Barão do Cerro Largo, 932', 'https://www.google.com.br/maps/@-29.7854208,-55.7945256,3a,75y,181.07h,84.69t/data=!3m7!1e1!3m5!1ssTA2HFOCTHc-x-jueWJUvA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DsTA2HFOCTHc-x-jueWJUvA%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D287.37515%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192', 97560000);
 
 -- --------------------------------------------------------
 
@@ -181,9 +181,9 @@ CREATE TABLE `ruasavenidas` (
 
 INSERT INTO `ruasavenidas` (`cep`, `nome`) VALUES
 (97541100, 'R. Cel. Cabrita'),
-(97541260, 'Rua General Sampaio'),
 (97546550, 'Av. Tiaraju'),
-(97547215, 'Rua Gentil Francisco Carlesso');
+(97547215, 'Rua Gentil Francisco Carlesso'),
+(97560000, 'Rua Barão do Cerro Largo');
 
 --
 -- Índices para tabelas despejadas
@@ -245,13 +245,13 @@ ALTER TABLE `ruasavenidas`
 -- AUTO_INCREMENT de tabela `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT de tabela `ponto`
 --
 ALTER TABLE `ponto`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- Restrições para despejos de tabelas
