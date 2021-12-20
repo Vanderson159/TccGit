@@ -1,4 +1,11 @@
 <style>
+    @media screen and (max-width: 1366px){
+        .ulLogout{
+            margin-left: -19%;
+            margin-top: -9px;
+        }
+    }
+
     h1{
         text-align: center;
         margin-top: 1%;
